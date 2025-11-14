@@ -11,9 +11,10 @@ import time
 from pathlib import Path
 from datetime import datetime
 import sys
+import os
 
 # Configuration
-API_KEY = "YOUR_ANTHROPIC_API_KEY_HERE"  # Replace with your actual key
+API_KEY = os.environ.get("ANTHROPIC_API_KEY", "YOUR_ANTHROPIC_API_KEY_HERE")  # Uses environment variable if available
 MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 16000
 
