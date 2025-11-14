@@ -1,0 +1,442 @@
+================================================================================
+TRANSFER PRICING EXAM QUESTIONS - DETAILED INDEX
+Advanced Diploma in International Taxation - Module 3.04
+================================================================================
+
+SOURCE FILES LOCATION:
+/home/user/ADITER/source/
+
+================================================================================
+EXPLICIT TRANSFER PRICING QUESTIONS BY EXAM DATE
+================================================================================
+
+1. DECEMBER 2020 - QUESTION 2 (Part A - Compulsory)
+────────────────────────────────────────────────────
+Marks: 25
+Source Files:
+  - Question Paper: December 2020 Module 3.04 (question paper).pdf
+  - Solutions: December 2020 Module 3.04 (suggested solutions).pdf
+
+Module Option: UPSTREAM OIL AND GAS OPTION
+
+Question Title: 
+Transfer Pricing Principles and Rules in Oil and Gas Operations
+
+Question Number: PART A, QUESTION 2 (Page 2)
+
+Full Question:
+"Multinational projects in upstream oil and gas can involve transactions between
+several related parties, including specialist services and intercompany 
+financing. The dissemination of transfer pricing principles and local rules 
+throughout countries worldwide creates risks and opportunities for the oil and 
+gas companies, which need to be properly considered for their potential tax 
+impacts.
+
+You are required to comment on the paragraph above, and discuss the importance 
+of the transfer pricing principles and rules to countries and oil and gas 
+companies. Your answer should cover the impact on related transactions seen in 
+the oil and gas sector."
+
+Marks Distribution: Single 25-mark question (no sub-questions)
+
+Solution Coverage:
+- Pages 4-5 of suggested solutions document
+- Length: Approximately 2 full pages
+- Covers: TP principles, related party transactions, services, financing, 
+  guarantees, commodities, trading
+
+Key Topics in Solution:
+1. Profit shifting prevention
+2. Arm's length principle
+3. Related party transactions
+4. Oil and gas exploration services
+5. Intercompany services (admin, management)
+6. Financial and environmental guarantees
+7. Group financing and interest rates
+8. Exploration phase loans
+9. Trading company structures
+10. Official vs. market prices
+
+
+2. DECEMBER 2023 - QUESTION 2 (Part A - Compulsory)
+────────────────────────────────────────────────────
+Marks: 25
+Source Files:
+  - Question Paper: December 2023 Module 3.04 (question paper).pdf
+  - Solutions: December 2023 Module 3.04 (suggested solutions) (1).pdf
+
+Module Option: ENERGY RESOURCES OPTION
+
+Question Title:
+Transfer Pricing Regulations and Arm's Length Pricing in Energy Sector
+
+Question Number: PART A, QUESTION 2 (Page 2)
+
+Full Question:
+"A multinational energy company operates in multiple countries where it extracts
+and exports oil and gas resources.
+
+You are required to explain, in detail, how transfer pricing regulations apply 
+to the company's intercompany transactions, particularly in determining arm's 
+length pricing for payments made to host countries. Discuss the challenges and 
+strategies involved in ensuring compliance with international tax standards, 
+including the OECD Transfer Pricing Guidelines, in the energy resources sector."
+
+Marks Distribution: Single 25-mark question (no sub-questions)
+
+Key Requirement Areas:
+1. Transfer pricing regulations framework
+2. Intercompany transaction applications
+3. Arm's length pricing determination
+4. Host country payment mechanisms
+5. OECD Guidelines compliance
+6. International tax standards
+7. Challenges in energy sector
+8. Compliance and risk management strategies
+
+
+3. JUNE 2025 - QUESTION 2 (Part A - Compulsory)
+─────────────────────────────────────────────────
+Marks: 25 (5 + 12 + 8)
+Source Files:
+  - Question Paper: June 2025 Module 3.04 (question paper).pdf
+  - Solutions: June 2025 Module 3.04 (suggested solutions).pdf
+
+Module Option: ENERGY RESOURCES OPTION
+
+Question Title:
+Transfer Pricing in Multinational Oil and Gas Operations
+
+Question Number: PART A, QUESTION 2 (Pages 2-3)
+
+Full Question Context:
+"Multinational oil and gas companies operate across multiple jurisdictions, 
+engaging in intercompany transactions involving crude oil, refined products, 
+services and intellectual property. Transfer pricing rules ensure that these 
+transactions are priced at arm's length, preventing artificial profit shifting 
+to low-tax jurisdictions. However, valuation complexities, fluctuating commodity 
+prices and complex intra-group financing structures can create significant tax 
+risks.
+
+Governments and international bodies have sought to impose strict transfer 
+pricing regulations to safeguard tax revenues and combat base erosion and profit 
+shifting (BEPS) practices."
+
+Sub-Questions (with marks):
+
+Sub-Question 1 (5 marks):
+"Explain the role of transfer pricing in oil and gas operations, and why it is 
+a concern for tax authorities."
+
+Sub-Question 2 (12 marks):
+"Discuss the key transfer pricing methods used for pricing intercompany 
+transactions in the upstream and downstream sectors."
+
+Sub-Question 3 (8 marks):
+"Describe how tax authorities may challenge transfer pricing methods in the oil 
+and gas industry."
+
+Topics Expected in Sub-Question 2:
+- Upstream sector: Crude oil, commodities, CUP method
+- Downstream sector: Refined products, services, IP royalties
+- Methods: CUP, Cost Plus, Resale Price, Profit Split, TNMM
+
+Topics Expected in Sub-Question 3:
+- Transfer pricing audits
+- Documentation requirements
+- Adjustment procedures
+- Dispute resolution (APAs, MAP)
+- Risk areas in energy sector
+
+
+================================================================================
+RELATED TRANSFER PRICING CONTENT IN OTHER QUESTIONS
+================================================================================
+
+JUNE 2022 - QUESTION 5 (Part C - Optional, Answer 2 of 4)
+─────────────────────────────────────────────────────────
+Marks: 15
+Source Files:
+  - Question Paper: June 2022 Module 3.04 (question paper).pdf
+  - Solutions: June 2022 Module 3.04 (suggested solutions).pdf
+
+Context: Oil and gas production with transfer pricing implications
+- Production sharing agreement
+- Royalty structures
+- Corporate tax calculations
+- Related party pricing (implied)
+
+Related TP Issues:
+- Commodity pricing mechanisms
+- Cost recovery structures
+- Profit sharing between parties
+- Intercompany transaction valuation
+
+
+JUNE 2024 - QUESTION 1 (Part A - Compulsory)
+─────────────────────────────────────────────
+Marks: 25
+Source Files:
+  - Question Paper: June 2024 Module 3.04 (question paper).pdf
+  - Solutions: June 2024 Module 3.04 (suggested solutions).pdf
+
+Context: Services pricing for oil and gas transactions
+Key TP Elements:
+- Seismic data acquisition services
+- Drilling services
+- Construction services
+- Arm's length service fee pricing
+- Technical service valuation
+
+
+================================================================================
+TRANSFER PRICING METHODOLOGIES REFERENCED IN EXAMS
+================================================================================
+
+Method 1: COMPARABLE UNCONTROLLED PRICE (CUP)
+  Exam References:
+    - June 2025 Q2: Explicitly mentioned for commodity pricing
+    - All exams: Implied for oil and gas pricing
+  Applications:
+    - Oil and gas commodity transactions
+    - Crude oil pricing
+    - Benchmark pricing from market data
+
+Method 2: COST PLUS METHOD
+  Exam References:
+    - December 2020 Q2: Services and administrative functions
+    - June 2025 Q2: Implied for services
+  Applications:
+    - Exploration services
+    - Drilling services
+    - Management and administrative services
+    - Expected markups: Market-based percentages
+
+Method 3: RESALE PRICE METHOD
+  Exam References:
+    - December 2020 Q2 Solutions: Trading company arrangements
+    - June 2025 Q2: Implied for trading activities
+  Applications:
+    - Oil and gas trading companies
+    - Intermediate product sales
+    - Identifying comparable trader margins
+
+Method 4: TRANSACTIONAL NET MARGIN METHOD (TNMM)
+  Exam References:
+    - December 2020 Q2: Administrative services
+    - June 2025 Q2: Implied for functions
+  Applications:
+    - Group administrative functions (HR, accounting, legal)
+    - Corporate support services
+    - Net margin benchmarking
+
+Method 5: PROFIT SPLIT METHOD
+  Exam References:
+    - December 2020 Q2: Joint venture arrangements
+    - June 2025 Q2: Implied for integrated operations
+  Applications:
+    - Joint venture cost sharing
+    - Integrated business operations
+    - Profit allocation based on contribution
+
+
+================================================================================
+OECD GUIDELINES AND STANDARDS REFERENCED
+================================================================================
+
+Direct References in Exams:
+1. OECD Transfer Pricing Guidelines
+   - Paragraph 7.23: Intercompany service charges
+   - General principles: Arm's length and comparability
+   - Methods chapter: All five TP methods
+
+2. OECD Base Erosion and Profit Shifting (BEPS) Initiative
+   - Mentioned in June 2025 Q2
+   - Focus: Preventing artificial profit shifting
+   - Combat: Aggressive tax planning
+
+3. OECD Model Tax Convention
+   - Permanent Establishment provisions
+   - Referenced in multiple exams
+   - Transfer pricing articles
+
+4. OECD Transfer Pricing Documentation
+   - Local files and master files
+   - Contemporaneous documentation requirements
+   - Risk of challenge by tax authorities
+
+Country-Specific Guidelines:
+- Norway: Transfer pricing rules and maximum markups
+- Russia: Energy sector TP practices
+- United Kingdom: TP documentation requirements
+- United States: Internal Revenue Code (IRC Section 482)
+
+
+================================================================================
+TRANSFER PRICING TOPIC AREAS BY FREQUENCY OF APPEARANCE
+================================================================================
+
+APPEARS IN ALL/MOST EXAMS (High Priority):
+1. Commodity Pricing - All exams
+   - Oil and gas pricing mechanisms
+   - CUP method applications
+   - Market price vs. official prices
+   
+2. Intercompany Transactions - All exams
+   - Related party pricing
+   - Arm's length principle
+   - Transaction documentation
+
+3. Profit Attribution - Multiple exams
+   - Government vs. company shares
+   - Profit splitting mechanisms
+   - Tax base allocation
+
+APPEARS IN MULTIPLE EXAMS (Medium Priority):
+1. Services Transactions - Dec 2020, June 2024, June 2025
+   - Exploration and drilling services
+   - Technical services
+   - Administrative and management services
+   
+2. Group Financing - Dec 2020, June 2025 (implied)
+   - Interest rates
+   - Intercompany loans
+   - Debt structures
+
+3. Intellectual Property - Dec 2020, June 2025
+   - Royalty structures
+   - Technology licensing
+   - Know-how payments
+
+APPEARS IN SPECIFIC EXAMS (Lower Priority):
+1. Financial Guarantees - Dec 2020
+2. Environmental Guarantees - Dec 2020
+3. Joint Venture Arrangements - Dec 2020
+4. Trading Company Structures - Dec 2020
+
+
+================================================================================
+EXAM STRUCTURE - TRANSFER PRICING PLACEMENT
+================================================================================
+
+PART A: Compulsory Questions (50 marks)
+- Question 1: Oil and gas agreements, fiscal regimes
+- Question 2: PRIMARY TRANSFER PRICING QUESTION*
+  (*In Dec 2020, Dec 2023, June 2025)
+
+PART B: Optional - Answer 1 of 3-4 (20 marks)
+- Questions: Carbon taxes, capital gains, tax treaties, PE
+- TP implications: Secondary (in tax treaty questions)
+
+PART C: Optional - Answer 2 of 3-4 (30 marks)
+- Questions: Tax due diligence, interest deductions, thin cap, PE
+- TP implications: Secondary (in financing and valuation questions)
+
+
+================================================================================
+LEARNING PROGRESSION ACROSS EXAM PERIODS
+================================================================================
+
+December 2020:
+- Focus: TP principles and comprehensive impact on oil and gas operations
+- Depth: Discussion-based with practical applications
+- Topics: Services, financing, guarantees, trading
+
+December 2023:
+- Focus: TP regulations and compliance in energy sector
+- Depth: Regulatory framework and host country implications
+- Topics: Regulations, compliance, challenges, strategies
+
+June 2025:
+- Focus: TP methods and tax authority challenges
+- Depth: Technical methods application and audit defense
+- Topics: Methods, commodities, services, IP, BEPS, audit procedures
+
+
+================================================================================
+KEY DOCUMENTS FOR REFERENCE
+================================================================================
+
+In /home/user/ADITER/source/:
+
+Question Papers:
+1. December 2020 Module 3.04 (question paper).pdf
+2. June 2021 Module 3.04 (question paper).pdf
+3. June 2022 Module 3.04 (question paper).pdf
+4. June 2023 Module 3.04 (question paper).pdf
+5. December 2023 Module 3.04 (question paper).pdf
+6. June 2024 Module 3.04 (question paper).pdf
+7. December 2024 Module 3.04 (question paper).pdf
+8. June 2025 Module 3.04 (question paper).pdf
+
+Suggested Solutions:
+1. December 2020 Module 3.04 (suggested solutions).pdf
+2. June 2021 Module 3.04 (suggested solutions).pdf
+3. June 2022 Module 3.04 (suggested solutions).pdf
+4. June 2023 Module 3.04 (suggested solutions).pdf
+5. December 2023 Module 3.04 (suggested solutions) (1).pdf
+6. June 2024 Module 3.04 (suggested solutions).pdf
+7. December 2024 Module 3.04 (suggested solutions).pdf
+8. June 2025 Module 3.04 (suggested solutions).pdf
+
+Additional:
+- December 2024 Module 3.04 (candidate script).pdf
+
+
+================================================================================
+RECOMMENDED STUDY APPROACH
+================================================================================
+
+1. START WITH EXPLICIT TP QUESTIONS:
+   - June 2025 Q2 (most recent and comprehensive)
+   - December 2023 Q2 (regulatory focus)
+   - December 2020 Q2 (foundational principles)
+
+2. STUDY BY TOPIC AREA:
+   - Commodity pricing (CUP method)
+   - Services valuation (Cost Plus, TNMM)
+   - Financing and interest rates
+   - IP and royalties
+   - Guarantees
+
+3. REVIEW SUGGESTED SOLUTIONS:
+   - Understand expected depth of analysis
+   - Note TP terminology and framework
+   - Study structure of answers
+
+4. CROSS-REFERENCE RELATED CONTENT:
+   - June 2024 Q1 (services pricing)
+   - June 2022 Q5 (commodity pricing context)
+   - Other questions (financing, documentation)
+
+5. DEVELOP ANSWER STRUCTURE:
+   - Part 1: Conceptual/regulatory framework
+   - Part 2: Practical application and methods
+   - Part 3: Challenges, risks, and strategies
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+Total Exams Analyzed: 8
+  - Explicit TP Questions: 3 (Dec 2020, Dec 2023, June 2025)
+  - Related TP Content: 5+ additional questions
+  
+Total Transfer Pricing Marks: 75 marks (3 × 25 marks)
+
+Average TP Question Mark Allocation:
+  - Single comprehensive question: 25 marks
+
+TP Topics Covered:
+  - Transfer Pricing Methods: 5 (CUP, Cost Plus, Resale, TNMM, Profit Split)
+  - Application Areas: 8+ distinct areas
+  - OECD Guidelines: Multiple paragraphs referenced
+  
+Exam Evolution:
+  - 2020: Foundational principles focus
+  - 2023: Regulatory and compliance focus
+  - 2025: Methods and challenge procedures focus
+
+
+================================================================================
