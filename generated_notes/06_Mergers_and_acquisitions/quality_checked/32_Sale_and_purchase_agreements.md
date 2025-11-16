@@ -928,4 +928,3 @@ Purchase Price for all Tax purposes."
 This ensures both parties treat it consistently (additional purchase price, not separate income/expense).
 
 ═══════════════════════════════════════════
-
