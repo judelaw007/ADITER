@@ -18,9 +18,9 @@ Country tax examples,Norway,1,1000 words,Complete,No
 Country tax examples,United Kingdom,1,1000 words,Complete,No
 Country tax examples,United States (federal taxation),1,1000 words,Complete,No
 Country tax examples,United States (state taxation generally - includes focus on Texas and Alaska),1,1000 words,Complete,No
-Permanent establishments,Permanent establishments and tax treaties,2,2000 words,Complete,No
-Permanent establishments,Operating companies,2,2000 words,Complete,No
-Permanent establishments,Service companies,2,2000 words,Complete,No
+Permanent establishments,Permanent establishments and tax treaties,2,2000 words,Complete,Yes
+Permanent establishments,Operating companies,2,2000 words,Complete,Yes
+Permanent establishments,Service companies,2,2000 words,Complete,Yes
 Technical services,Technical services background,2,2000 words,Complete,No
 Technical services,Structuring technical service operations,2,2000 words,Complete,No
 Technical services,Interaction with PSCs and joint operating agreements,3,3000 words,Complete,No
