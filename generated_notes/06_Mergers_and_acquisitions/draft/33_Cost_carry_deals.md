@@ -7,7 +7,7 @@
 
 ## 1. Introduction
 
-**1.1 The Nature of Cost Carry Arrangements**
+### 1.1 The Nature of Cost Carry Arrangements
 
 A **cost carry** (also called **carry agreement** or **farm-in arrangement**) is a specialized financing structure unique to the oil and gas industry where one party (the **carrying party** or **farmee**) agrees to pay all or a portion of another party's (**carried party** or **farmor**) share of exploration, development, or production costs in exchange for earning an interest in the petroleum license or project.
 
@@ -18,7 +18,7 @@ Unlike traditional acquisitions where consideration is paid upfront in cash, cos
 - **Risk sharing** between parties
 - **Deferred economic benefit** realization
 
-**1.2 Commercial Rationale**
+### 1.2 Commercial Rationale
 
 Cost carry structures arise when:
 
@@ -32,7 +32,7 @@ Cost carry structures arise when:
 - Farmee has **technical expertise** and capital
 - Farmee prefers **contingent consideration** (only pays if resources discovered)
 
-**1.3 Tax Complexity and Exam Focus**
+### 1.3 Tax Complexity and Exam Focus
 
 Cost carry deals present unique tax challenges:
 
@@ -48,9 +48,9 @@ This advanced-level topic requires detailed understanding of tax treatment in bo
 
 ## 2. Structure and Mechanics of Cost Carry Deals
 
-**2.1 Typical Farm-In/Farm-Out Structure**
+### 2.1 Typical Farm-In/Farm-Out Structure
 
-**2.1.1 Basic Carry Agreement Terms**
+#### 2.1.1 Basic Carry Agreement Terms
 
 **Example Structure:**
 
@@ -87,7 +87,7 @@ $50,000,000 (Hard Cap)."
 commerciality by Farmee, Farmee shall have earned a 60% participating interest in the License."
 ```
 
-**2.1.2 Carry Types**
+#### 2.1.2 Carry Types
 
 **Full Carry (100% Carry):**
 - Farmee pays **all costs** (both parties' shares)
@@ -107,9 +107,9 @@ Phase 2 (Appraisal): Farmee carries Farmor 50%
 Phase 3 (Development): Costs shared pro rata
 ```
 
-**2.2 Commerciality and Earning Interest**
+### 2.2 Commerciality and Earning Interest
 
-**2.2.1 Commerciality Declaration**
+#### 2.2.1 Commerciality Declaration
 
 ```
 "Commercial Discovery" means a discovery of hydrocarbons which, in the reasonable opinion
@@ -126,7 +126,7 @@ considering:
 - **Valuation date** for determining farmor's taxable gain
 - **"Free carry"** through production vs. "back-in" rights after payout
 
-**2.2.2 Promoting to Working Interest**
+#### 2.2.2 Promoting to Working Interest
 
 **Before Commerciality:**
 - Farmee holds **option** to earn interest (not yet a working interest owner)
@@ -141,9 +141,9 @@ considering:
 
 ## 3. Tax Treatment: Farmor (Carried Party)
 
-**3.1 Gain Recognition and Timing**
+### 3.1 Gain Recognition and Timing
 
-**3.1.1 Realization Event**
+#### 3.1.1 Realization Event
 
 **When does Farmor recognize taxable gain?**
 
@@ -168,7 +168,7 @@ considering:
 
 **Most jurisdictions: View 1 (immediate recognition upon interest transfer)**
 
-**3.1.2 Calculation of Gain**
+#### 3.1.2 Calculation of Gain
 
 **Formula:**
 ```
@@ -189,7 +189,7 @@ Farmor's Gain = FMV of Interest Transferred - Adjusted Basis in Transferred Inte
 - Comparable arm's length transactions
 - Discounted cash flow of proved reserves
 
-**3.1.3 Character of Gain**
+#### 3.1.3 Character of Gain
 
 **Ordinary Income vs. Capital Gain:**
 
@@ -201,9 +201,9 @@ Farmor's Gain = FMV of Interest Transferred - Adjusted Basis in Transferred Inte
 - Disposal of petroleum license interest: **Capital gain** (unless trading activity)
 - **Ring fence** rules may affect treatment
 
-**3.2 Carried Costs as Consideration**
+### 3.2 Carried Costs as Consideration
 
-**3.2.1 Inclusion in Amount Realized**
+#### 3.2.1 Inclusion in Amount Realized
 
 Farmor's **amount realized** includes:
 - **Cash received** (if any upfront payment)
@@ -229,7 +229,7 @@ However, **valuation issue arises**: Is the $50M of carried costs equal to the F
 
 **Tax authorities may recharacterize** using FMV of interest transferred, not carried costs incurred.
 
-**3.2.2 Tax Reporting Obligations**
+#### 3.2.2 Tax Reporting Obligations
 
 **US: Form 1099-B (Proceeds from Broker and Barter Exchange Transactions)**
 - Farmor must report gain on tax return
@@ -243,22 +243,22 @@ However, **valuation issue arises**: Is the $50M of carried costs equal to the F
 
 ## 4. Tax Treatment: Farmee (Carrying Party)
 
-**4.1 Capitalization vs. Deduction of Carried Costs**
+### 4.1 Capitalization vs. Deduction of Carried Costs
 
-**4.1.1 General Rule: Capitalize**
+#### 4.1.1 General Rule: Capitalize
 
 Carried costs paid by Farmee are **capital expenditures** incurred to acquire an interest in the license:
 
 **US Tax Treatment:**
-- **Geological & Geophysical (G&G) costs**: Amortized over 24 months (IRC Section 167(h))
-- **Intangible Drilling Costs (IDCs)**: Election to expense immediately or capitalize and deplete (IRC Section 263(c))
+- **Geological & Geophysical (G&G) costs**: Amortized over 24 months (US Internal Revenue Code Section 167(h))
+- **Intangible Drilling Costs (IDCs)**: Election to expense immediately or capitalize and deplete (US Internal Revenue Code Section 263(c))
 - **Tangible equipment costs**: Capitalize and depreciate over MACRS recovery period
 
 **UK Tax Treatment:**
 - **Ring Fence Expenditure Supplement (RFES)**: Uplift of 10% per year on unrelieved expenditures (pre-production costs)
 - Exploration costs: Deductible against ring fence profits when incurred
 
-**4.1.2 IDC Election (US)**
+#### 4.1.2 IDC Election (US)
 
 For **domestic wells**, Farmee can elect to **immediately expense IDCs**:
 
@@ -278,9 +278,9 @@ Farmee spends $50M on 3 exploration wells:
 - $50M costs deducted/depreciated with **no corresponding income**
 - Farmee bears **full economic loss** (no interest earned)
 
-**4.2 Basis in Earned Interest**
+### 4.2 Basis in Earned Interest
 
-**4.2.1 Cost Basis Calculation**
+#### 4.2.1 Cost Basis Calculation
 
 Farmee's **tax basis** in the earned 60% interest equals total costs incurred:
 
@@ -294,7 +294,7 @@ Example:
 Total Basis in 60% Interest: $51M
 ```
 
-**4.2.2 Allocation of Basis**
+#### 4.2.2 Allocation of Basis
 
 Basis must be allocated among:
 - **Proved developed producing (PDP) reserves**: Cost depletion as production occurs
@@ -314,9 +314,9 @@ Basis must be allocated among:
 
 ## 5. PSC Regime Considerations
 
-**5.1 Cost Recovery Treatment of Carried Costs**
+### 5.1 Cost Recovery Treatment of Carried Costs
 
-**5.1.1 Contractor's Cost Pool**
+#### 5.1.1 Contractor's Cost Pool
 
 Under **Production Sharing Contracts**, carried costs present unique issues:
 
@@ -337,7 +337,7 @@ Under **Production Sharing Contracts**, carried costs present unique issues:
 - Costs must be **at arm's length** (no inflated costs to increase cost oil)
 - **Apportionment**: Only Farmee's **earned share** of costs may be recoverable (not full 100% if interest < 100%)
 
-**5.1.2 Example - Indonesia PSC**
+#### 5.1.2 Example - Indonesia PSC
 
 **Facts:**
 - Farmor holds 100% PSC interest
@@ -360,9 +360,9 @@ Under **Production Sharing Contracts**, carried costs present unique issues:
 - Farmee effectively "loses" $40M economic benefit (paid but not recovered)
 - Farmor receives **free carry** with no cost oil deduction (beneficial to Farmor)
 
-**5.2 Transfer Pricing and Arm's Length Issues**
+### 5.2 Transfer Pricing and Arm's Length Issues
 
-**5.2.1 Related Party Carries**
+#### 5.2.1 Related Party Carries
 
 If Farmor and Farmee are **related parties** (e.g., subsidiaries of same parent), tax authorities may scrutinize:
 
@@ -516,7 +516,7 @@ Each barrel produced, Farmee deducts $3 cost depletion.
 - Even though carried costs were incurred over Year 1-2, gain recognition is **one-time event** at transfer
 
 **Deferral Opportunities:**
-- If farm-out structured as **contribution to partnership/JV**, may qualify for non-recognition under IRC Section 721
+- If farm-out structured as **contribution to partnership/JV**, may qualify for non-recognition under US Internal Revenue Code Section 721
 - Requires forming partnership and receiving partnership interest (not direct working interest)
 
 ═══════════════════════════════════════════
@@ -745,7 +745,7 @@ Farmee Oil Corp enters farm-in agreement with Farmor Ltd.
 **IDCs (Intangible Drilling Costs):**
 ```
 IDCs incurred: $60M
-Farmee elects immediate expensing (IRC Section 263(c))
+Farmee elects immediate expensing (US Internal Revenue Code Section 263(c))
 Deduction (Years 1-2): $60M
 ```
 
@@ -827,7 +827,7 @@ Loss: $4M (capital loss, assuming held for investment)
 
 **Part 4: At-Risk and Passive Loss Limitations**
 
-**At-Risk Rules (IRC Section 465):**
+**At-Risk Rules (US Internal Revenue Code Section 465):**
 
 Farmee's $75M loss deductions are subject to **at-risk limitation**:
 
@@ -853,7 +853,7 @@ Excess $20M deductions suspended until:
   (b) Non-recourse debt converted to recourse
 ```
 
-**Passive Loss Rules (IRC Section 469):**
+**Passive Loss Rules (US Internal Revenue Code Section 469):**
 
 If Farmee is a **passive investor** (not actively managing drilling operations):
 
@@ -880,23 +880,3 @@ Despite $59.25M net loss, Farmee may have **strategic reasons** for the farm-in:
 Farmor suffered **no loss** (no costs incurred, retains license).
 
 ═══════════════════════════════════════════
-
-## 7. Conclusion
-
-Cost carry deals are sophisticated M&A structures that allocate exploration and development risk between farmor and farmee. Key tax principles:
-
-1. **Farmor recognizes gain** upon transfer of interest (commerciality declaration), measured by FMV of interest transferred
-
-2. **Farmee capitalizes carried costs** as basis in earned interest, with potential for immediate IDC expensing (US domestic wells)
-
-3. **PSC cost recovery** of carried costs depends on jurisdiction-specific rules and working interest allocation
-
-4. **Failed farm-ins** (dry holes) result in tax losses for farmee but no tax event for farmor
-
-5. **Transfer pricing scrutiny** applies to related-party carry arrangements
-
-Effective tax planning requires careful structuring of carry obligations, commerciality thresholds, and cost recovery mechanisms.
-
----
-
-**Word Count:** Approximately 6,800 words
