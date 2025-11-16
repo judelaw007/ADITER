@@ -692,4 +692,3 @@ The **incremental value** of having the $120M cost pool is that it **accelerates
 The PSC cost recovery balance of **$120 million** is fully recovered over **3 years**, accelerating the contractor's cash flow. The present value benefit is approximately **$35-40 million**, representing the time value of money from earlier cost recovery versus waiting longer if costs had to be recovered from future profit oil splits.
 
 ═══════════════════════════════════════════
-
