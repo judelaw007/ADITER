@@ -1,17 +1,16 @@
 # Quality Assurance & Enhancement Protocol for Study Notes (Claude Code)
 
-**Purpose:** Systematically review and enhance markdown (.md) study note files using a 7-category quality framework. Claude Code will check each file against these criteria and produce professionally formatted Word documents (.docx) with all improvements integrated.
+**Purpose:** Systematically review and enhance markdown (.md) study note files using a 7-category quality framework. Claude Code will check each file against these criteria and produce enhanced markdown files with all improvements integrated.
 
 ---
 
 ## WORKFLOW FOR CLAUDE CODE
 
 1. **Read the target .md file**
-2. **Read the docx skill** (`/mnt/skills/public/docx/SKILL.md`) to understand Word document creation best practices
-3. **Conduct 7-category quality check** (document issues internally)
-4. **Apply all corrections and enhancements**
-5. **Create professional Word document** (.docx) with all improvements, proper formatting, and styling
-6. **Provide summary** of changes made
+2. **Conduct 7-category quality check** (document issues internally)
+3. **Apply all corrections and enhancements**
+4. **Save enhanced .md file** to the designated quality_checked folder
+5. **Provide summary** of changes made
 
 ---
 
@@ -147,56 +146,45 @@
 
 ---
 
-## WORD DOCUMENT CREATION REQUIREMENTS
+## MARKDOWN FORMATTING STANDARDS
 
-**MANDATORY: After completing all quality checks and fixes, create a professional Word document (.docx) using the docx skill.**
+**Maintain professional markdown formatting:**
 
-### Formatting Standards:
+**Heading Hierarchy:**
+- Document title: `# Title` (H1)
+- Main sections (1., 2., 3.): `## 1. Section Name` (H2)
+- Subsections (1.1, 1.2): `### 1.1 Subsection Name` (H3)
+- Sub-subsections (1.1.1, 1.1.2): `#### 1.1.1 Sub-subsection Name` (H4)
 
-**Heading Styles:**
-- Document title: Heading 1 style (bold, 16pt)
-- Main sections (1., 2., 3.): Heading 2 style (bold, 14pt)
-- Subsections (1.1, 1.2): Heading 3 style (bold, 12pt)
-- Sub-subsections (1.1.1, 1.1.2): Heading 4 style (bold, 11pt)
-
-**Body Text:**
-- Font: Calibri or Arial, 11pt
-- Line spacing: 1.15 or 1.5
-- Paragraph spacing: 6pt after paragraphs
-- Alignment: Left-aligned (not justified)
+**Text Formatting:**
+- **Bold** key terms on first introduction
+- *Italics* for emphasis (use sparingly)
+- Proper paragraph spacing (blank line between paragraphs)
 
 **Tables:**
-- Professional table styles with header rows
-- Borders appropriate and consistent
-- Sufficient cell padding for readability
-- Column widths adjusted for content
+- Use markdown table syntax with proper alignment
+- Include header rows
+- Ensure consistent column widths
 
 **Lists:**
-- Bullet points for unordered lists
-- Numbered lists for sequential steps
-- Consistent indentation
+- Use `-` or `*` for unordered lists
+- Use `1.`, `2.`, etc. for ordered lists
+- Maintain consistent indentation for nested lists
 
-**Examples and Calculations:**
-- Use text boxes or shaded backgrounds to distinguish from main text
-- Clearly formatted with proper spacing
-- Step-by-step calculations clearly presented
-
-**Special Elements:**
-- Bold key terms on first introduction
-- Italics for emphasis (use sparingly)
-- Tables for comparative data
-- Clear section breaks between major topics
+**Code and Examples:**
+- Use code blocks (```) for calculations and examples
+- Use inline code (`) for technical terms and formulas
 
 ### File Naming Convention:
-`[Original_Filename]_Enhanced_[YYYY-MM-DD].docx`
+Save enhanced files with same name to the quality_checked folder
 
-Example: `Nigeria_Petroleum_Fiscal_Regime_Enhanced_2025-01-15.docx`
+Example: `Tax_and_fiscal_regimes_Royalties.md` → `generated_notes/02_Tax_and_fiscal_regimes/quality_checked/Tax_and_fiscal_regimes_Royalties.md`
 
 ---
 
 ## OUTPUT FORMAT
 
-After completing the quality check and creating the Word document:
+After completing the quality check and saving the enhanced markdown file:
 
 ```markdown
 ## Quality Check Complete: [filename.md]
@@ -227,23 +215,23 @@ After completing the quality check and creating the Word document:
 
 ### Summary:
 - Total issues addressed: [X]
-- Professional Word document created with proper formatting
+- Enhanced markdown file saved to quality_checked folder
 - Key improvements: [2-3 sentence summary of major enhancements]
 
 ### Output Files:
-📄 **Word Document:** `[filename]_Enhanced_[date].docx`
-✅ **Status:** Ready for review and publication
+📄 **Enhanced Markdown:** `quality_checked/[filename].md`
+✅ **Status:** Ready for review
 ```
 
 ---
 
 ## CRITICAL REQUIREMENTS
 
-### Document Creation - Non-Negotiable:
-- **MUST read docx skill first:** `/mnt/skills/public/docx/SKILL.md`
-- **MUST create .docx file:** Not .md, not plain text - professional Word document only
-- **MUST apply professional formatting:** Proper styles, tables, spacing, layout
-- **MUST be publication-ready:** Document should look professional and polished
+### Enhancement Standards - Non-Negotiable:
+- **MUST enhance existing content:** Do not rewrite - improve and fix issues while maintaining original structure
+- **MUST save as .md file:** Enhanced markdown file saved to quality_checked folder
+- **MUST maintain markdown formatting:** Proper headings, tables, lists, and spacing
+- **MUST be review-ready:** Document should be clean, accurate, and well-structured
 
 ### Web Search Mandatory:
 - **Category 2:** Verify EVERY tax rate, threshold, percentage against official sources
@@ -267,12 +255,10 @@ After completing the quality check and creating the Word document:
 ```bash
 # Claude Code workflow:
 # 1. Read the target .md file
-# 2. Read /mnt/skills/public/docx/SKILL.md for Word document best practices
-# 3. Execute quality check across all 7 categories (use web_search extensively)
-# 4. Apply all fixes and enhancements
-# 5. Create professional Word document with proper formatting
-# 6. Save as [filename]_Enhanced_[date].docx
-# 7. Provide detailed summary report
+# 2. Execute quality check across all 7 categories (use web_search extensively)
+# 3. Apply all fixes and enhancements to the content
+# 4. Save enhanced markdown file to quality_checked folder
+# 5. Provide detailed summary report
 ```
 
 ---
@@ -280,37 +266,35 @@ After completing the quality check and creating the Word document:
 ## EXAMPLE USAGE
 
 ```
-User: "Enhance Nigeria_Petroleum_Fiscal_Regime.md using the QA checklist"
+User: "Run QA check on Tax_and_fiscal_regimes_Royalties.md"
 
 Claude Code Actions:
-1. ✅ Reads Nigeria_Petroleum_Fiscal_Regime.md
-2. ✅ Reads /mnt/skills/public/docx/SKILL.md
-3. ✅ Conducts 7-category check with web searches
-4. ✅ Fixes all issues found (rates, legislation, structure, etc.)
-5. ✅ Creates Nigeria_Petroleum_Fiscal_Regime_Enhanced_2025-01-15.docx
-6. ✅ Applies professional formatting (headings, tables, spacing)
-7. ✅ Provides detailed summary of improvements
+1. ✅ Reads Tax_and_fiscal_regimes_Royalties.md
+2. ✅ Conducts 7-category check with web searches
+3. ✅ Fixes all issues found (rates, legislation, structure, etc.)
+4. ✅ Saves enhanced file to quality_checked/Tax_and_fiscal_regimes_Royalties.md
+5. ✅ Provides detailed summary of improvements
 
-Output: Professional Word document ready for publication
+Output: Enhanced markdown file ready for review
 ```
 
 ---
 
 ## QUALITY VERIFICATION CHECKLIST
 
-Before finalizing the Word document, verify:
+Before finalizing the enhanced markdown file, verify:
 
 - [ ] All 7 categories checked and issues addressed
 - [ ] Web searches completed for all rates and legislation
-- [ ] Docx skill guidelines followed
-- [ ] Professional heading styles applied (Heading 1, 2, 3, 4)
-- [ ] Tables properly formatted with headers
+- [ ] Markdown formatting clean and consistent
+- [ ] Proper heading hierarchy (H1 → H2 → H3 → H4)
+- [ ] Tables properly formatted with markdown syntax
 - [ ] Consistent formatting throughout
 - [ ] No forward references remaining
 - [ ] Section numbering correct (1., 1.1, 1.1.1)
-- [ ] File saved with correct naming convention
-- [ ] Document looks professional and publication-ready
+- [ ] File saved to quality_checked folder
+- [ ] Document is accurate, clear, and well-structured
 
 ---
 
-**This protocol ensures every study note meets MojiTax quality standards and is delivered as a professional, publication-ready Word document.**
+**This protocol ensures every study note meets MojiTax quality standards and is delivered as an enhanced, review-ready markdown document.**
