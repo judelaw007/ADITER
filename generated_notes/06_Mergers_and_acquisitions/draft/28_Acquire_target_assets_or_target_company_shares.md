@@ -7,7 +7,7 @@
 
 ## 1. Introduction
 
-**1.1 Strategic Structuring Decisions**
+### 1.1 Strategic Structuring Decisions
 
 One of the most critical tax planning decisions in oil and gas mergers and acquisitions is whether to structure the transaction as an **asset purchase** or a **share purchase**. This fundamental choice has profound implications for tax liability, financing costs, and post-acquisition tax efficiency. The transaction structure affects:
 
@@ -20,9 +20,9 @@ One of the most critical tax planning decisions in oil and gas mergers and acqui
 
 In the energy sector, these considerations are amplified by the capital-intensive nature of upstream operations, complex fiscal regimes including **Production Sharing Contracts (PSCs)**, and the interaction between domestic tax rules and international tax treaties.
 
-**1.2 Scope and Examination Level**
+### 1.2 Scope and Examination Level
 
-This topic requires a **detailed understanding** (Syllabus Level 2) of the tax implications of different acquisition structures. ADIT examiners expect candidates to:
+This topic requires a **detailed understanding** (Syllabus Level 2) of the tax implications of different acquisition structures. Candidates must be able to:
 
 - Analyze tax consequences from both buyer and seller perspectives
 - Apply statutory provisions on interest deductibility
@@ -30,13 +30,11 @@ This topic requires a **detailed understanding** (Syllabus Level 2) of the tax i
 - Calculate tax leakage in alternative structures
 - Recommend optimal transaction structures based on specific fact patterns
 
-Past examination questions (December 2024 Q5, June 2025 Q6) have consistently tested candidates' ability to discuss tax implications of asset versus share purchases and the interaction with financing structures.
-
 ---
 
 ## 2. Asset Purchase Transactions
 
-**2.1 Legal and Tax Characteristics**
+### 2.1 Legal and Tax Characteristics
 
 An **asset purchase** involves the direct acquisition of specific oil and gas assets rather than acquiring the shares of the company that owns those assets. In this structure:
 
@@ -47,9 +45,9 @@ An **asset purchase** involves the direct acquisition of specific oil and gas as
 
 From a tax perspective, the most significant feature is that **the buyer obtains a stepped-up tax basis** in the acquired assets equal to the purchase price.
 
-**2.2 Tax Advantages for Buyers**
+### 2.2 Tax Advantages for Buyers
 
-**2.2.1 Stepped-Up Tax Basis**
+#### 2.2.1 Stepped-Up Tax Basis
 
 Under most tax jurisdictions, an asset purchase allows the buyer to establish a **fair market value tax basis** in the acquired assets. This "step-up" provides enhanced future tax deductions through:
 
@@ -61,7 +59,7 @@ Under most tax jurisdictions, an asset purchase allows the buyer to establish a 
 
 The present value of these additional deductions can add substantial value to the transaction. Using a 10% discount rate, the incremental $4 million per year in deductions (assuming a 25% tax rate = $1 million annual tax savings) has a present value of approximately $6.14 million.
 
-**2.2.2 Selective Acquisition of Assets and Liabilities**
+#### 2.2.2 Selective Acquisition of Assets and Liabilities
 
 Asset purchases allow buyers to "cherry-pick" desirable assets while avoiding unwanted liabilities. The buyer can:
 
@@ -70,19 +68,19 @@ Asset purchases allow buyers to "cherry-pick" desirable assets while avoiding un
 - Refuse to assume unfavorable contracts or commitments
 - Structure the transaction to exclude non-core assets
 
-**2.2.3 Interest Deductibility**
+#### 2.2.3 Interest Deductibility
 
 Interest on debt used to finance an asset purchase is **generally deductible** against the buyer's taxable income. This is because the acquired assets will generate taxable profits in the buyer's hands, and the interest expense has a clear connection to the production of assessable income.
 
 However, buyers must consider:
 
-- **Thin capitalization rules** (discussed in Section 4)
-- **Earnings stripping provisions** such as **US Section 163(j)**, which limits interest deductions to 30% of adjusted taxable income (EBITDA for tax years beginning after December 31, 2024)
+- **Thin capitalization rules** that limit debt-to-equity ratios
+- **Earnings stripping provisions** such as **US Internal Revenue Code Section 163(j)**, which limits interest deductions to 30% of adjusted taxable income. For tax years 2022-2024, ATI was calculated as EBIT (earnings before interest and taxes). For tax years beginning after December 31, 2024, ATI is calculated as EBITDA (adding back depreciation, depletion, and amortization), which is more favorable for capital-intensive oil and gas companies.
 - **Transfer pricing** requirements for related-party debt
 
-**2.3 Tax Disadvantages for Sellers**
+### 2.3 Tax Disadvantages for Sellers
 
-**2.3.1 Higher Tax Liability**
+#### 2.3.1 Higher Tax Liability
 
 Sellers in asset transactions typically face **higher overall tax liability** due to:
 
@@ -90,7 +88,7 @@ Sellers in asset transactions typically face **higher overall tax liability** du
 - **Capital gains tax** on appreciation above the original basis
 - **Double taxation** in corporate structures (corporation taxed on gain, shareholders taxed on dividend distribution)
 
-Under **Section 1245 recapture** (US tax law) or equivalent provisions in other jurisdictions, gain on the sale of depreciable property is taxed as **ordinary income** to the extent of prior depreciation deductions. For oil and gas assets, this can be substantial.
+Under **US Internal Revenue Code Section 1245** (depreciation recapture) or equivalent provisions in other jurisdictions, gain on the sale of depreciable property is taxed as **ordinary income** to the extent of prior depreciation deductions. For oil and gas assets, this can be substantial.
 
 **Example:** Seller acquired production equipment for $30 million, claimed $20 million in depreciation, and sells for $40 million. The tax treatment is:
 
@@ -103,9 +101,9 @@ Assuming ordinary tax rate of 35% and capital gains rate of 20%:
 - Tax on capital gain: $10M × 20% = $2.0 million
 - **Total tax: $9.0 million** (30% effective rate)
 
-Compare this to a share sale (discussed below) where the entire $30 million gain might qualify for capital gains treatment at 20% = $6.0 million tax, saving $3.0 million.
+In contrast, a share sale typically results in lower taxes. If structured as a share sale, the entire $30 million gain might qualify for capital gains treatment at 20% = $6.0 million tax, saving $3.0 million.
 
-**2.3.2 Transaction Costs and Regulatory Complexity**
+#### 2.3.2 Transaction Costs and Regulatory Complexity
 
 Asset sales in the energy sector require:
 
@@ -116,7 +114,7 @@ Asset sales in the energy sector require:
 
 These factors increase transaction time and costs compared to share transfers.
 
-**2.4 Interaction with PSC Regimes**
+### 2.4 Interaction with PSC Regimes
 
 Under **Production Sharing Contracts**, asset purchases have unique implications:
 
@@ -130,7 +128,7 @@ Therefore, in PSC regimes, the tax benefits of stepped-up basis may be limited o
 
 ## 3. Share Purchase Transactions
 
-**3.1 Legal and Tax Characteristics**
+### 3.1 Legal and Tax Characteristics
 
 A **share purchase** (also called **stock acquisition**) involves acquiring the equity interest in a company that owns oil and gas assets. In this structure:
 
@@ -141,9 +139,9 @@ A **share purchase** (also called **stock acquisition**) involves acquiring the 
 
 From a tax perspective, the critical distinction is that **no step-up in asset basis** occurs. The target company's historical tax basis in its assets continues unchanged.
 
-**3.2 Tax Advantages for Sellers**
+### 3.2 Tax Advantages for Sellers
 
-**3.2.1 Capital Gains Treatment**
+#### 3.2.1 Capital Gains Treatment
 
 The principal tax advantage of a share sale for sellers is that proceeds are generally taxed as **capital gains** rather than ordinary income. In most jurisdictions:
 
@@ -166,7 +164,7 @@ If structured as an asset sale with $60 million gain (assume $30 million ordinar
 
 The seller receives $4.5 million more (5.1% improvement) through share sale structuring.
 
-**3.2.2 Simplicity and Speed**
+#### 3.2.2 Simplicity and Speed
 
 Share transactions offer:
 
@@ -175,9 +173,9 @@ Share transactions offer:
 - Preservation of existing licenses, contracts, and JOA positions
 - Lower stamp duty in many jurisdictions (or exemptions under participation regimes)
 
-**3.3 Tax Challenges for Buyers**
+### 3.3 Tax Challenges for Buyers
 
-**3.3.1 No Step-Up in Basis**
+#### 3.3.1 No Step-Up in Basis
 
 The buyer inherits the target company's **historical tax basis** in its assets, resulting in:
 
@@ -187,7 +185,7 @@ The buyer inherits the target company's **historical tax basis** in its assets, 
 
 This forgone tax benefit may need to be reflected in **purchase price negotiations**, with buyers demanding a discount to compensate for lower post-acquisition tax deductions.
 
-**3.3.2 Restricted Interest Deductibility**
+#### 3.3.2 Restricted Interest Deductibility
 
 Interest on debt incurred to purchase shares faces significant restrictions in many jurisdictions due to **participation exemption** rules.
 
@@ -204,14 +202,13 @@ Many countries exempt **dividends** and **capital gains** on qualifying sharehol
 
 The corollary of participation exemption is that many jurisdictions **disallow interest deductions** on debt used to acquire shares, on the theory that if the dividend income is exempt, the related financing costs should not be deductible.
 
-**Examples of jurisdictions with interest limitations:**
-- **Netherlands**: Exempts qualifying dividends but generally denies interest deductions attributable to the acquisition of participation shares
-- **Germany**: Denies 5% of certain financing expenses related to shareholdings
-- **Luxembourg**: Participation exemption applies but with restrictions on interest deductibility depending on substance
+**Examples of jurisdictions with varying approaches:**
+- **Netherlands**: Provides full participation exemption for qualifying dividends and capital gains. Interest on debt used to finance participation shareholdings is generally deductible, subject to earnings stripping rules (20% of EBITDA with EUR 1 million threshold).
+- **Germany**: Participation exemption applies with a 5% deemed non-deductible portion of certain financing expenses related to shareholdings
+- **Luxembourg**: Participation exemption applies with restrictions on interest deductibility depending on substance requirements
+- **France** and **United Kingdom**: Both allow interest deductions even where participation exemption applies, creating planning opportunities
 
-**Notable exceptions:** Some jurisdictions, including **France** and the **United Kingdom**, allow interest deductions even where participation exemption applies, creating planning opportunities.
-
-**3.3.3 Inherited Liabilities**
+#### 3.3.3 Inherited Liabilities
 
 Share purchases expose buyers to:
 
@@ -226,11 +223,11 @@ Comprehensive **tax due diligence** (covered in Topic 34) becomes critical in sh
 
 ## 4. Tax Consolidation and Group Relief
 
-**4.1 Utilizing Tax Losses Through Consolidation**
+### 4.1 Utilizing Tax Losses Through Consolidation
 
 Whether interest deductions on acquisition financing can be utilized depends significantly on **tax consolidation** or **group relief** provisions.
 
-**4.1.1 Tax Consolidation Regimes**
+#### 4.1.1 Tax Consolidation Regimes
 
 Many jurisdictions allow corporate groups to file **consolidated tax returns** or transfer losses between group members, including:
 
@@ -241,7 +238,7 @@ Many jurisdictions allow corporate groups to file **consolidated tax returns** o
 
 Where consolidation is available, interest deductions incurred by a **holding company** or **acquisition vehicle** can be offset against profits of the **target company**, even though the target itself was acquired via share purchase.
 
-**4.1.2 Structural Techniques**
+#### 4.1.2 Structural Techniques
 
 To maximize interest deductibility in share acquisitions, buyers commonly employ:
 
@@ -253,24 +250,24 @@ To maximize interest deductibility in share acquisitions, buyers commonly employ
 
 ## 5. Thin Capitalization and Earnings Stripping Rules
 
-**5.1 Purpose of Thin Capitalization Rules**
+### 5.1 Purpose of Thin Capitalization Rules
 
 **Thin capitalization rules** prevent companies from **excessive debt financing** designed to erode the tax base through interest deductions. These rules limit the amount of debt that can be supported by equity, or cap interest deductions relative to earnings.
 
-**5.2 Common Approaches**
+### 5.2 Common Approaches
 
-**5.2.1 Fixed Ratio Test**
+#### 5.2.1 Fixed Ratio Test
 
 Some jurisdictions impose **debt-to-equity ratio** limits, such as:
 
 - **3:1 debt-to-equity ratio**: Debt exceeding three times equity results in interest disallowance on the excess
 - **Thin cap safe harbors**: Interest deductions fully allowed if below threshold ratios
 
-**5.2.2 Earnings Stripping (EBITDA-Based Limitation)**
+#### 5.2.2 Earnings Stripping (EBITDA-Based Limitation)
 
 Modern rules often limit interest deductions to a **percentage of earnings**:
 
-**US Section 163(j):** Limits business interest deductions to:
+**US Internal Revenue Code Section 163(j):** Limits business interest deductions to:
 - Business interest income, **plus**
 - **30% of adjusted taxable income (ATI)**
 - Floor plan financing interest (not relevant for oil and gas)
@@ -288,7 +285,7 @@ For tax years beginning after December 31, 2024, ATI is calculated as **EBITDA**
 
 Since actual interest ($20M) is below the cap ($22.5M), the **full amount is deductible**. Without adding back depletion, ATI would be only $60 million, limiting deductions to $18 million and disallowing $2 million.
 
-**5.3 Transfer Pricing and Arm's Length Interest Rates**
+### 5.3 Transfer Pricing and Arm's Length Interest Rates
 
 Even where thin capitalization rules are satisfied, **related-party interest** must be priced at **arm's length** under transfer pricing principles. Tax authorities may challenge:
 
@@ -390,8 +387,7 @@ Assumptions:
 | Tax at 25% | ($0.7M) |
 | **Net income** | **$2.1M** |
 | Add back: Depreciation (non-cash) | $20.0M |
-| Less: Debt service (interest portion) | ($7.2M) |
-| **Annual after-tax cash flow** | **$14.9M** |
+| **Annual after-tax cash flow** | **$22.1M** |
 
 **(b) Share Purchase (assuming interest is deductible):**
 
@@ -404,10 +400,9 @@ Assumptions:
 | Tax at 25% | ($3.7M) |
 | **Net income** | **$11.1M** |
 | Add back: Depreciation (non-cash) | $8.0M |
-| Less: Debt service (interest portion) | ($7.2M) |
-| **Annual after-tax cash flow** | **$11.9M** |
+| **Annual after-tax cash flow** | **$19.1M** |
 
-**Buyer annual advantage from asset purchase: $14.9M - $11.9M = $3.0M**
+**Buyer annual advantage from asset purchase: $22.1M - $19.1M = $3.0M**
 
 Over 5 years: $3.0M × 5 = **$15 million cumulative advantage**
 
@@ -415,54 +410,18 @@ Present value (at 10% discount): **$11.4 million**
 
 **(c) Share Purchase with Interest Not Deductible (participation exemption applies):**
 
+When interest is not deductible due to participation exemption rules:
+
 | Item | Amount |
 |---|---|
 | Operating income (before interest & depreciation) | $30.0M |
-| Less: Interest expense (not deductible) | $0 |
 | Less: Depreciation | ($8.0M) |
 | **Taxable income** | **$22.0M** |
 | Tax at 25% | ($5.5M) |
-| **Net income** | **$16.5M** |
+| **After-tax income** | **$16.5M** |
 | Add back: Depreciation (non-cash) | $8.0M |
-| Less: Interest paid (after-tax cash cost) | ($7.2M) |
+| Less: Interest paid (after-tax, not deductible) | ($7.2M) |
 | **Annual after-tax cash flow** | **$17.3M** |
-
-Wait, this appears better than asset purchase. Let me recalculate:
-
-Actually, the interest is paid but not deductible, so:
-
-Pre-tax cash flow: $30M - $7.2M interest = $22.8M
-Tax: $30M - $8M depreciation = $22M × 25% = $5.5M
-**After-tax cash: $22.8M - $5.5M = $17.3M**
-
-This is clearly worse. Let me recalculate properly:
-
-**Operating cash before tax: $30M**
-**Less: Interest (cash, not deductible): ($7.2M)**
-**Taxable income: $30M - $8M depreciation = $22M**
-**Tax: $22M × 25% = $5.5M**
-**Cash available: $30M - $7.2M - $5.5M = $17.3M**
-
-No, that's $17.3M which is better. Let me think about this again.
-
-The issue is:
-- In asset purchase: interest IS deductible, saving $7.2M × 25% = $1.8M in tax
-- In share purchase without interest deductibility: no tax savings
-
-Asset purchase:
-- Operating income: $30M
-- Interest deduction saves: $1.8M tax
-- Depreciation deduction saves: $20M × 25% = $5.0M tax
-- Total tax savings: $6.8M
-- Cash taxes: $30M × 25% - $6.8M = $0.7M
-- After-tax cash: $30M - $7.2M - $0.7M = $22.1M
-
-Share purchase (no interest deduction):
-- Operating income: $30M
-- Depreciation deduction saves: $8M × 25% = $2.0M
-- Total tax savings: $2.0M
-- Cash taxes: $30M × 25% - $2.0M = $5.5M
-- After-tax cash: $30M - $7.2M - $5.5M = $17.3M
 
 **Buyer annual advantage from asset purchase: $22.1M - $17.3M = $4.8M**
 
@@ -473,15 +432,16 @@ Share purchase (no interest deduction):
 - Also offers simplicity and faster closing
 
 **For the Buyer:**
+
+If interest is NOT deductible in share purchase (participation exemption):
 - **Asset purchase** generates **$4.8 million per year more** in cash flow
 - Over 5 years: **$24 million** cumulative advantage
 - Present value at 10%: **$18.2 million**
-- However, this assumes interest is NOT deductible in share purchase
 
-**If interest IS deductible in share purchase:**
+If interest IS deductible in share purchase:
 - Annual advantage from asset purchase narrows to **$3.0M/year**
 - 5-year cumulative: **$15M**
-- PV: **$11.4M**
+- Present value at 10%: **$11.4M**
 
 **Conclusion:**
 
@@ -593,17 +553,3 @@ However, $10 million of interest remains non-deductible due to **thin capitaliza
 - Refinancing through multiple entities to spread debt across the group
 
 ═══════════════════════════════════════════
-
-## 8. Conclusion
-
-The choice between acquiring target assets or target company shares is one of the most consequential tax planning decisions in oil and gas M&A. The optimal structure balances:
-
-- **Buyer's preference** for stepped-up basis and interest deductibility (favoring asset purchases)
-- **Seller's preference** for capital gains treatment and simplicity (favoring share sales)
-- **Regulatory and commercial factors** including PSC regimes, thin capitalization rules, and transaction costs
-
-Tax advisors must analyze each transaction holistically, considering the interaction between acquisition structure, financing arrangements, tax consolidation opportunities, and applicable fiscal regimes. Effective structuring can create millions of dollars in value through optimized tax outcomes.
-
----
-
-**Word Count:** Approximately 6,200 words (condensed version: ~2,000 words with examples)
