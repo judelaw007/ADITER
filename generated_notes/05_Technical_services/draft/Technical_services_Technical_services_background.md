@@ -4,7 +4,7 @@
 
 ### 1.1 Definition of Technical Services in Energy Sector
 
-**Technical services** in the energy sector comprise specialized knowledge-based services that support exploration, development, production, and processing of hydrocarbon resources. Unlike operating contracts (concessions, PSCs) where parties share production, technical services are compensated through **fee-based remuneration** for expertise, technology, and know-how provided.
+**Technical services** in the energy sector comprise specialized knowledge-based services that support exploration, development, production, and processing of hydrocarbon resources. Unlike operating contracts (concessions, **Production Sharing Contracts (PSCs)**) where parties share production, technical services are compensated through **fee-based remuneration** for expertise, technology, and know-how provided.
 
 **Distinguishing Characteristics**:
 - **Knowledge transfer**: Provision of specialized technical expertise, not capital or physical resources
@@ -36,19 +36,19 @@ The energy sector encompasses diverse technical services across the value chain:
 - **Production engineering**: Artificial lift design, well performance optimization, flow assurance
 - **Process engineering**: Facilities design, process optimization, debottlenecking studies
 - **Pipeline engineering**: Pipeline design, integrity assessment, flow modeling
-- **Project management**: FEED studies, EPC management, commissioning support
+- **Project management**: Front End Engineering Design (FEED) studies, Engineering, Procurement, and Construction (EPC) management, commissioning support
 
 **4. Asset Management and Secondments**:
 - **Seconded personnel**: Expatriate technical staff placed with operator
 - **Integrated operations**: Real-time operations centers, digital oilfield services
 - **Maintenance management**: Asset integrity, turnaround planning
 - **Operations support**: Production optimization, field development planning
-- **HSE consultancy**: Safety management systems, environmental compliance
+- **Health, Safety, and Environment (HSE) consultancy**: Safety management systems, environmental compliance
 
 **5. Specialized Technical Services**:
-- **Laboratory analysis**: Fluid analysis (PVT), geochemistry, petrophysics
+- **Laboratory analysis**: Fluid analysis (Pressure-Volume-Temperature (PVT)), geochemistry, petrophysics
 - **Well intervention**: Workover design, stimulation engineering
-- **Enhanced oil recovery (EOR)**: Waterflooding design, chemical EOR, thermal EOR
+- **Enhanced Oil Recovery (EOR)**: Waterflooding design, chemical EOR, thermal EOR
 - **Decommissioning**: Abandonment planning, plugging and abandonment (P&A) engineering
 - **Digital services**: Data analytics, machine learning applications, digital twins
 
@@ -57,7 +57,7 @@ The energy sector encompasses diverse technical services across the value chain:
 **Technical Services vs. Construction/Installation Services**:
 - **Technical services**: Knowledge-based, advice, studies, engineering design
 - **Construction services**: Physical execution, installation, building activities
-- **Tax treatment**: Construction creates PE under Article 5(3); technical services may have separate treaty article
+- **Tax treatment**: Construction creates **Permanent Establishment (PE)** under Article 5(3); technical services may have separate treaty article
 
 **Technical Services vs. Management Services**:
 - **Technical services**: Specialized technical expertise in oil and gas operations
@@ -89,9 +89,9 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **2. Withholding Tax (WHT)**:
 - Applied to gross service fees paid to non-resident service providers
-- Rates vary: 10-30% of gross payments
+- Rates typically range from 10-30% of gross payments depending on jurisdiction
 - Final or creditable tax depending on domestic law
-- Administrative convenience: Client withholds and remits tax
+- **Policy rationale**: WHT ensures source countries capture tax revenue from non-residents who may have no other taxable presence; administrative convenience allows client to withhold and remit tax, reducing enforcement challenges
 
 **3. Specific Technical Services Tax Regimes**:
 - **India**: Equalization levy (2% on e-commerce services); Fees for Technical Services (FTS) provisions
@@ -103,17 +103,17 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 | **Country** | **Technical Services WHT Rate** | **Statutory Reference** |
 |------------|-------------------------------|------------------------|
-| **India** | 10% (plus surcharge/cess) | Section 115A, 206AA Income Tax Act |
-| **Nigeria** | 10% | Section 78, Finance Act 2020 |
-| **Indonesia** | 20% (reduced for treaty) | Article 26, Income Tax Law |
-| **Brazil** | 15-25% (IRRF) | Law 9,779/1999 |
+| **India** | 20% (plus surcharge/cess); 10% under treaties | Section 115A, 206AA, Income Tax Act, 1961 |
+| **Nigeria** | 10% | Finance Act, 2020 |
+| **Indonesia** | 20% (reduced for treaty) | Article 26, Income Tax Law No. 36 of 2008 |
+| **Brazil** | 15-25% (IRRF) | Law No. 9,779/1999 |
 | **Kazakhstan** | 20% | Article 645, Tax Code |
 | **Angola** | 6.5% | Industrial Tax Code |
 | **Mexico** | 25% (some technical services) | Article 200, Income Tax Law |
 
 ### 2.2 Treaty Treatment - Article 7 vs. Article 14 vs. Technical Services Article
 
-**Article 7 (Business Profits) - OECD Model Default**:
+**Article 7 (Business Profits) - Organisation for Economic Co-operation and Development (OECD) Model Default**:
 - **Scope**: Covers all business income not specifically addressed in other articles
 - **Taxation right**: Exclusive to residence country **unless** business carried on through PE in source country
 - **PE requirement**: Source country can tax only if PE exists; tax limited to profits attributable to PE
@@ -128,7 +128,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
   - Stays in source country ≥183 days in 12-month period
 - **Modern treatment**: Merged into Article 7 (no functional difference from PE concept)
 
-**Technical Services Article (UN Model Article 12A) - Emerging Provision**:
+**Technical Services Article (United Nations (UN) Model Article 12A) - Emerging Provision**:
 - **Purpose**: Grants source country taxing rights on fees for technical services even without PE
 - **Not in OECD Model**: Reflects developing country concerns about base erosion
 - **Included in**: UN Model (2017 addition), many bilateral treaties with developing countries
@@ -150,7 +150,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **Example Treaty Provisions**:
 
-**India-Singapore DTA (2005)**:
+**India-Singapore Double Taxation Agreement (DTA) (2005)**:
 - Article 12(4): Fees for technical services (FTS) may be taxed in source country
 - Rate: 10% of gross amount (reduced from 15% under domestic law)
 - Definition: Includes managerial, technical, or consultancy services
@@ -199,6 +199,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 - **Threshold**: 183 days (or lower) within 12-month period for same or connected project
 - **Calculation**: Aggregate time of all service provider personnel in source country
 - **Not in OECD Model**: Only if bilateral treaty adopts UN Model provision
+- **Policy rationale**: Service PE provision recognizes that significant service activities conducted over extended periods create sufficient economic nexus to justify source taxation, even without a fixed physical location. The threshold balances source country taxing rights against the need for certainty and administrative practicality
 
 **3. Construction/Installation PE (Article 5(3))**:
 - **Scope**: Technical supervision of construction/installation may create PE
@@ -221,6 +222,8 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 **Concept**: Some treaties limit source taxation of technical services to situations where services **make technical knowledge, skills, or know-how available** to the service recipient.
 
 **Purpose**: Distinguish genuine knowledge transfer from routine services where no permanent benefit accrues to recipient.
+
+**Policy rationale**: The make-available provision balances developed and developing country interests by limiting source taxation to situations where the recipient gains lasting value (knowledge transfer that enables independent future application), rather than taxing all services including routine one-time activities that provide no enduring benefit to the source country economy.
 
 **Definition** (UN Model Commentary):
 - Services enable recipient to apply technology independently in future
@@ -311,7 +314,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **Transfer Pricing Methods for Technical Services**:
 
-**1. Cost Plus Method (CPM)**:
+**1. Cost Plus Method**:
 - **Application**: Service provider compensated for costs plus markup
 - **Calculation**: Total costs × (1 + markup percentage)
 - **Typical markups**: 5-15% for routine services; 15-30% for specialized services
@@ -320,7 +323,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **2. Transactional Net Margin Method (TNMM)**:
 - **Application**: Compare service provider's net margin to independent comparables
-- **PLI (Profit Level Indicator)**: Operating margin (EBIT/Sales) most common
+- **Profit Level Indicator (PLI)**: Operating margin (Earnings Before Interest and Tax (EBIT)/Sales) most common
 - **Benchmarking**: Identify comparable independent service companies
 - **Advantages**: Functional comparability focus
 - **Disadvantages**: Finding comparables challenging for specialized energy services
@@ -356,7 +359,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 **Documentation Requirements** (OECD BEPS Actions 13):
 - **Master file**: Group structure, transfer pricing policies
 - **Local file**: Detailed analysis of related party technical services
-- **CbCR**: Country-by-country reporting (if group revenue >€750 million)
+- **Country-by-Country Reporting (CbCR)**: Reports revenues, profits, taxes, and employees by jurisdiction (if group revenue >€750 million)
 
 ### 3.3 Independent vs. Dependent Services
 
@@ -708,7 +711,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 - **Treaty**: Singapore-Nigeria Tax Treaty
   - Article 5(3)(b): **Service PE provision**
-    - Services through employees/personnel for >**90 days** within any 12-month period for same or connected project
+    - Services through employees/personnel for >**183 days** within any 12-month period for same or connected project
   - Article 7: Business Profits (taxable only if PE)
   - Article 12: Royalties - 7.5% WHT
   - **No specific technical services article**
@@ -727,14 +730,14 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **Calculation**:
 
-| **Personnel** | **Period in Nigeria** | **Days** | **Threshold (90 days)** |
+| **Personnel** | **Period in Nigeria** | **Days** | **Threshold (183 days)** |
 |--------------|---------------------|---------|------------------------|
 | Engineer 1 | Jan-Oct 2024 (continuous) | 304 days | **Exceeded** |
 | Engineer 2 | Jan-Oct 2024 (continuous) | 304 days | **Exceeded** |
 | Engineer 3 | Jan-Oct 2024 (continuous) | 304 days | **Exceeded** |
 | Technical Director | 5 visits × 3 days | 15 days | Not exceeded |
 
-**Conclusion**: **Service PE exists** - multiple personnel present for >90 days for same project (reservoir study).
+**Conclusion**: **Service PE exists** - multiple personnel present for >183 days for same project (reservoir study).
 
 **Fixed Place PE Analysis**:
 - **Premises**: Engineers work at client's office (not EngineerCo premises)
@@ -749,7 +752,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **Issue 2: Profit Attribution to Nigerian PE**
 
-**OECD Authorized Approach (AOA)**:
+**OECD Authorised OECD Approach (AOA)**:
 
 **Step 1 - Functional Analysis**:
 - **PE functions**:
@@ -846,7 +849,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **Scenario B: No PE - WHT Only (Hypothetical)**
 
-**If Service PE did not exist** (e.g., structured to stay below 90-day threshold):
+**If Service PE did not exist** (e.g., structured to stay below 183-day threshold):
 
 **Treaty Treatment**:
 - Article 7 (Business Profits): Nigeria cannot tax (no PE)
@@ -906,8 +909,8 @@ Most petroleum-producing countries assert **source taxation** of technical servi
    - Article 7 prevents Nigerian taxation
    - Singapore-only taxation: $42,500
    - **Savings: $86,500** vs. Service PE scenario
-   - **Planning strategy**: Manage personnel presence to stay below 90-day threshold
-     - Rotate engineers every 3 months (89 days)
+   - **Planning strategy**: Manage personnel presence to stay below 183-day threshold
+     - Rotate engineers every 6 months (182 days)
      - Use remote support from Singapore
      - Short visits instead of continuous presence
 
@@ -920,10 +923,10 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 **Threshold Management**:
 - **Time tracking**: Monitor personnel presence rigorously
-- **Rotation strategy**: Limit individual personnel to <90 days
-  - Engineer 1: Jan-Mar (89 days)
-  - Engineer 2: Apr-Jun (89 days)
-  - Engineer 3: Jul-Sep (89 days)
+- **Rotation strategy**: Limit individual personnel to <183 days
+  - Engineer 1: Jan-Jun (182 days)
+  - Engineer 2: Jul-Dec (182 days)
+  - Overlap planning to maintain continuity
 - **Remote support**: Maximize Singapore-based work (modeling, analysis)
 - **Connected project risk**: Ensure subsequent projects not aggregated
 
@@ -942,7 +945,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
   - UK-Nigeria: Different service PE definition
 
 **Key Takeaways**:
-1. **Service PE threshold critical**: 90 days vs. 10 months creates $86,500 tax difference
+1. **Service PE threshold critical**: 183 days vs. 10 months creates $86,500 tax difference
 2. **Net vs. gross taxation**: PE taxation (net basis) can be more favorable than WHT (gross) if profit margin low
 3. **Excess foreign tax credits**: High source country tax creates unusable credits if exceeds residence tax
 4. **Structural planning**: PE avoidance through threshold management significantly reduces tax burden
@@ -955,6 +958,8 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 **2017 UN Model Update**: Added Article 12A specifically addressing Fees for Technical Services (FTS).
 
 **Purpose**: Provide developing countries explicit taxing rights over technical services income without requiring PE.
+
+**Policy rationale**: Developing countries argued that the OECD Model's PE requirement for source taxation allows multinational service providers to extract significant value from source country resources through technical services while avoiding source taxation entirely. Article 12A addresses this base erosion concern by granting source countries taxing rights without requiring physical presence, reflecting the reality that knowledge-based services can generate substantial income from source country operations.
 
 **Article 12A Key Features**:
 - **Definition**: Payments for managerial, technical, or consultancy services
@@ -1019,7 +1024,7 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 
 ### 6.4 Transfer Pricing Documentation and Scrutiny
 
-**OECD BEPS Actions 8-10 and 13**: Enhanced transfer pricing rules and documentation.
+**OECD Base Erosion and Profit Shifting (BEPS) Actions 8-10 and 13**: Enhanced transfer pricing rules and documentation.
 
 **Technical Services Focus**:
 - **Shareholder services**: Increased scrutiny whether services provide genuine benefit to recipient
@@ -1082,20 +1087,3 @@ Most petroleum-producing countries assert **source taxation** of technical servi
 - Developing country tax authorities increasingly scrutinize service fees
 - Lower acceptable markups for routine services (5-10% common)
 - Higher burden of proof on taxpayer to demonstrate arm's length nature
-
----
-
-**Word Count**: ~2,020 words (within ±10% target)
-
-**Key Takeaways**:
-
-1. **Technical services definition**: Knowledge-based services distinguished from construction, royalties, and management services
-2. **Treaty treatment variance**: Article 7 (OECD) requires PE vs. technical services article (UN) allows WHT without PE
-3. **Make-available provision**: Limits source taxation to knowledge transfer situations (not all services)
-4. **Service vs. royalty distinction**: Critical characterization with major tax implications (net vs. gross taxation)
-5. **PE creation risks**: Service PE (UN Model 183 days), fixed place, construction, dependent agent pathways
-6. **Transfer pricing**: Arm's length pricing essential (cost-plus, TNMM methods); 5-30% markups depending on value
-7. **WHT vs. PE taxation trade-off**: PE taxation may be favorable for low-margin services (expense deductions)
-8. **Recent developments**: UN Article 12A adoption, BEPS 2.0 Pillar Two, digitalization, enhanced documentation requirements
-9. **Substance requirements**: Treaty shopping curtailed by genuine economic substance standards
-10. **Planning strategies**: Threshold management, transfer pricing documentation, treaty selection, remote delivery structures
