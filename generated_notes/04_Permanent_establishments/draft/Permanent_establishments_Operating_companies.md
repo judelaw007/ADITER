@@ -1,17 +1,13 @@
 # Operating Companies and Permanent Establishments
 ## ADIT Energy Resources Module 3.04 - Study Note
 
-**Knowledge Level:** Detailed (Level 2)
-**Word Count:** ~2000 words
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework: Operating Companies in Energy Projects
 
 ### 1.1 Definition and Role of Operating Companies
 
-An **operating company** in the energy resources sector is an entity (whether resident or non-resident) that conducts petroleum exploration, development, or production operations on behalf of itself and/or other working interest owners. The operating company has primary responsibility for:
+An **operating company** in the energy resources sector is an entity (whether resident or non-resident in the source state) that conducts petroleum exploration, development, or production operations on behalf of itself and/or other working interest owners. Operating companies are also referred to as "operators" in Joint Operating Agreements (JOAs). The operating company has primary responsibility for:
 
 - **Day-to-day field operations**: Drilling, production, maintenance, and abandonment activities
 - **Technical management**: Engineering design, project execution, and operational decision-making
@@ -48,7 +44,7 @@ The **operator** is appointed under a Joint Operating Agreement (JOA) or similar
 Operating companies face multiple PE triggers under both domestic law and tax treaties:
 
 **Fixed Place of Business PE (OECD Model Article 5(1)):**
-- Production platforms, FPSOs (Floating Production Storage and Offloading vessels), and offshore installations
+- Production platforms, **Floating Production Storage and Offloading vessels (FPSOs)**, and offshore installations
 - Onshore processing facilities, terminals, and storage facilities
 - Field offices, operations centers, and warehouses
 - Permanent or semi-permanent structures exceeding 6-12 month threshold
@@ -84,8 +80,8 @@ Operating companies face multiple PE triggers under both domestic law and tax tr
 Operating companies conducting petroleum extraction operations are deemed to have a **fixed place of business PE** in the source state from the commencement of operations. The following facilities constitute PE:
 
 **Offshore Operations:**
-- **Production platforms**: Fixed platforms, compliant towers, tension leg platforms (TLPs)
-- **FPSOs**: Floating production, storage, and offloading vessels anchored at field location for extended periods (typically multi-year)
+- **Production platforms**: Fixed platforms, compliant towers, **Tension Leg Platforms (TLPs)**
+- **FPSOs**: Floating production, storage, and offloading vessels anchored at field location for extended periods, typically multi-year deployments
 - **Subsea infrastructure**: Manifolds, flowlines, and control systems (when integrated with platform PE)
 - **Well sites**: Individual producing wells (collectively constitute PE for field operations)
 
@@ -131,22 +127,22 @@ Duration = Completion Date - Commencement Date
 - UN Model: 6 months threshold
 - Many resource jurisdiction treaties: 3-6 months (e.g., Nigeria, Indonesia)
 
-**Example Treaty Language (UK-Nigeria):**
-> "The term 'permanent establishment' includes... a building site, a construction, assembly or installation project or supervisory activities in connection therewith, but only where such site, project or activities continue for a period of more than 183 days."
+**Example Treaty Language (UK-Nigeria Double Taxation Agreement):**
+The UK-Nigeria tax treaty defines permanent establishment to include: "a building site, a construction, assembly or installation project or supervisory activities in connection therewith, but only where such site, project or activities continue for a period of more than 183 days." This 183-day (approximately 6-month) threshold is shorter than the OECD Model's 12-month standard, reflecting the preference of many resource-rich developing countries for lower thresholds to secure earlier taxation rights.
 
 ### 2.3 Profit Attribution to Operating Company PE
 
 **Authorized OECD Approach (AOA):**
 
-OECD Transfer Pricing Guidelines (2010 Report on Attribution of Profits to PEs) establish the **Authorized OECD Approach** based on functional and factual analysis:
+The OECD Transfer Pricing Guidelines, specifically the 2010 Report on Attribution of Profits to Permanent Establishments, establish the **Authorized OECD Approach (AOA)** based on functional and factual analysis. The AOA treats the PE as a functionally separate entity and applies the arm's length principle to attribute profits:
 
 **Step 1: Hypothecation of Assets**
 - Identify assets used by PE (platforms, equipment, licenses)
 - Attribute ownership to PE where assets economically used by PE
 
 **Step 2: Attribution of Risks**
-- Identify significant people functions (SPFs) performing risk management and decision-making
-- Attribute risks to PE where SPFs located at PE
+- Identify **significant people functions (SPFs)** - the key personnel performing risk management and decision-making activities
+- Attribute risks to PE where SPFs are located, as risks follow the location of those with authority and capability to manage them
 
 **Step 3: Recognition of Dealings**
 - Recognize internal "dealings" between PE and head office as if separate enterprises
@@ -154,15 +150,15 @@ OECD Transfer Pricing Guidelines (2010 Report on Attribution of Profits to PEs) 
 
 **Step 4: Profit Attribution**
 - Calculate PE profits based on functions performed, assets used, and risks assumed
-- Apply transfer pricing methods (typically TNMM or profit split)
+- Apply appropriate transfer pricing methods, typically the **Transactional Net Margin Method (TNMM)** or profit split method depending on the complexity and integration of operations
 
 **Practical Application for Operating Companies:**
 
-Operating company PE in source state typically attributed:
-- **Revenues**: Production revenue from petroleum sold (at market value or realized price)
-- **Direct costs**: Operating expenditures, production costs, decommissioning provisions
-- **Depreciation**: Capital allowances on PE assets (platforms, facilities, equipment)
-- **Allocated costs**: Proportionate share of head office costs (technical support, management, financing)
+Under the AOA, an operating company PE in the source state is typically attributed the following profit components:
+- **Revenues**: Production revenue from petroleum sold at market value or realized sales price, based on sales actually concluded by or attributable to the PE
+- **Direct costs**: Operating expenditures (personnel, well services, maintenance), production costs, and decommissioning provisions directly incurred by the PE
+- **Depreciation**: Capital allowances on PE assets (platforms, facilities, equipment) calculated under source state domestic law
+- **Allocated costs**: Proportionate share of head office costs (technical support, management, financing) based on arm's length allocation methodologies
 
 **Challenges:**
 - Determination of arm's length allocation for shared services
@@ -231,7 +227,7 @@ Operator fees must satisfy arm's length principle under domestic transfer pricin
 |------------------------------|----------------------|-----------|
 | **Limited-risk operator**: Routine operational management, no exploration risk | 5-8% of operating costs | Cost plus markup |
 | **Standard operator**: Full operational management, participates in exploration/development risk | 8-12% of operating costs | Cost plus markup |
-| **Technically complex operations**: Deepwater, HPHT, frontier areas requiring specialized expertise | 12-18% of operating costs | Cost plus markup or profit split |
+| **Technically complex operations**: Deepwater, High Pressure High Temperature (HPHT), frontier areas requiring specialized expertise | 12-18% of operating costs | Cost plus markup or profit split |
 | **Integrated operator**: Operator also providing significant technical services, secondments | 15-20%+ of costs OR 2-5% of revenue | TNMM or profit split method |
 
 **Example - North Sea JOA Operator Fee:**
@@ -247,11 +243,11 @@ Operator fees must satisfy arm's length principle under domestic transfer pricin
 - Justification for fee level based on complexity, risk profile, market conditions
 - Annual review to ensure continued arm's length compliance
 
-**Recent Developments (2023-2025):**
+**Recent Developments:**
 - Increased scrutiny by tax authorities on operator fees, particularly in developing resource jurisdictions
-- BEPS Action 8-10 emphasis on aligning returns with value creation (risks and functions)
-- Expanded documentation requirements (Country-by-Country Reporting includes operator fees)
-- Several jurisdictions (e.g., Ghana, Tanzania) issuing specific guidance on acceptable operator fee ranges (typically capping at 5-10% absent robust benchmarking)
+- OECD Base Erosion and Profit Shifting (BEPS) Actions 8-10 (finalized 2015) emphasize aligning returns with value creation through functions performed, assets used, and risks assumed
+- Expanded documentation requirements under BEPS Action 13 Country-by-Country Reporting (CbCR), which includes operator fees in related-party disclosures
+- Several jurisdictions (e.g., Ghana, Tanzania) issuing specific guidance on acceptable operator fee ranges, typically capping at 5-10% absent robust benchmarking studies
 
 ---
 
@@ -276,7 +272,7 @@ Joint Operating Agreements are the standard commercial framework for petroleum E
   - **Jointly-owned assets**: Co-ownership of platforms/facilities creates PE exposure
   - **Active participation**: Regular on-site presence for joint venture committee meetings, inspections
 
-**Key Principle:** Under OECD Commentary, **joint ownership of production facilities creates PE for all co-owners**, even if one party designated as operator. Non-operator cannot rely on independent agent exception under Article 5(6).
+**Key Principle:** Under OECD Model Tax Convention Commentary, **joint ownership of production facilities creates PE for all co-owners**, even if one party is designated as operator for operational purposes. The non-operator cannot rely on the independent agent exception under Article 5(6) because the operator acts on behalf of the joint venture participants as co-owners, not as an independent agent acting in the ordinary course of its own business.
 
 **Treaty Language (UK-Norway Oil Taxation Treaty - Protocol):**
 > "Where a person has been appointed operator on behalf of the participants in a joint venture, each participant shall be deemed to have a permanent establishment in the place where the activities of the joint venture are carried on."
@@ -356,7 +352,7 @@ Risks attributed to Nigerian PE (where significant people functions located):
 
 **Step 4: Profit Calculation**
 
-**Method Selection:** Profit split or TNMM most appropriate given integrated operations.
+**Method Selection:** Profit split method or Transactional Net Margin Method (TNMM) are most appropriate transfer pricing methods given the integrated nature of petroleum operations.
 
 **Profit Split Approach:**
 
@@ -411,8 +407,10 @@ Many resource jurisdictions impose **ring-fencing** rules preventing offset of l
 - Requires separate profit calculation and tax return for each PE
 
 **Example - UK Ring-Fencing (Post-2016 Reforms):**
-- Ring-fence corporation tax (30%) applies to upstream oil and gas profits
-- Supplementary charge (35%) applies on top (total: 75% pre-2015; reduced to 40% by 2023)
+- **Ring-fence corporation tax (RFCT):** 30% applies to upstream oil and gas profits
+- **Supplementary charge (SC):** 10% (reduced from 30% in 2014, to 20% in 2015, and to 10% from 2016)
+- **Energy Profits Levy (EPL):** 35% (introduced May 2022 at 25%, increased to 35% from January 2023)
+- **Combined marginal tax rate:** 75% (30% RFCT + 10% SC + 35% EPL)
 - Ring-fence provisions prevent:
   - Offset of non-ring-fence losses against ring-fence profits
   - Group relief from non-oil/gas companies
@@ -474,10 +472,10 @@ Operating companies must choose between:
   - Subsidiaries common for integrated operations
   - Branches used for single-field developments or exploration
 
-**Recent Trends (2023-2025):**
-- Increased use of subsidiaries for ESG reasons (local incorporation demonstrates commitment)
-- Some jurisdictions mandating local incorporation for operators (e.g., Brazil ANP requirements)
-- Tax authorities focusing on PE profit attribution (AOA implementation) - reducing tax advantage of branches
+**Recent Trends:**
+- Increased use of subsidiaries for environmental, social, and governance (ESG) reasons, as local incorporation demonstrates commitment to host jurisdictions
+- Some jurisdictions mandating local incorporation for operators (e.g., Brazil National Agency for Petroleum, Natural Gas and Biofuels requirements)
+- Tax authorities increasingly focusing on PE profit attribution through AOA implementation, reducing tax advantages historically associated with branch structures
 
 ---
 
@@ -619,7 +617,7 @@ PE Taxable Income × Corporate Tax Rate = Corporate Income Tax
 
 **Fact Pattern:**
 
-**GlobalPetro Inc** (US incorporated, Delaware resident) operates the "Deepwater Horizon II" field offshore Angola under a PSC arrangement. GlobalPetro has 60% working interest and is appointed operator. Other participants: ChinaOil (25%) and AngolaSOE (15% state company).
+**GlobalPetro Inc** (incorporated in Delaware, US tax resident) operates the "Deepwater Horizon II" field offshore Angola under a **Production Sharing Contract (PSC)** arrangement. GlobalPetro has 60% working interest and is appointed operator. Other participants: ChinaOil (25%) and AngolaSOE (15% state-owned company).
 
 **Year 2024 Operations:**
 
@@ -642,7 +640,8 @@ PE Taxable Income × Corporate Tax Rate = Corporate Income Tax
 
 **Angola Tax Regime:**
 - Corporate income tax: 25%
-- Petroleum Income Tax (PIT): 35% (on petroleum profits, creditable against CIT)
+- Petroleum Income Tax (PIT): 50% standard rate (varies by contract type; some projects qualify for reduced rates)
+- Note: Example assumes negotiated rate of 35% under specific PSC terms
 - PSC profit oil already allocated (separate from tax calculation)
 - Ring-fencing: Field-level (no offset from other GlobalPetro Angola operations)
 
@@ -1240,47 +1239,62 @@ NET ADDITIONAL TAX REVENUE:                 $180,960
 
 ---
 
-## 6. Recent Developments and Emerging Issues (2023-2025)
+## 6. Recent Developments and Emerging Issues
 
 ### 6.1 OECD Pillar Two and Operating Companies
 
 **Global Minimum Tax (15%):**
-- BEPS 2.0 Pillar Two applies to multinational groups with revenue > EUR 750M
-- **Operating company PE implications:**
-  - Norway petroleum tax (78%) significantly exceeds 15% minimum → No Pillar Two exposure
-  - Low-tax jurisdictions hosting operating companies may trigger top-up tax under Income Inclusion Rule (IIR)
-  - Qualified Domestic Minimum Top-up Tax (QDMTT) in some jurisdictions ensures tax remains in source state
+The OECD/G20 BEPS 2.0 Pillar Two framework establishes a global minimum corporate tax rate of 15% for multinational enterprises (MNEs) with consolidated revenues exceeding EUR 750 million. The framework was agreed in October 2021 and implementation began in 2024 in early-adopting jurisdictions.
+
+**Operating company PE implications:**
+- **High-tax jurisdictions:** Operating companies with PEs in high-tax petroleum jurisdictions (e.g., Norway at 78% effective rate) significantly exceed the 15% minimum and face no Pillar Two top-up tax exposure
+- **Low-tax jurisdictions:** Operating companies with PEs in jurisdictions with effective tax rates below 15% may trigger top-up tax under the **Income Inclusion Rule (IIR)**, payable by the ultimate parent company
+- **Qualified Domestic Minimum Top-up Tax (QDMTT):** Some source states have enacted QDMTTs to collect the top-up tax domestically rather than allowing residence states to collect it under the IIR
 
 **Example:** UK operating company PE in jurisdiction with 10% effective rate:
-- Top-up tax: (15% - 10%) × PE profits = 5% additional tax
-- Payable by ultimate parent under IIR (unless QDMTT applies)
+- Top-up tax calculation: (15% minimum rate - 10% effective rate) × PE profits = 5% additional tax
+- Payable by ultimate parent under IIR (unless source state has enacted QDMTT to collect the top-up tax locally)
 
 ### 6.2 Energy Transition and Decommissioning
 
 **Increased Focus on Abandonment Costs:**
-- North Sea fields reaching end-of-life; significant decommissioning obligations
-- **Tax treatment:** Many jurisdictions allow deduction/credit for decommissioning costs
-  - UK: 40% supplementary charge provides tax relief for abandonment
-  - Norway: Full deductibility at 78% rate (significant cash benefit)
+As North Sea and other mature petroleum provinces reach end-of-life, operators face significant decommissioning obligations to abandon platforms, plug wells, and restore seabed conditions. These costs can exceed original development expenditures for mature fields.
+
+**Tax treatment of decommissioning:** Many jurisdictions provide tax relief for abandonment costs to ensure operators fulfill their obligations:
+- **United Kingdom:** Under the ring-fence regime, decommissioning expenditures qualify for tax relief at the combined marginal rate (currently 75%), providing significant cash benefit to offset abandonment costs. The UK government also operates a Decommissioning Relief Deed (DRD) scheme guaranteeing tax relief certainty for operators.
+- **Norway:** Decommissioning costs are fully deductible against petroleum income at the 78% marginal tax rate, effectively providing Norwegian government co-funding of 78% of abandonment costs.
 
 **PE Profit Attribution:**
-- Decommissioning provisions must be attributed to PE where assets located
-- Transfer of late-life fields: Tax attributes (losses, decommissioning provisions) may transfer or crystallize depending on jurisdiction
+- Decommissioning provisions and actual abandonment expenditures must be attributed to the PE where the assets being decommissioned are located
+- Transfer of late-life fields: Tax attributes (accumulated losses, decommissioning provisions, deferred tax balances) may transfer to the acquirer or crystallize upon sale, depending on jurisdiction-specific rules and transaction structure
 
 ### 6.3 Digitalization and Remote Operations
 
 **Remote Operating Centers:**
-- Trend toward centralized operations centers controlling multiple fields from single location (e.g., Houston, Aberdeen, Stavanger)
-- **PE Implications:** If actual operations controlled remotely, does PE still exist at field location?
-- **Conclusion:** OECD commentary confirms extraction PE exists regardless of remote control (physical assets and extraction activities determine PE, not location of decision-making)
+A notable trend in the petroleum industry involves centralized operations centers controlling multiple offshore fields remotely from single onshore locations (e.g., Houston, Aberdeen, Stavanger). Advanced digital technologies, sensors, and automated systems enable real-time monitoring and control of production operations with minimal on-site personnel.
+
+**PE Implications:**
+The question arises: if actual operational decisions and control functions are performed remotely from the residence state, does a PE still exist at the offshore field location where physical extraction occurs?
+
+**Conclusion:**
+OECD Model Tax Convention Commentary confirms that an extraction PE under Article 5(2)(f) exists based on the physical location of extraction activities and assets, regardless of where operational control or decision-making occurs. The PE is determined by where the well, mine, or extraction site is physically located, not by where personnel controlling the operations are based. Remote operations may, however, affect profit attribution under the AOA by influencing where significant people functions are performed.
 
 ### 6.4 Carbon Capture and Storage (CCS) Operations
 
 **New Operating Models:**
-- CCS projects store CO2 in depleted oil/gas fields or saline aquifers
-- Operating companies transitioning from production to storage operations
-- **PE Treatment:** Storage facilities and wells likely constitute PE (analogous to extraction operations)
-- **Fiscal regime uncertainty:** Tax treatment of CCS operations unclear in many jurisdictions
+As the energy industry transitions toward lower-carbon operations, **Carbon Capture and Storage (CCS)** projects are emerging as a significant business activity. CCS involves capturing carbon dioxide (CO₂) from industrial sources or the atmosphere and injecting it into geological formations for permanent storage, often utilizing depleted oil and gas fields or deep saline aquifers.
+
+Operating companies traditionally focused on petroleum extraction are increasingly transitioning facilities from production to CO₂ storage operations, leveraging existing infrastructure, subsurface expertise, and regulatory licenses.
+
+**PE Treatment:**
+The tax treatment of CCS operations raises novel permanent establishment questions. Storage facilities, injection wells, and monitoring infrastructure likely constitute fixed places of business under Article 5(1) of the OECD Model Tax Convention. Whether CCS operations constitute extraction activities under Article 5(2)(f) is uncertain, as they involve injection rather than extraction. Most jurisdictions would likely classify CCS operating facilities as creating PE under the general fixed place of business test.
+
+**Fiscal Regime Uncertainty:**
+Tax treatment of CCS operations remains unclear in many jurisdictions. Key uncertainties include:
+- Whether CCS revenues (storage fees, carbon credits) are subject to petroleum-specific tax regimes or general corporate tax
+- Deductibility of CCS capital expenditures against petroleum production income under ring-fence rules
+- Application of existing tax incentives and allowances to CCS projects
+- Cross-border attribution of profits when CO₂ is captured in one jurisdiction and stored in another
 
 ---
 
@@ -1317,42 +1331,4 @@ NET ADDITIONAL TAX REVENUE:                 $180,960
 
 ---
 
-## 8. Further Reading and References
-
-**OECD Standards:**
-- OECD Model Tax Convention (2017) - Article 5 (Permanent Establishment), Article 7 (Business Profits)
-- OECD Transfer Pricing Guidelines (2022) - Chapter II (Transfer Pricing Methods)
-- OECD Report on Attribution of Profits to Permanent Establishments (2010) - Authorized OECD Approach
-- OECD BEPS Actions 8-10 (2015) - Transfer Pricing and Value Creation
-
-**UN Standards:**
-- UN Model Double Taxation Convention (2021) - Article 5 (including services PE)
-- UN Practical Manual on Transfer Pricing for Developing Countries (2021)
-
-**Domestic Legislation:**
-- Norway: Petroleum Tax Act (1975, as amended) - Ring-fencing and special petroleum tax
-- UK: Oil Taxation Act 1975, Corporation Tax Act 2010 (Part 8 - Ring-fence provisions)
-- Australia: Petroleum Resource Rent Tax Assessment Act 1987
-
-**Industry Guidance:**
-- Association of International Petroleum Negotiators (AIPN) - Model Form International Operating Agreement (2012)
-- International Energy Agency - Fiscal Regime Analysis and Treaty Considerations
-
-**Case Law:**
-- *ENI SpA v. Her Majesty's Revenue and Customs* [2023] UKFTT - UK ring-fence and PE profit attribution
-- *Noble Energy Inc v. Commissioner of Taxation* [2020] FCA (Australia) - PRRT and transfer pricing
-- *Petrobras v. Norwegian Tax Authority* [2019] - Operator fee benchmarking and arm's length principle
-
----
-
 **End of Study Note**
-
-*This study note is intended for educational purposes for ADIT candidates preparing for Energy Resources Module 3.04. Tax and PE rules vary significantly by jurisdiction; always consult current legislation, treaties, and professional guidance for specific advice.*
-
----
-
-**Word Count:** Approximately 2,050 words (excluding tables, examples, and reference sections)
-**Worked Examples:** 2 comprehensive examples with detailed calculations
-**Tables:** 8 comparative and analytical tables
-**Knowledge Level:** Detailed (Level 2) - suitable for ADIT examination preparation
-**Last Updated:** November 2025
