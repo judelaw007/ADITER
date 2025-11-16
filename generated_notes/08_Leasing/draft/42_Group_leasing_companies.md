@@ -4,7 +4,7 @@
 
 Multinational oil and gas groups often establish **dedicated leasing subsidiaries** to centralize ownership of high-value mobile equipment (drilling rigs, FPSOs, helicopters, seismic vessels) and lease these assets to operating entities within the group. This structure offers potential benefits including **centralized asset management**, **treaty network access**, **VAT/customs optimization**, and **risk pooling** for financing.
 
-However, the tax treatment of **related-party leases** is subject to intense scrutiny under **transfer pricing rules**, **thin capitalization provisions**, and **anti-avoidance measures**. Post-BEPS, tax authorities focus on whether leasing subsidiaries have **genuine economic substance** or are merely conduits for profit shifting.
+However, the tax treatment of **related-party leases** is subject to intense scrutiny under **transfer pricing rules**, **thin capitalization provisions**, and **anti-avoidance measures**. Post-Base Erosion and Profit Shifting (BEPS), tax authorities focus on whether leasing subsidiaries have **genuine economic substance** or are merely conduits for profit shifting.
 
 ---
 
@@ -20,7 +20,7 @@ However, the tax treatment of **related-party leases** is subject to intense scr
 
 **Capital Raising**: Leasing subsidiary can raise debt secured by asset pool, often at lower cost than individual operating entities.
 
-**Off-Balance Sheet** (Historical): Pre-IFRS 16, operating leases allowed operating entities to keep assets off-balance sheet, improving financial ratios.
+**Off-Balance Sheet** (Historical): Pre-International Financial Reporting Standards (IFRS) 16, operating leases allowed operating entities to keep assets off-balance sheet, improving financial ratios.
 
 ### 1.3 Treaty Network Access
 
@@ -47,7 +47,7 @@ However, the tax treatment of **related-party leases** is subject to intense scr
 **Documentation**: Requires:
 - **Functional analysis**: Who bears risks (residual value, maintenance, obsolescence)?
 - **Comparable analysis**: Third-party lease rates for similar assets
-- **Economic analysis**: Application of CUP, Profit Split, or TNMM
+- **Economic analysis**: Application of Comparable Uncontrolled Price (CUP), Profit Split, or Transactional Net Margin Method (TNMM)
 
 **Common Challenges**:
 - **Excessive lease rates**: Operating entities deduct inflated lease payments, shifting profits to low-tax leasing company jurisdiction
@@ -59,7 +59,7 @@ However, the tax treatment of **related-party leases** is subject to intense scr
 
 **Thin Capitalization Rules**: Limit **interest deductibility** if debt-to-equity ratio exceeds thresholds (e.g., 3:1, 4:1).
 
-**OECD BEPS Action 4**: Interest limitation based on **EBITDA** (typically 30% of tax EBITDA), replacing or supplementing traditional thin cap rules.
+**OECD BEPS Action 4**: Interest limitation based on **Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA)** (typically 30% of tax EBITDA), replacing or supplementing traditional thin cap rules.
 
 **Example**:
 
@@ -89,9 +89,9 @@ Disallowed interest: $30M - $18M = $12M
 - No employees (management outsourced to parent)
 - Minimal operating expenses (< 3-5% of rental income)
 
-### 2.4 Controlled Foreign Corporation (CFC) Rules
+### 2.4 Controlled Foreign Corporation Rules
 
-If leasing subsidiary is in a **low-tax jurisdiction**, parent company may face **CFC inclusion** (immediate taxation of subsidiary's passive income).
+If leasing subsidiary is in a **low-tax jurisdiction**, parent company may face **Controlled Foreign Corporation (CFC) inclusion** (immediate taxation of subsidiary's passive income).
 
 **Passive Income Classification**: Equipment rental may be classified as **passive income** under some CFC regimes (e.g., U.S. Subpart F), triggering immediate parent company taxation.
 
@@ -334,7 +334,7 @@ Interest fully deductible (no limitation)
 
 - Lease rates must be defensible as arm's length
 - Require comparable analysis and documentation
-- Estimated annual TP documentation cost: $150K (included in professional fees above)
+- Estimated annual Transfer Pricing (TP) documentation cost: $150K (included in professional fees above)
 
 **Conclusion**:
 
@@ -361,23 +361,3 @@ The group leasing structure provides:
 
 Consider **partial restructuring**: Only transfer rigs leased to Angola to Netherlands subsidiary (to benefit from reduced Angola tax rate through higher lease deductions), while keeping Norway and UK assets in local entities. This reduces transfer pricing risk and substance costs while capturing tax benefit where it's most significant (Angola's 35% rate).
 
----
-
-## Conclusion
-
-Group leasing companies can provide operational efficiencies and tax optimization for multinational oil and gas companies owning high-value mobile equipment. However, post-BEPS scrutiny requires:
-
-1. **Genuine economic substance**: Adequate personnel, facilities, and decision-making in leasing subsidiary jurisdiction
-2. **Arm's length pricing**: Lease rates must be defensible with robust transfer pricing documentation
-3. **Adequate capitalization**: Maintain acceptable debt-to-equity ratios to avoid thin cap challenges
-4. **Clear business purpose**: Demonstrate commercial rationale beyond tax benefits
-
-For ADIT examination purposes, candidates must demonstrate ability to:
-- Analyze tax costs under alternative structures
-- Quantify benefits vs. risks
-- Assess substance requirements
-- Provide balanced recommendations considering tax efficiency, compliance risk, and operational factors
-
----
-
-**Word Count**: Approximately 2,100 words (exceeds 1,000-word target to ensure comprehensive coverage)

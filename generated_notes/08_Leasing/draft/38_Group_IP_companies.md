@@ -4,7 +4,7 @@
 
 Many multinational oil and gas groups establish **dedicated IP holding companies (IP HoldCos)** to centralize ownership of intellectual property, streamline licensing to operating entities, and optimize the global tax position. Historically, IP HoldCos were established in low-tax jurisdictions with favorable IP regimes, minimal substance requirements, and extensive treaty networks.
 
-However, the **OECD BEPS initiative** and subsequent domestic anti-avoidance measures have fundamentally reshaped IP holding structures. Tax authorities now scrutinize whether IP HoldCos have **genuine economic substance**, perform **DEMPE functions** (Development, Enhancement, Maintenance, Protection, Exploitation), and whether profit allocation aligns with **value creation**.
+However, the **OECD Base Erosion and Profit Shifting (BEPS) initiative** and subsequent domestic anti-avoidance measures have fundamentally reshaped IP holding structures. Tax authorities now scrutinize whether IP HoldCos have **genuine economic substance**, perform **DEMPE functions** (Development, Enhancement, Maintenance, Protection, Exploitation), and whether profit allocation aligns with **value creation**.
 
 For ADIT examination purposes, this chapter examines the **rationale for IP HoldCos**, **favorable jurisdictions and their IP regimes**, **substance requirements**, **BEPS and Pillar Two implications**, and **strategic considerations** for multinational oil and gas groups.
 
@@ -122,7 +122,7 @@ Qualifying Income = Overall IP Income × [(Qualifying Costs × 130%) / Overall C
 **Disadvantages**:
 
 - **High general rate**: 25.8% applies to non-qualifying income
-- **CFC rules**: Netherlands has implemented ATAD CFC provisions
+- **CFC rules**: Netherlands has implemented Anti-Tax Avoidance Directive (ATAD) CFC provisions
 - **Pillar Two impact**: Innovation Box benefits may be diluted if Pillar Two 15% minimum applies
 
 ### 2.2 Ireland
@@ -132,7 +132,7 @@ Qualifying Income = Overall IP Income × [(Qualifying Costs × 130%) / Overall C
 - **Corporate tax rate**: **12.5%** on trading income
 - **Capital Allowances for IP**: Enhanced depreciation on acquired IP
 - **R&D tax credit**: **25% tax credit** on incremental R&D expenditure
-- **Knowledge Development Box (KDB)**: **6.25% effective rate** on qualifying IP profits (50% exemption from 12.5% rate)
+- **Knowledge Development Box (KDB)**: **10% effective rate** on qualifying IP profits (increased from 6.25% in 2024 due to Pillar Two alignment)
 
 #### Knowledge Development Box
 
@@ -157,9 +157,9 @@ Qualifying Income = Overall IP Income × [(Qualifying Costs × 130%) / Overall C
 
 **Disadvantages**:
 
-- **Higher effective rate**: 6.25% (KDB) is higher than some other patent boxes
+- **Higher effective rate**: 10% (KDB) is higher than some other patent boxes (Netherlands 9%, Singapore 5-10%)
 - **Increased scrutiny**: Ireland faces pressure from EU on tax practices
-- **Pillar Two**: May face top-up tax under global minimum tax rules
+- **Pillar Two**: May face top-up tax under global minimum tax rules (though the 10% rate reduces the top-up burden)
 
 ### 2.3 Singapore
 
@@ -765,35 +765,42 @@ Total effective rate: 22.2%
 Gross income = $27.38M
 Operating expenses = $1.5M
 Taxable income = $25.88M
-KDB rate = 6.25%
-Ireland tax = $25.88M × 6.25% = $1.618M
+KDB rate = 10%
+Ireland tax = $25.88M × 10% = $2.588M
 ```
 
 **U.S. GILTI**:
 
 ```
-Similar calculation yields approximately $1.2M net U.S. GILTI tax
+CFC net income = $24.792M ($27.38M - $2.588M Ireland tax)
+QBAI (tangible assets: $2M) = $2M
+GILTI = $24.792M - (10% × $2M) = $24.592M
+Section 250 deduction (50%) = $12.296M
+Taxable GILTI = $12.296M
+U.S. tax at 21% = $2.582M
+Foreign tax credit (80% of Ireland tax): $2.588M × 80% = $2.070M
+Net U.S. GILTI tax = $2.582M - $2.070M = $512K
 ```
 
 **Total Annual Tax (Ireland Structure - Pre-Pillar Two)**:
 
 ```
 Foreign WHT = $2.62M
-Ireland tax = $1.618M
-U.S. GILTI tax = $1.2M
-Total = $5.438M
-Effective rate: 18.1%
+Ireland tax = $2.588M
+U.S. GILTI tax = $512K
+Total = $5.72M
+Effective rate: 19.1%
 ```
 
-**Conclusion**: Ireland structure provides **modest savings** (0.8 percentage points lower effective rate vs. current structure).
+**Conclusion**: Ireland structure provides **no material savings** (0.2 percentage points higher effective rate vs. current structure at 18.9%).
 
 **Pillar Two Impact (Ireland Structure)**:
 
 ```
-Ireland ETR = 6.25%
-Top-up required = 8.75%
-Additional top-up tax = $25.88M × 8.75% = $2.265M
-Total effective rate: 20.6%
+Ireland ETR = 10%
+Top-up required = 5%
+Additional top-up tax = $25.88M × 5% = $1.294M
+Total effective rate: 23.4%
 ```
 
 **Step 5: Substance Costs Comparison**
@@ -811,15 +818,15 @@ Total effective rate: 20.6%
 | **Current (U.S.)** | 18.9% | 18.9% (Pillar Two likely doesn't apply) | $0 | $0 | Baseline |
 | **Netherlands** | 18.9% | 21.8% | $21M | $850K | **Negative** |
 | **Singapore** | 20.9% | 22.2% | $21M | $1,200K | **Negative** |
-| **Ireland** | 18.1% | 20.6% | $21M | $1,500K | **Negative** |
+| **Ireland** | 19.1% | 23.4% | $21M | $1,500K | **Negative** |
 
 ### Recommendation
 
 **Do NOT establish an IP holding company** because:
 
-1. **No tax savings pre-Pillar Two**: Netherlands and Ireland provide at best modest savings (~0.8 pp), insufficient to justify $21M upfront exit tax and $850K-$1.5M annual substance costs
+1. **No tax savings pre-Pillar Two**: Netherlands provides no savings (18.9% same as current), Ireland is slightly worse (19.1%), and Singapore is significantly worse (20.9%), insufficient to justify $21M upfront exit tax and $850K-$1.5M annual substance costs
 
-2. **Pillar Two eliminates benefits**: All IP HoldCo structures result in **higher effective rates** (20.6%-22.2%) compared to current U.S. structure (18.9%) once Pillar Two applies
+2. **Pillar Two eliminates benefits**: All IP HoldCo structures result in **higher effective rates** (21.8%-23.4%) compared to current U.S. structure (18.9%) once Pillar Two applies
 
 3. **Treaty WHT rates**: TitanEnergy already benefits from favorable U.S. treaty rates (especially Norway at 0%)
 
@@ -970,7 +977,7 @@ Exit gain = €100M
 Netherlands corporate tax at 25.8% = €25.8M (immediate cost)
 ```
 
-**Note**: **EU ATAD Article 5** allows payment deferral over 5 years if certain conditions are met.
+**Note**: **EU ATAD (Anti-Tax Avoidance Directive) Article 5** allows payment deferral over 5 years if certain conditions are met.
 
 **Norway - Annual Tax**:
 
@@ -1128,26 +1135,3 @@ In 3-5 years, reassess whether IP should be repatriated to Norway or restructure
 - Evolution of Pillar Two rules (e.g., adjustments to SBIE)
 - Group's broader corporate strategy and operational structure
 
----
-
-## Conclusion
-
-Group IP holding companies have historically played a central role in multinational tax planning for oil and gas companies, offering access to preferential IP regimes, treaty benefits, and centralized management. However, the post-BEPS environment and the advent of **OECD Pillar Two** have fundamentally altered the economics of IP HoldCo structures.
-
-For ADIT examination purposes, key principles include:
-
-1. **Substance requirements**: IP HoldCos must have adequate personnel, premises, and decision-making authority to satisfy BEPS and local economic substance laws
-
-2. **DEMPE analysis**: Legal ownership of IP is insufficient; entities performing Development, Enhancement, Maintenance, Protection, and Exploitation functions must receive appropriate compensation
-
-3. **Pillar Two impact**: Patent boxes offering rates below 15% lose much of their benefit, as top-up tax brings effective rates to approximately 15%
-
-4. **Structuring considerations**: Evaluate whether IP HoldCos remain economically attractive post-Pillar Two, or whether alternative structures (repatriation, cost-sharing arrangements) are preferable
-
-5. **Compliance and documentation**: Maintain robust transfer pricing documentation, obtain advance tax rulings, and prepare for Pillar Two reporting requirements
-
-Examiners test candidates' ability to perform quantitative analysis of IP HoldCo structures, calculate Pillar Two top-up taxes, evaluate restructuring alternatives, and provide strategic recommendations balancing tax efficiency with operational and compliance considerations. Demonstrating comprehensive understanding of current regulatory trends (BEPS, Pillar Two, economic substance) and their practical implications is essential for exam success.
-
----
-
-**Word Count**: Approximately 5,600 words (exceeds 2,000-word target to ensure comprehensive coverage of Group IP companies in energy sector)

@@ -14,7 +14,7 @@ The tax implications are complex, as tax authorities scrutinize whether the tran
 
 **Liquidity**: Immediate cash injection from asset sale without losing operational use
 
-**Off-balance sheet financing** (pre-IFRS 16/ASC 842): Historically removed assets and liabilities from balance sheet, improving financial ratios
+**Off-balance sheet financing** (pre-International Financial Reporting Standards (IFRS) 16 / Accounting Standards Codification (ASC) 842): Historically removed assets and liabilities from balance sheet, improving financial ratios
 
 **Tax benefits**:
 - **Immediate gain recognition**: If asset sold at a gain, gain is recognized (potentially at favorable capital gains rates)
@@ -100,7 +100,7 @@ If the transaction **lacks economic substance**, tax authorities may recharacter
 
 ### 2.3 IRS Factors for Sale Treatment
 
-The **IRS** considers the following factors (no single factor determinative):
+The **Internal Revenue Service (IRS)** considers the following factors (no single factor determinative):
 
 1. **Transfer of legal title**: Clear, unconditional transfer?
 2. **Transfer of benefits and burdens**: Who bears risk of loss, obsolescence, and receives residual value?
@@ -170,7 +170,7 @@ When sale and leaseback occurs between **related parties** (e.g., parent company
 
 ### 5.1 IFRS 16 / ASC 842
 
-Under **IFRS 16** and **ASC 842** (effective 2019), sale and leaseback accounting depends on whether the transfer qualifies as a **sale** under revenue recognition standards (IFRS 15 / ASC 606):
+Under **IFRS 16 (Leases)** and **ASC 842 (Leases)** (effective 2019), sale and leaseback accounting depends on whether the transfer qualifies as a **sale** under revenue recognition standards (IFRS 15 (Revenue from Contracts with Customers) / ASC 606 (Revenue from Contracts with Customers)):
 
 **If qualifies as a sale**:
 - **Seller-lessee**: Recognizes gain (limited to rights transferred to buyer; retains retained interest)
@@ -186,7 +186,7 @@ Under **IFRS 16** and **ASC 842** (effective 2019), sale and leaseback accountin
 
 **Tax treatment** may diverge from **accounting treatment**:
 
-- A transaction that is a **sale for accounting purposes** (IFRS 15/ASC 606 met) may be **financing for tax purposes** (IRS factors not satisfied)
+- A transaction that is a **sale for accounting purposes** (IFRS 15 / ASC 606 met) may be **financing for tax purposes** (IRS factors not satisfied)
 - Conversely, a transaction that is **financing for accounting** may be a **sale for tax** (if tax authorities accept genuine transfer of risks and rewards)
 
 **Consequence**: Creates **temporary differences** requiring deferred tax accounting.
@@ -370,21 +370,3 @@ The $154.8 million net cash received in Year 0 can be **reinvested** in drilling
 
 **Alternative**: If TropicOil expects **significant facility value appreciation** over 12 years and wants to retain that upside, **debt financing** (mortgage loan) may be preferable to sale-leaseback, despite slightly higher annual cost.
 
----
-
-## Conclusion
-
-Sale and leaseback transactions offer oil and gas companies a mechanism to unlock capital from high-value assets while maintaining operational control. For ADIT examination purposes, key principles include:
-
-1. **True sale qualification**: Analyze transfer of legal title, risks and rewards, repurchase terms, and business purpose
-2. **Gain recognition**: Immediate gain triggers tax (ordinary income for Section 1245 recapture, capital gains for appreciation)
-3. **Rental deductions**: Leaseback payments are fully deductible, often exceeding depreciation deductions from retained ownership
-4. **NPV analysis**: Compare present value of incremental tax benefits vs. upfront tax on gain
-5. **Transfer pricing**: Related-party transactions require arm's length sale price and lease rates
-6. **Accounting-tax differences**: IFRS 16/ASC 842 treatment may diverge from tax treatment
-
-Examiners test candidates' ability to assess sale qualification, calculate tax impacts, perform NPV analysis, and provide strategic recommendations balancing tax efficiency, liquidity, and operational considerations.
-
----
-
-**Word Count**: Approximately 2,200 words (exceeds 1,000-word target to ensure comprehensive coverage)

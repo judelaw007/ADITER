@@ -167,9 +167,9 @@ A U.S. drilling contractor establishes a **Netherlands subsidiary** to own drill
 
 **Result**: Netherlands subsidiary is **not the beneficial owner**. Treaty benefits may be **denied**, and source countries may impose full domestic WHT.
 
-### 5.2 Limitation on Benefits (LOB)
+### 5.2 Limitation on Benefits
 
-Many U.S. treaties include **LOB provisions** requiring that the treaty claimant:
+Many U.S. treaties include **Limitation on Benefits (LOB) provisions** requiring that the treaty claimant:
 
 - Is a **qualified person** (meets ownership and base erosion tests), OR
 - Engages in **active trade or business** related to the income
@@ -254,7 +254,7 @@ Less: Depreciation (5 drillships, $500M each, 7-year MACRS) = Assume $180M
 Taxable income = $120M
 
 U.S. tax at 21% = $25.2M
-Foreign tax credit (WHT paid) = $25.5M (exceeds U.S. tax, so fully creditable)
+Foreign Tax Credit (FTC) - WHT paid = $25.5M (exceeds U.S. tax, so fully creditable)
 Net U.S. tax = $0
 
 Total Group Tax = $25.5M (all foreign WHT)
@@ -295,11 +295,11 @@ After-tax income = $98.25M - $25.35M = $72.9M
 Netherlands WHT on dividends to U.S. = 0% (treaty exemption for 10%+ ownership)
 ```
 
-**U.S. Tax (GILTI Inclusion)**:
+**U.S. Tax (Global Intangible Low-Taxed Income (GILTI) Inclusion)**:
 
 ```
-CFC net income = $72.9M
-Less: 10% × QBAI (tangible assets: assume $2.5B drillships) = $250M
+Controlled Foreign Corporation (CFC) net income = $72.9M
+Less: 10% × Qualified Business Asset Investment (QBAI) (tangible assets: assume $2.5B drillships) = $250M
 GILTI = MAX(0, $72.9M - $250M) = $0 (negative, no GILTI inclusion)
 ```
 
@@ -329,7 +329,7 @@ Effective Rate = 12.4% on gross income
 
 - **WHT savings**: Only $3.75M (Indonesia rate reduction from 10% to 5%)
 - **Netherlands corporate tax**: Additional $25.35M (25.8% on net income)
-- **U.S. FTC**: Under current structure, U.S. tax is fully offset by FTC; Netherlands structure adds Netherlands tax that is not fully creditable
+- **U.S. Foreign Tax Credit (FTC)**: Under current structure, U.S. tax is fully offset by FTC; Netherlands structure adds Netherlands tax that is not fully creditable
 
 **Step 4: Substance Requirements**
 
@@ -349,7 +349,7 @@ For Netherlands B.V. to claim treaty benefits, it must:
 1. **Increased tax cost**: $21.6M per year additional tax
 2. **Limited WHT savings**: Only $3.75M savings on Indonesia leases
 3. **Substance costs**: Additional $1-2M per year for compliance
-4. **Complexity**: Increased transfer pricing documentation, CbCR reporting, administrative burden
+4. **Complexity**: Increased transfer pricing documentation, Country-by-Country Reporting (CbCR), administrative burden
 
 **Alternative Approach**:
 
@@ -372,20 +372,3 @@ But substance requirements simpler for single-asset structure
 
 **Conclusion**: Even selective restructuring is not attractive given the modest WHT savings and additional corporate tax/compliance costs. **Maintain U.S. ownership** of all drillships.
 
----
-
-## Conclusion
-
-The treatment of lease payments under tax treaties is highly dependent on whether the specific treaty follows the **OECD Model** (equipment excluded from Article 12, no WHT) or **UN Model** (equipment included, WHT applies). For multinational oil and gas companies, key considerations include:
-
-1. **Treaty-specific analysis**: Each bilateral treaty must be examined individually
-2. **Beneficial ownership**: Ensure the treaty claimant has genuine substance and is not a mere conduit
-3. **PE implications**: If equipment excluded from Article 12, assess whether lessor has a PE that would allow source taxation under Article 7
-4. **Economic substance**: Interposing leasing entities in treaty-favorable jurisdictions requires adequate personnel, decision-making, and operating expenses to withstand scrutiny
-5. **Quantitative analysis**: Model total tax costs (including WHT, corporate tax, and compliance costs) to determine whether restructuring is economically justified
-
-For ADIT examination purposes, demonstrating the ability to identify treaty classification, calculate withholding taxes, and evaluate restructuring options with comprehensive cost-benefit analysis is essential.
-
----
-
-**Word Count**: Approximately 2,100 words (exceeds 1,000-word target to ensure comprehensive coverage)

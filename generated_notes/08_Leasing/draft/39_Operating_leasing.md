@@ -24,7 +24,7 @@ An **operating lease** is a rental arrangement where:
 - **No transfer of ownership** at lease end (lessee returns asset)
 - **Residual value risk** remains with lessor
 
-**Accounting Treatment (IFRS 16 / ASC 842)**:
+**Accounting Treatment (International Financial Reporting Standards (IFRS) 16 / Accounting Standards Codification (ASC) 842)**:
 
 - **Lessee**: Recognizes **right-of-use asset** and **lease liability** on balance sheet (under current standards, both operating and finance leases are on-balance-sheet)
 - **Lessor**: Asset remains on lessor's balance sheet; rental income recognized over lease term
@@ -73,7 +73,7 @@ Deductible rental expense = Annual lease payment
 - Payments must be **reasonable** (not inflated to shift profits)
 - Lease must be a **true lease** (not a disguised purchase)
 
-**United Kingdom (CTA 2009)**:
+**United Kingdom (Corporation Tax Act (CTA) 2009)**:
 
 - Operating lease payments are deductible as **revenue expenditure**
 - **Transfer pricing** applies to related-party leases (must be arm's length)
@@ -276,19 +276,19 @@ When operating leases are between **related parties** (e.g., parent company leas
 
 | Rig Type | Region | Spot Day Rate | Long-Term Contract Rate |
 |----------|--------|---------------|-------------------------|
-| **Jack-up (harsh environment)** | North Sea | $150,000 - $200,000 | $120,000 - $160,000 |
-| **Semi-submersible (deepwater)** | Gulf of Mexico | $250,000 - $350,000 | $200,000 - $280,000 |
-| **Drillship (ultra-deepwater)** | West Africa | $350,000 - $500,000 | $280,000 - $400,000 |
+| **Jack-up (harsh environment)** | North Sea | $130,000 - $180,000 | $110,000 - $150,000 |
+| **Semi-submersible (6th gen, harsh environment)** | North Sea / Norway | $390,000 - $510,000 | $320,000 - $430,000 |
+| **Drillship (6th/7th gen, ultra-deepwater)** | West Africa / Brazil | $380,000 - $520,000 | $320,000 - $450,000 |
 
 **Transfer Pricing Analysis**:
 
-If a U.S. parent leases a drillship to its Brazilian subsidiary for **$450,000 per day** (long-term contract), is this arm's length?
+If a U.S. parent leases a drillship to its Brazilian subsidiary for **$480,000 per day** (long-term contract), is this arm's length?
 
-**Comparables**: Third-party drillship leases in Brazil market range from **$280,000 - $400,000** per day for long-term contracts.
+**Comparables**: Third-party drillship leases in Brazil market range from **$320,000 - $450,000** per day for long-term contracts (2024 benchmarks).
 
-**Conclusion**: The **$450,000 rate** exceeds the arm's length range and may be challenged by Brazilian tax authorities.
+**Conclusion**: The **$480,000 rate** exceeds the arm's length range and may be challenged by Brazilian tax authorities.
 
-**Adjustment**: Brazil may disallow the excess ($450,000 - $400,000 = $50,000 per day), resulting in **additional taxable income** for the Brazilian subsidiary.
+**Adjustment**: Brazil may disallow the excess ($480,000 - $450,000 = $30,000 per day), resulting in **additional taxable income** for the Brazilian subsidiary.
 
 ### 5.3 Profit Split Method
 
@@ -771,28 +771,3 @@ Total additional group tax from TP adjustment = $6,800,000 + penalties/interest 
 
 **Conclusion**: The **$90 million rate is defensible** with proper documentation and adjustments. However, to mitigate audit risk and potential penalties, consider **proactively reducing** the rate to $85 million and seeking an APA for future years.
 
----
-
-## Conclusion
-
-Operating leases are a critical financing mechanism in the capital-intensive oil and gas sector, enabling companies to access high-value equipment (drilling rigs, FPSOs, seismic vessels) without incurring ownership risks. The tax treatment of lease payments—including **deductibility**, **withholding tax obligations**, and **treaty classification**—significantly impacts cash flow and effective tax rates.
-
-Key principles for ADIT examination purposes:
-
-1. **Classification**: Distinguish operating leases from finance leases based on risks and rewards of ownership
-
-2. **Domestic tax treatment**: Lease payments are generally fully deductible for lessees; lessors recognize rental income offset by depreciation
-
-3. **Treaty classification**: Understand OECD Model (Article 7, no WHT) vs. UN Model (Article 12, WHT applies) treatment of equipment rental
-
-4. **Transfer pricing**: Related-party leases must reflect arm's length rates using CUP method with appropriate adjustments for asset specifications, market conditions, and geographic factors
-
-5. **PE considerations**: Bareboat charters generally do not create a PE; operated equipment with lessor personnel may create a service PE
-
-6. **Documentation**: Maintain robust transfer pricing documentation including functional analysis, comparability analysis, and economic analysis to defend lease rates
-
-Examiners frequently test candidates' ability to classify lease payments under tax treaties, calculate withholding tax obligations, apply transfer pricing principles, and provide strategic recommendations balancing tax efficiency with compliance risk. Demonstrating comprehensive understanding of treaty mechanics and quantitative analysis skills is essential for exam success.
-
----
-
-**Word Count**: Approximately 5,200 words (exceeds 2,000-word target to ensure comprehensive coverage of operating leasing in oil & gas sector)
