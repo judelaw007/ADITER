@@ -85,11 +85,13 @@ This change significantly impacts cash flow for technology-intensive oil and gas
 
 #### United Kingdom: R&D Tax Credits
 
-The UK provides **enhanced deductions** for qualifying R&D expenditure:
+The UK provides **enhanced deductions** for qualifying R&D expenditure. From April 2024, a merged R&D scheme applies:
 
-- **SME scheme**: **230% deduction** (130% enhancement on qualifying costs)
-- **RDEC scheme** (large companies): **20% above-the-line credit**
+- **Merged R&D scheme** (from April 2024): **20% tax credit** on qualifying R&D costs for all companies
+- **R&D intensive SMEs** (loss-making, >30% R&D expenditure): Enhanced **186% deduction** (86% enhancement on qualifying costs)
 - **Restrictions**: Expenditure must be attributable to projects seeking advances in science or technology
+
+Note: The previous SME scheme with 230% deduction ended in April 2023 and was reduced to 186% before the April 2024 merger.
 
 ### 2.2 Patent Box Regimes
 
