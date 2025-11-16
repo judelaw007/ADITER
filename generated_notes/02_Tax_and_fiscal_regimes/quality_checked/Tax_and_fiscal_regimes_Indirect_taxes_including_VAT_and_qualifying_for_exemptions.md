@@ -35,7 +35,7 @@ Value Added Tax (VAT) is a consumption tax levied at each stage of the supply ch
 - **Value Added Tax Act 1994** (VATA 1994)
 - **VAT Regulations 1995** (SI 1995/2518)
 - **HMRC VAT Notices** (particularly Notice 700, 741A - Place of supply, 742 - Land and property)
-- **Finance Acts** (annual amendments - 2023, 2024, 2025)
+- **Finance Act 2023**, **Finance Act 2024**, **Finance Act 2025** (annual amendments)
 
 **Other Jurisdictions:**
 - **Norway**: VAT Act 2009 (25% standard rate, 0% petroleum exploration services)
