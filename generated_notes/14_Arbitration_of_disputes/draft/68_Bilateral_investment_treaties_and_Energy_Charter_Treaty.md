@@ -2,18 +2,13 @@
 
 ## ADIT Module 3.04 - Energy Resources Option
 
-**Knowledge Level:** Working Knowledge (Level 2)
-**Word Count:** ~2000 words
-**Examination Level:** 2
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework: Investment Treaties and Energy Sector Protection
 
 ### 1.1 Introduction to Investment Treaties
 
-**Investment treaties** are international agreements between states providing legal protections for foreign investors and establishing mechanisms for **investor-state dispute settlement (ISDS)**. For the energy sector, these treaties provide critical protection against **political risk**, **regulatory changes**, and **expropriation** [UNCTAD, 2024].
+**Investment treaties** are international agreements between states providing legal protections for foreign investors and establishing mechanisms for **investor-state dispute settlement (ISDS)**—the right of private investors to initiate arbitration directly against host states. For the energy sector, these treaties provide critical protection against **political risk**, **regulatory changes**, and **expropriation**.
 
 **Two Primary Categories:**
 
@@ -21,19 +16,20 @@
 2. **Multilateral Investment Treaties**: Treaties among **multiple states** (e.g., Energy Charter Treaty with 50+ original signatories)
 
 **Global Landscape (2024):**
-- **2,835 BITs** negotiated globally
-- **2,222 BITs** in force
-- **388 investment chapters** in Free Trade Agreements in force [UNCTAD, 2024]
+- **2,831 BITs** negotiated globally
+- **2,220 BITs** in force
+- **460 treaties with investment provisions (TIPs)** (investment chapters in Free Trade Agreements)
+- **Total IIA universe**: 3,291 agreements
 
 ### 1.2 Why Investment Treaties Matter for Energy Companies
 
 **Key Protection Functions:**
 
 1. **Expropriation Protection**: Compensation required for direct or indirect expropriation
-2. **Fair and Equitable Treatment (FET)**: Protection against arbitrary, discriminatory treatment
+2. **Fair and Equitable Treatment (FET)**: Protection against arbitrary, discriminatory treatment and breach of legitimate expectations
 3. **Full Protection and Security**: Physical and legal security guarantees
 4. **Free Transfer of Funds**: Repatriation of profits, dividends, capital
-5. **National Treatment & MFN**: No discrimination vs. domestic or third-country investors
+5. **National Treatment & Most-Favoured-Nation (MFN)**: No discrimination vs. domestic or third-country investors
 6. **Investor-State Arbitration**: Direct right to sue host state in international arbitration (bypassing domestic courts)
 
 **Statistical Significance:**
@@ -72,10 +68,11 @@ In 2024, **52% of ICSID cases** were based on **BITs**, and **14%** on the **Ene
 - **MFN**: No less favorable treatment than investors from third countries
 - **MFN Clause Controversy**: Can investors "import" better protections from other BITs? (tribunal-dependent)
 
-**Article VI - Umbrella Clause** (in ~40% of BITs)
+**Article VI - Umbrella Clause** (in approximately 40% of BITs)
 - **Effect**: Elevates **contractual obligations** to **treaty-level obligations**
 - **Example**: "Each Party shall observe any obligation it has entered into with regard to investments"
 - **Impact**: PSC breach becomes BIT breach (additional claim basis)
+- **Policy rationale**: Addresses problem that states can breach contracts with impunity in their own courts; umbrella clause gives contract breaches international law consequences, strengthening investor protection
 
 **Article VII - Investor-State Dispute Settlement (ISDS)**
 - **Arbitration Options**: ICSID, UNCITRAL, SCC, ICC (investor chooses)
@@ -148,7 +145,7 @@ In 2024, **52% of ICSID cases** were based on **BITs**, and **14%** on the **Ene
 
 - **Award** (2012):
   - **Expropriation established**: Termination **disproportionate** to breach (less drastic measures available)
-  - **Compensation**: **$1.77 billion** plus interest at LIBOR + 2%
+  - **Compensation**: **$1.77 billion** plus interest at **LIBOR + 2%** (London Interbank Offered Rate, a benchmark interest rate)
   - **Reasoning**: Farm-out was **minor technical breach**; termination destroyed entire investment value
 
 - **Significance**:
@@ -279,8 +276,9 @@ In 2024, **52% of ICSID cases** were based on **BITs**, and **14%** on the **Ene
 ### 3.3 ECT Arbitration Statistics and Trends
 
 **Historical Caseload (1998-2024):**
-- **150+ ECT arbitrations** filed
-- **22% of ICSID cases** in 2022 based on ECT [ICSID, 2022]
+- **150+ ECT arbitrations** filed since ECT entry into force
+- **14% of ICSID cases** in 2024 based on ECT (second-largest treaty basis after BITs at 52%)
+- **10% of all ICSID cases historically** (1972-2024) based on ECT
 - **$80+ billion** in total claims value
 - **$30+ billion** in awarded compensation
 
@@ -297,32 +295,33 @@ In 2024, **52% of ICSID cases** were based on **BITs**, and **14%** on the **Ene
 4. **Russia** (8+ cases, including Yukos)
 5. **Czech Republic, Bulgaria, Romania** (renewable energy disputes)
 
-### 3.4 ECT Withdrawal and Modernization (2024-2025)
+### 3.4 ECT Withdrawal Process (2022-2025)
 
 **EU Withdrawal Process:**
 
-- **November 2022**: EU initiates coordinated withdrawal
+- **November 2022**: EU initiates coordinated withdrawal discussions
 - **July 2023**: European Parliament approves withdrawal
-- **February 2024**: EU formally notifies withdrawal
-- **Effective Date**: **June 2024** (1-year notice period per Article 47)
+- **May 30, 2024**: Council of the European Union gives final approval
+- **June 27, 2024**: EU formally notifies withdrawal to treaty depositary
+- **Effective Date**: **June 28, 2025** (1-year notice period per ECT Article 47)
 
 **Member States Withdrawing:**
-- **France, Germany, Netherlands, Spain, Italy, Poland, Denmark** (2023-2024 notifications)
-- **Total**: 10 EU member states withdrawn by end 2024
+- **France, Germany, Netherlands, Spain, Italy, Poland, Denmark, United Kingdom** (individual notifications 2023-2024)
+- EU-wide coordinated withdrawal notification: June 27, 2024
 
 **Reasons for Withdrawal:**
-1. **Climate incompatibility**: ECT protects fossil fuel investments, conflicting with **EU Green Deal** and **Paris Agreement** targets
-2. **Intra-EU arbitration**: ECT allows EU investors to sue other EU states (conflict with **Achmea** ruling - CJEU C-284/16, holding intra-EU BIT arbitration incompatible with EU law)
-3. **Stranded asset liability**: Risk of **trillion-dollar claims** from fossil fuel phase-outs
+1. **Climate incompatibility**: ECT protects fossil fuel investments, conflicting with **EU Green Deal** and **Paris Agreement 2015** targets for net-zero emissions by 2050
+2. **Intra-EU arbitration**: ECT allows EU investors to sue other EU states (conflict with **Achmea** ruling—CJEU Case C-284/16 (2018)—holding intra-EU BIT arbitration incompatible with EU law)
+3. **Stranded asset liability**: Risk of substantial compensation claims from fossil fuel phase-outs and climate transition policies
 
-**Sunset Clause (Article 47(3)):**
+**Sunset Clause (ECT Article 47(3)):**
 
 "The provisions of this Treaty shall continue to apply to Investments made in the Area of a Contracting Party by Investors of other Contracting Parties...for a period of **20 years**"
 
-**Effect:**
-- **EU investors** can still sue non-EU ECT states until **2044**
-- **Non-EU investors** can sue EU states until **2044**
-- **Intra-EU** claims (EU investor v. EU state) remain contentious (EU argues invalid under Achmea)
+**Effect (based on June 28, 2025 effective withdrawal date):**
+- **EU investors** can still sue non-EU ECT states for investments made before June 28, 2025 until **June 28, 2045** (20 years)
+- **Non-EU investors** can sue EU states for investments made before June 28, 2025 until **June 28, 2045**
+- **Intra-EU** claims (EU investor v. EU state) remain contentious—EU argues they are invalid under Achmea ruling (CJEU C-284/16)
 
 **ECT Modernization (December 2024):**
 
@@ -612,16 +611,16 @@ SolarInvest GmbH (Germany) developed **500 MW solar photovoltaic (PV) parks** in
 **Original Regulatory Framework (2007):**
 
 Country S enacted **"Renewable Energy Promotion Act"** guaranteeing:
-- **Feed-in Tariff (FiT)**: **€0.42/kWh** for solar electricity (guaranteed for **25 years**)
+- **Feed-in Tariff (FiT)**: **€0.42/kWh** for solar electricity (guaranteed for **25 years**). A feed-in tariff is a guaranteed price paid by utilities for renewable electricity fed into the grid, designed to incentivize renewable energy investment by providing predictable long-term revenue.
 - **Grid priority**: Renewable energy has priority dispatch over fossil fuels
 - **Duration**: FiT guaranteed from project commissioning (2008-2033)
 
 **Investment Decision:**
 
 SolarInvest's financial model (2008):
-- **Capex**: €800M
-- **Expected IRR**: 12.5% (based on €0.42/kWh FiT)
-- **NPV**: €450M (discounted at 8% WACC)
+- **Capital expenditure (Capex)**: €800M
+- **Expected Internal Rate of Return (IRR)**: 12.5% (based on €0.42/kWh FiT)
+- **Net Present Value (NPV)**: €450M (discounted at 8% WACC)
 
 **Regulatory Changes (2013-2015):**
 
@@ -775,8 +774,8 @@ Measures taken for **legitimate public purpose**:
 
 ```
 Annual revenue: 500 MW × 4,000 hrs × €0.42/kWh = €84M
-Annual opex: €12M (O&M costs)
-Annual EBITDA: €72M
+Annual operating expenses (opex): €12M (operations and maintenance costs)
+Annual EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization): €72M
 
 Remaining project life (2016-2033): 17 years
 Discount rate (WACC): 8%
@@ -933,38 +932,3 @@ Costs allocation: Country S pays 70% (losing party); SolarInvest 30%
 Similar awards have been issued in **40+ ECT cases** against Spain, Italy, Czech Republic for renewable energy incentive cuts, totaling **€5+ billion in awards**. This established **jurisprudence constante**: **Retroactive FiT cuts violate ECT** when specific commitments made.
 
 ═══════════════════════════════════════════
-
----
-
-## Key Takeaways
-
-1. **Bilateral Investment Treaties (BITs)** and the **Energy Charter Treaty (ECT)** provide critical protections for energy investments against expropriation, discriminatory treatment, and regulatory instability
-
-2. **BITs** are the **primary jurisdictional basis** for investor-state arbitration, accounting for **52% of ICSID cases** in 2024
-
-3. **ECT** provides **multilateral protection** for energy sector across 50+ signatories, though **EU withdrawal** (2024) reduces its scope
-
-4. **Key protections**: Fair and Equitable Treatment (FET), expropriation protection, free transfer of funds, umbrella clauses, and **direct investor-state arbitration access**
-
-5. **FET standard** protects **legitimate expectations** - specific government commitments (e.g., PSC stabilization clauses, FiT guarantees) create protected expectations
-
-6. **Indirect expropriation** requires **substantial deprivation** (>70% typically), **permanence**, and breach of **legitimate expectations**, with **proportionality** analysis balancing regulation and investor rights
-
-7. **Compensation standard**: **Full fair market value** calculated via **DCF method** (but-for scenario)
-
-8. **Umbrella clauses** in BITs/ECT elevate **contractual breaches** (PSC violations) to **treaty breaches**, providing dual claim basis
-
-9. **Sunset clauses** in ECT (20 years post-withdrawal) mean EU investors can still sue ECT states until **2044** despite 2024 withdrawal
-
-10. **Recent trends**: **Renewable energy disputes** dominate ECT caseload (40+ cases against Spain/Italy); **climate regulation defenses** increasingly raised but rarely succeed
-
----
-
-**References:**
-- UNCTAD, *Investment Policy Hub - IIA Navigator*, 2024
-- ICSID, *Caseload Statistics FY 2024-2025*, World Bank, 2025
-- Energy Charter Treaty (1994), as amended 2024
-- OECD, *International Investment Agreements: A Survey of Environmental, Labour and Anti-Corruption Issues*, 2008
-- ICSID Case Law: *Occidental v. Ecuador* (ARB/06/11), *Yukos v. Russia* (PCA AA 227), *ConocoPhillips v. Venezuela* (ARB/07/30), *Eiser v. Spain* (ARB/13/36), *Philip Morris v. Uruguay* (ARB/10/7)
-- Vienna Convention on the Law of Treaties, 1969
-- ILC, *Articles on Responsibility of States for Internationally Wrongful Acts*, 2001

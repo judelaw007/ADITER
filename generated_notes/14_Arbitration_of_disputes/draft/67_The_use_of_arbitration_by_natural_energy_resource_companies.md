@@ -2,34 +2,29 @@
 
 ## ADIT Module 3.04 - Energy Resources Option
 
-**Knowledge Level:** Working Knowledge (Level 2)
-**Word Count:** ~2000 words
-**Examination Level:** 2
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework: Arbitration in the Energy Sector
 
 ### 1.1 Introduction to Energy Arbitration
 
-**Arbitration** is the primary dispute resolution mechanism used in international oil, gas, and mining transactions. The energy industry is the **single largest user of international arbitration globally**, with **25% of LCIA cases** and **22% of ICSID cases** in 2022 involving the energy and resources sector [LCIA, 2022; ICSID, 2024].
+**Arbitration** is the primary dispute resolution mechanism used in international oil, gas, and mining transactions. The energy industry is one of the **largest users of international arbitration globally**, with energy and resources disputes representing a substantial portion of institutional caseloads (11% of LCIA cases in 2021-2022, and oil/gas/mining accounting for 38% of ICSID cases in calendar year 2024).
 
-**Definition:** **Arbitration** is a private dispute resolution process where parties agree to submit their disputes to one or more independent arbitrators who render a binding decision (an "award") enforceable in courts worldwide under the **New York Convention 1958** [UN, 1958].
+**Definition:** **Arbitration** is a private dispute resolution process where parties agree to submit their disputes to one or more independent arbitrators who render a binding decision (an "award") enforceable in courts worldwide under the **Convention on the Recognition and Enforcement of Foreign Arbitral Awards 1958** (New York Convention). The New York Convention has 172 contracting states (as of 2024), providing near-universal enforceability of arbitral awards—a significant advantage over court judgments, which face substantial enforcement limitations across borders.
 
 ### 1.2 Why Energy Companies Prefer Arbitration
 
 The preference for arbitration over litigation in national courts stems from unique characteristics of energy investments:
 
 **1. Political and Sovereign Risk**
-- Energy projects often involve **state parties** or **state-owned enterprises** (NOCs)
+- Energy projects often involve **state parties** or **state-owned enterprises** (**National Oil Companies** or NOCs)
 - **Neutrality concern**: Domestic courts may be biased toward the host state
 - **Arbitration provides neutral forum** outside the host country's jurisdiction
 
 **2. Technical Complexity**
 - Energy disputes involve **specialized technical issues** (reservoir engineering, geology, pricing mechanisms)
 - Parties can **appoint arbitrators with energy expertise**
-- Courts may lack understanding of PSC mechanics, cost recovery, or R-Factor calculations
+- Courts may lack understanding of **Production Sharing Contract (PSC)** mechanics, cost recovery calculations, or R-Factor (ratio of cumulative revenues to cumulative costs) determinations
 
 **3. Confidentiality**
 - Arbitration proceedings are **private** (unlike public court hearings)
@@ -38,31 +33,34 @@ The preference for arbitration over litigation in national courts stems from uni
 
 **4. Enforceability**
 - **New York Convention (1958)**: Arbitral awards enforceable in **172 countries**
-- Significantly broader than court judgment enforcement
-- Critical for cross-border asset recovery
+- Significantly broader than court judgment enforcement (which requires bilateral treaties or reciprocity arrangements with limited geographic coverage)
+- Critical for cross-border asset recovery: Energy companies can enforce awards against state-owned assets globally (e.g., NOC bank accounts, oil shipments, offshore assets)
+- **Policy rationale**: Facilitates international commerce by creating predictable enforcement mechanism, encouraging cross-border investment in capital-intensive energy projects
 
 **5. Party Autonomy**
 - Parties choose: **arbitrators**, **seat of arbitration**, **governing law**, **procedural rules**
 - Flexibility to tailor process to dispute complexity
 
-### 1.3 Prevalence in Energy Sector (2024-2025 Statistics)
+### 1.3 Prevalence in Energy Sector (2024 Statistics)
 
-**ICSID (World Bank) Statistics - FY 2025:**
-- **347 total cases administered** (highest in ICSID history)
-- **43% of new cases** involved **oil, gas, and mining sectors**
-- **19 mining cases**, with majority being hydrocarbon-related
-- **Energy Charter Treaty (ECT)** cases: **14% of total caseload** (despite EU withdrawals) [ICSID, 2025]
+**ICSID (World Bank) Statistics - Calendar Year 2024:**
+- **55 new cases registered** in 2024 (similar to 57 in 2023)
+- **38% of new cases** involved **oil, gas, and mining sectors** (up from 23% in 2023)
+- **24% of new cases** in **electric power and other energy sources** (up from 12% in 2023)
+- Combined energy-related sectors accounted for **62% of all new ICSID cases** in 2024, demonstrating the dominance of energy disputes in investment arbitration
 
 **ICC (International Chamber of Commerce) - 2024:**
 - **841 new cases registered**
-- **44% of cases** in **construction, engineering, and energy sectors**
+- **Energy disputes comprised 170 cases (20.5%)**, making it the second-largest sector
+- **Construction/engineering and energy combined: 44%** of all new cases
 - **Total caseload value: $354 billion** (record-breaking)
-- **$102 billion** in new dispute values registered in 2024 [ICC, 2024]
+- **$102 billion** in new dispute values registered in 2024
 
 **Geographic Concentration:**
-- **Latin America**: 38% of new ICSID cases (highest regional concentration)
-- **Eastern Europe and Central Asia**: 24% of cases
-- Reflects concentration of energy resources and investment flows [ICSID, 2024]
+- **Latin America**: Highest regional concentration of energy-related ICSID cases
+- **Eastern Europe and Central Asia**: Significant share of cases
+- **Africa and Middle East**: Increasing representation in infrastructure and extractive industry disputes
+- Reflects concentration of energy resources and investment flows
 
 ---
 
@@ -70,7 +68,7 @@ The preference for arbitration over litigation in national courts stems from uni
 
 ### 2.1 Commercial Arbitration
 
-**Definition:** **Commercial arbitration** resolves disputes between **private parties** arising from **commercial contracts** (PSCs, joint operating agreements, sale and purchase agreements, drilling contracts).
+**Definition:** **Commercial arbitration** resolves disputes between **private parties** arising from **commercial contracts** (Production Sharing Contracts, **Joint Operating Agreements (JOAs)**, sale and purchase agreements, drilling contracts).
 
 **Governing Rules:**
 - **ICC Arbitration Rules** (Paris)
@@ -115,7 +113,9 @@ Algeria's NOC (Sonatrach) disputed gas pricing terms with Norway's Statoil under
 
 ### 2.2 Investment Arbitration (Investor-State Dispute Settlement - ISDS)
 
-**Definition:** **Investment arbitration** resolves disputes between **foreign investors** and **host states** based on **international investment agreements** (BITs, multilateral treaties like ECT).
+**Definition:** **Investment arbitration** resolves disputes between **foreign investors** and **host states** based on **international investment agreements** (**Bilateral Investment Treaties (BITs)**, multilateral treaties like the **Energy Charter Treaty (ECT)**).
+
+**Policy Rationale:** Investment arbitration addresses the fundamental power imbalance between sovereign states and private investors. Host states control their legal systems, can change laws retroactively, and enjoy sovereign immunity in their own courts. Investment treaties provide investors with neutral dispute resolution forum and substantive protections (expropriation compensation, fair treatment), thereby reducing political risk and encouraging foreign direct investment in resource-rich but legally uncertain jurisdictions.
 
 **Governing Instruments:**
 - **ICSID Convention** (Washington Convention 1965)
@@ -135,7 +135,7 @@ Algeria's NOC (Sonatrach) disputed gas pricing terms with Norway's Statoil under
    - **Direct expropriation**: Nationalization, contract termination without compensation
    - **Indirect expropriation**: Regulatory measures substantially depriving investment value (e.g., windfall taxes, production bans)
 
-2. **Fair and Equitable Treatment (FET)** (Article II):
+2. **Fair and Equitable Treatment (FET)** (Article II of most BITs):
    - Breach of legitimate expectations (PSC stabilization clause violations)
    - Arbitrary or discriminatory treatment
    - Denial of justice
@@ -181,12 +181,12 @@ Some disputes involve **both commercial and investment dimensions**:
 
 ### 3.1 ICSID (International Centre for Settlement of Investment Disputes)
 
-**Establishment:** World Bank, Washington Convention 1965
-**Caseload:** 347 cases (FY 2025), 43% oil/gas/mining [ICSID, 2025]
+**Establishment:** World Bank, **Convention on the Settlement of Investment Disputes between States and Nationals of Other States 1965** (Washington Convention)
+**Membership:** 158 contracting states and 7 signatory states as of 2024
 
 **Key Features:**
 - **Specialized in investor-state disputes**
-- **Self-contained enforcement**: Awards directly enforceable without New York Convention (but limited to ICSID Convention states - 156 members)
+- **Self-contained enforcement**: Awards directly enforceable without New York Convention requirement (limited to ICSID Convention contracting states)
 - **Limited grounds for annulment** (institutional integrity, not merits review)
 - **Transparency**: Growing publication of awards and procedural orders
 
@@ -239,14 +239,14 @@ UK-based Clara Petroleum filed **UNCITRAL arbitration** against Romania under th
 ### 3.4 LCIA (London Court of International Arbitration)
 
 **Headquarters:** London
-**Caseload:** 25% energy and resources cases (2021) [LCIA, 2022]
+**Energy Sector Prominence:** Energy and resources cases represent approximately 11-14% of LCIA's caseload (2021-2023), with significant representation from African and European jurisdictions
 
 **Key Features:**
-- **London seat default** (strong arbitration law, *Arbitration Act 1996*)
-- **Fast-track arbitration**: 6-month procedure for <£100k claims
-- **Strong interim measures**: English courts support arbitrations (freezing orders, anti-suit injunctions)
+- **London seat default** (strong arbitration law under **Arbitration Act 1996**)
+- **Fast-track arbitration**: 6-month procedure for claims under £100,000
+- **Strong interim measures**: English courts actively support arbitrations through freezing orders, anti-suit injunctions, and evidence preservation orders
 
-**Preference in African/European PSCs:** Many African PSCs designate **LCIA arbitration** due to historical ties and English law familiarity.
+**Preference in African/European PSCs:** Many African PSCs designate **LCIA arbitration** due to historical ties to English law, established jurisprudence, and perceived neutrality.
 
 ---
 
@@ -357,7 +357,7 @@ The **ICC arbitration clause** provides jurisdiction. **English law** (governing
 - Premium justified by **value-added services**
 
 **Tribunal Analysis:**
-- Apply **Comparable Uncontrolled Price (CUP)** method
+- Apply **Comparable Uncontrolled Price (CUP)** method (OECD transfer pricing method comparing affiliate transaction price to third-party market prices)
 - Adjust for **functionality and risk differences**
 - **Technology premium** may justify **10-15% markup** (supported by precedent: *Shell v. Indonesia*, ICC 2016)
 - **43% premium excessive**
@@ -533,8 +533,8 @@ OilCorp Ltd (UK) holds a **concession license** in Country Z's offshore area (aw
 **Investment Value:**
 - OilCorp invested **$2 billion** in exploration, development (2018-2022)
 - Production commenced 2023
-- **Expected NPV (at licensing)**: $3.5 billion over 30 years
-- **Expected NPV (at 2024)**: $2.8 billion remaining (based on original 2036 expiry)
+- **Expected Net Present Value (NPV) at licensing**: $3.5 billion over 30 years
+- **Expected NPV at 2024**: $2.8 billion remaining (based on original 2036 expiry)
 
 **Impact of Climate Transition Act:**
 - **Carbon tax** reduces annual profits by **60%**
@@ -664,12 +664,12 @@ Country Z may argue **partial right to regulate discount** (some tribunals reduc
 **B. Discount Rate and Valuation Date:**
 
 - **Valuation date**: Date of expropriation (2024 when Climate Act enacted)
-- **Discount rate**: Typically **8-12% WACC** (Weighted Average Cost of Capital for oil projects)
+- **Discount rate**: Typically **8-12% WACC** (**Weighted Average Cost of Capital** for oil projects, reflecting both equity and debt costs)
 - **Currency**: USD (investment currency)
 
 **Step 5: Quantum Calculation**
 
-**DCF (Discounted Cash Flow) Valuation - But-For Scenario:**
+**Discounted Cash Flow (DCF) Valuation - But-For Scenario:**
 
 ```
 Expected annual cash flow (2025-2036, 12 years): $350M/year
@@ -776,39 +776,3 @@ Likely Award Range: $1.9B - $2.3B
 The ruling demonstrates that **states retain right to regulate for climate goals**, but **substantial interference** with existing investments **triggers compensation**. **Best practice**: Implement **gradual transitions** with **transitional compensation mechanisms** (e.g., carbon credit trading, extended phase-out timelines) to balance environmental imperatives with investor protection.
 
 ═══════════════════════════════════════════
-
----
-
-## Key Takeaways
-
-1. **Energy sector is the largest user of international arbitration**, with **43% of ICSID cases** and **44% of ICC cases** involving oil, gas, and energy disputes
-
-2. **Two main types**: **Commercial arbitration** (PSC disputes, JOAs, supply contracts) and **investment arbitration** (investor-state disputes under BITs/treaties)
-
-3. **Primary institutions**: **ICSID** (investment arbitration), **ICC** (commercial arbitration), **UNCITRAL** (flexible ad hoc rules), **LCIA** (London-based)
-
-4. **Common PSC disputes**: Cost recovery challenges, profit oil calculations, price reviews, stabilization clause breaches, contract terminations
-
-5. **Investment claims**: Expropriation (direct and indirect), FET breaches, denial of justice, umbrella clause violations
-
-6. **Indirect expropriation test**: Requires **substantial deprivation** (>70% value loss), **permanence**, **legitimate expectations breach**, with **proportionality** analysis for regulatory measures
-
-7. **Compensation standard**: **Full fair market value** ("but-for" NPV) plus interest, typically calculated via DCF method
-
-8. **Enforceability**: Arbitral awards enforceable in **172 countries** (New York Convention); ICSID awards have **self-contained enforcement** mechanism
-
-9. **Recent trends** (2024-2025): Surge in climate-related disputes (ECT cases on fossil fuel phase-outs), increased transparency requirements, growing third-party funding
-
-10. **Strategic choice**: Investors with PSCs **and** BIT protection pursue **dual arbitration** (commercial under PSC clause + investment under BIT) to maximize recovery
-
----
-
-**References:**
-- ICSID, *Caseload Statistics FY 2025*, World Bank, 2025
-- ICC, *Dispute Resolution Statistics 2024*, International Chamber of Commerce, 2024
-- LCIA, *Annual Casework Report 2022*, London Court of International Arbitration, 2022
-- OECD, *Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations*, 2022
-- UN, *New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards*, 1958
-- ICSID Case Law: *Occidental v. Ecuador* (ARB/06/11), *Yukos v. Russia* (PCA AA 227), *Metalclad v. Mexico* (ARB(AF)/97/1), *Philip Morris v. Uruguay* (ARB/10/7)
-- ILC, *Articles on Responsibility of States for Internationally Wrongful Acts*, 2001
-- Energy Charter Treaty, *Case List*, 2024

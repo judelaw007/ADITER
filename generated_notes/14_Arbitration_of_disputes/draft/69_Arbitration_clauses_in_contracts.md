@@ -2,18 +2,13 @@
 
 ## ADIT Module 3.04 - Energy Resources Option
 
-**Knowledge Level:** Broad (Level 1)
-**Word Count:** ~1000 words
-**Examination Level:** 1
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework: Arbitration Clauses in Energy Contracts
 
 ### 1.1 Definition and Purpose
 
-An **arbitration clause** is a contractual provision by which parties agree to submit future disputes arising from their contract to **arbitration** rather than litigation in national courts. In energy sector contracts (PSCs, concessions, joint operating agreements, service contracts), arbitration clauses are **near-universal**, appearing in over **95% of international agreements** [ICC, 2024].
+An **arbitration clause** is a contractual provision by which parties agree to submit future disputes arising from their contract to **arbitration** rather than litigation in national courts. In energy sector contracts (**Production Sharing Contracts (PSCs)**, concessions, **Joint Operating Agreements (JOAs)**, service contracts), arbitration clauses are **near-universal**, appearing in the vast majority of international agreements.
 
 **Key Functions:**
 
@@ -29,7 +24,9 @@ An **arbitration clause** is a contractual provision by which parties agree to s
 - **UNCITRAL Model Law on International Commercial Arbitration**: Adopted by 80+ countries, provides framework for arbitration clause enforcement
 - **National arbitration laws**: Arbitration Acts (e.g., English Arbitration Act 1996, US Federal Arbitration Act)
 
-**Severability Doctrine:** Arbitration clauses are **legally independent** from the main contract (**doctrine of separability**). Even if the underlying contract is void, invalid, or terminated, the arbitration clause **survives** to resolve disputes about validity/termination [*Fiona Trust v. Privalov*, UK House of Lords 2007].
+**Severability Doctrine:** Arbitration clauses are **legally independent** from the main contract (**doctrine of separability** or **doctrine of autonomy**). Even if the underlying contract is void, invalid, or terminated, the arbitration clause **survives** to resolve disputes about validity/termination [*Fiona Trust v. Privalov*, UK House of Lords 2007].
+
+**Policy Rationale for Separability:** Prevents parties from avoiding arbitration by alleging contract invalidity. If arbitration clause's validity depended on main contract's validity, parties could circumvent arbitration by claiming the contract is void—defeating the purpose of the arbitration agreement. Separability ensures arbitrators (not courts) decide contract validity disputes.
 
 ---
 
@@ -56,10 +53,10 @@ An **arbitration clause** is a contractual provision by which parties agree to s
 > "Arbitration shall be conducted under the **UNCITRAL Arbitration Rules**, with the Permanent Court of Arbitration acting as appointing authority"
 
 **Common Choices in Energy Sector:**
-- **ICC Rules**: 44% of energy arbitrations (Paris-based, global reach) [ICC, 2024]
-- **LCIA Rules**: 25% (London-based, Commonwealth preference)
-- **SCC Rules**: Stockholm Chamber, preferred for ECT disputes
-- **UNCITRAL Rules**: Flexible ad hoc, common in PSCs
+- **ICC Rules**: Widely used in energy arbitrations (20.5% of ICC's 2024 caseload was energy disputes; Paris-based, global reach)
+- **LCIA Rules**: Significant energy sector use (11-14% of LCIA caseload; London-based, Commonwealth preference)
+- **SCC Rules**: Stockholm Chamber of Commerce, frequently preferred for Energy Charter Treaty disputes
+- **UNCITRAL Rules**: Flexible ad hoc framework, common in PSCs and BIT arbitrations
 
 **3. Seat (Legal Place) of Arbitration**
 
@@ -185,9 +182,9 @@ An **arbitration clause** is a contractual provision by which parties agree to s
 > "Notwithstanding Article 18 (Arbitration), disputes concerning the **application or interpretation of tax laws** shall be subject to the **tax dispute resolution procedures** of the Host Country, including administrative appeals and judicial review in the tax courts. Arbitration under this Article shall not apply to tax matters"
 
 **Rationale:**
-- **Sovereignty**: States resist arbitration of tax policy (viewed as sovereign prerogative)
-- **Specialized forums**: Tax courts have expertise in tax law
-- **Mutual Agreement Procedure (MAP)**: Tax treaties provide alternative dispute resolution (competent authority negotiations)
+- **Sovereignty**: States resist arbitration of tax policy (viewed as sovereign prerogative and core governmental function)
+- **Specialized forums**: Tax courts and administrative tribunals have technical expertise in complex tax law and accounting principles
+- **Mutual Agreement Procedure (MAP)**: Tax treaties provide alternative dispute resolution through **Mutual Agreement Procedure**, where competent tax authorities of both countries negotiate to resolve double taxation or treaty interpretation disputes (OECD Model Tax Convention Article 25)
 
 **Alternative Approach: Limited Tax Arbitration**
 
@@ -391,39 +388,3 @@ Corrected Clause (as interpreted):
 - **Contradictory seat/venue** (specify clearly: seat is legal place; venue is hearing location)
 - **Vague language** ("parties may arbitrate" - unclear if mandatory)
 - **Incomplete appointment provisions** (always include default appointing authority)
-
----
-
-## Key Takeaways
-
-1. **Arbitration clauses** are **near-universal** in international energy contracts (95%+ inclusion rate)
-
-2. **Essential elements**: Scope of disputes, institution/rules, seat, number of arbitrators, language, governing law
-
-3. **Separability doctrine**: Arbitration clause survives even if main contract is void/invalid
-
-4. **Pathological clauses** (defective drafting) create costly jurisdictional disputes; use **institutional model clauses** to avoid
-
-5. **Seat vs. venue**: **Seat** determines procedural law and supervisory court; **venue** is physical hearing location (may differ)
-
-6. **Multi-tier clauses** (negotiation → mediation → arbitration) are **enforceable** if clear and certain
-
-7. **Tax carve-outs**: Many contracts exclude **general tax disputes** from arbitration, reserving arbitration for **PSC fiscal term disputes**
-
-8. **Pro-arbitration principle**: Courts interpret ambiguous clauses to **favor enforceability**, not invalidity (New York Convention policy)
-
-9. **Common energy sector choices**: ICC (44%), LCIA (25%), UNCITRAL; seats: London, Singapore, Paris, Houston
-
-10. **Best practice**: Review institutional model clauses (ICC, LCIA, SCC); adapt to include energy-specific provisions (cost recovery, transfer pricing, tax carve-outs)
-
----
-
-**References:**
-- ICC, *Dispute Resolution Statistics 2024*, International Chamber of Commerce, 2024
-- New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards, 1958
-- UNCITRAL Model Law on International Commercial Arbitration, 2006
-- English Arbitration Act 1996
-- LCIA, *Recommended Arbitration Clauses*, London Court of International Arbitration, 2024
-- ICC, *Model Arbitration Clauses*, International Chamber of Commerce, 2024
-- Eisemann, F., *"La Clause d'Arbitrage Pathologique"*, Commercial Arbitration Essays in Memoriam Eugenio Minoli, 1974
-- Case Law: *Fiona Trust v. Privalov* [2007] UKHL 40, *Emirates Trading v. Sociedade de Fomento Industrial* [2015] EWCA Civ 23
