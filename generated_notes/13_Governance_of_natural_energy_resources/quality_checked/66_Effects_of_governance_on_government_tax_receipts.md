@@ -1,19 +1,12 @@
 # The Effects of Using Certain Types of Governance on Government Tax Receipts
 
-## ADIT Module 3.04 - Energy Resources Option
-
-**Knowledge Level:** Working Knowledge (Level 2)
-**Word Count:** ~2000 words
-**Examination Level:** 2
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework: Governance and Fiscal Revenue
 
 ### 1.1 Introduction to Government Take
 
-The choice between **proprietorial (concession/tax-royalty)** and **non-proprietorial (PSC)** governance regimes has profound implications for **government tax receipts**, both in absolute terms and in the **timing, stability, and composition** of revenue streams. Understanding these effects is critical for policymakers designing fiscal frameworks and for international tax advisors structuring investments [IMF, 2012].
+The choice between **proprietorial (concession/tax-royalty)** and **non-proprietorial (PSC)** governance regimes has profound implications for **government tax receipts**, both in absolute terms and in the **timing, stability, and composition** of revenue streams. Understanding these effects is critical for policymakers designing fiscal frameworks and for international tax advisors structuring investments.
 
 **Government Take** is defined as the **total share of project value captured by the state** through all fiscal instruments:
 
@@ -61,7 +54,7 @@ Government Take = (Royalties + Taxes + Profit Oil Share + Bonuses + Fees) / Gros
 - **Bonuses**: Signature, discovery, production bonuses
 
 **Example Effective Rates:**
-- **UK (2025)**: 75.25% marginal (30% Ring Fence CT + 10% SC + 35% EPL)
+- **UK**: 78% marginal (30% Ring Fence CT + 10% SC + 38% EPL from November 2024)
 - **Norway**: 78% marginal (22% CIT + 56% Special Petroleum Tax)
 - **Ghana**: ~38% (5% royalty + 35% CIT, deductible)
 - **USA (Federal + Texas)**: ~40% (18.75% royalty + ~21-25% combined CIT)
@@ -212,7 +205,7 @@ Tail Production (Years 26+):
 | **Regime Type** | **Oil Price $60/bbl** | **Oil Price $100/bbl** | **Oil Price $150/bbl** |
 |-----------------|----------------------|------------------------|------------------------|
 | **Concession (Royalty 15% + CIT 30%)** | $15 | $28 | $45 |
-| **Concession (UK-style: Royalty 0% + CT 30% + SC 10% + EPL 35%)** | $24 | $45 | $72 |
+| **Concession (UK-style: Royalty 0% + CT 30% + SC 10% + EPL 38%)** | $25 | $47 | $75 |
 | **PSC (70% profit oil + 10% royalty, no CIT)** | $30 | $58 | $93 |
 | **PSC (R-Factor sliding 60-80% profit oil)** | $30 | $65 | $105 |
 
@@ -841,29 +834,3 @@ Many modern regimes **combine elements**:
 - **Efficient approval processes**: Reduce regulatory delays that increase costs
 
 ---
-
-## Key Takeaways
-
-1. **PSC regimes generate 40-100% higher government revenue** than basic concession regimes (70% vs. 35% average take)
-
-2. **Concession regimes provide earlier revenue** through royalties, critical for governments with immediate fiscal needs
-
-3. **Progressive fiscal terms** (R-Factor PSCs, resource rent taxes) significantly increase government take as profitability improves, capturing price windfall automatically
-
-4. **Regressive royalty-based concessions** fail to adjust to profitability, leaving substantial revenue uncaptured during high-price periods
-
-5. **PSC cost recovery mechanisms delay government profit oil** during early high-capex years, but generate much higher revenue once costs are recovered
-
-6. **Revenue stability is higher** in PSCs with profit-sharing mechanisms than in royalty-heavy concessions
-
-7. **Choice of governance regime** should balance total revenue maximization (favors PSCs) with early cash flow needs and administrative capacity (may favor simple concessions)
-
----
-
-**References:**
-- IMF, *Fiscal Regimes for Extractive Industries: Design and Implementation*, 2012
-- IMF, *Cash Flow Analysis of Fiscal Regimes for Extractive Industries*, Working Paper 2024/089
-- Daniel, P., et al., *International Taxation and the Extractive Industries*, Routledge, 2017
-- Bindemann, K., *Production Sharing Agreements: An Economic Analysis*, Oxford Institute for Energy Studies, 1999
-- World Bank, *Fiscal Regimes for Mining and Petroleum*, 2020
-- OECD, *Taxation of Offshore Petroleum*, 2018
