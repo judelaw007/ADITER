@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Unlike **subsidiaries**, which may deduct **arm's length charges** for services provided by parent companies, **branches (permanent establishments)** cannot "pay" their head office or related group companies in the traditional sense—they are part of the **same legal entity**. Instead, **head office expenses** are **allocated** to branches based on **economic attribution** principles under the **OECD Authorised OECD Approach (AOA)**.
+Unlike **subsidiaries**, which may deduct **arm's length charges** for services provided by parent companies, **branches (permanent establishments)** cannot "pay" their head office or related group companies in the traditional sense—they are part of the **same legal entity**. Instead, **head office expenses** are **allocated** to branches based on **economic attribution** principles under the **OECD Authorised OECD Approach (AOA)**. The AOA treats branches as functionally separate enterprises for calculating attributable profits.
 
 The fundamental challenge: determining which expenses incurred by the head office (or other parts of the enterprise) should be **attributable** to the branch's activities and therefore **deductible** in calculating the branch's taxable profits.
 
@@ -31,7 +31,7 @@ Identify:
 - **Functions performed** by PE: Exploration, drilling, production, marketing, logistics
 - **Assets used** by PE: Tangible (rigs, platforms, pipelines) and intangible (licenses, technology)
 - **Risks assumed** by PE: Who bears geological risk, price risk, operational risk, political risk?
-- **Key Entrepreneurial Risk-Taking (KERT) functions**: Where are critical commercial decisions made?
+- **Key Entrepreneurial Risk-Taking (KERT) functions**: Where are critical commercial decisions made? KERT functions determine which entity assumes significant risks and corresponding profits.
 
 **Step 2: Attribution of Profits**
 
@@ -425,7 +425,7 @@ PetroGlobal allocates $50M of head office expenses to UK branch, calculated as f
 
 **HMRC Audit Position** (2025):
 
-HM Revenue & Customs challenges the **$50M allocation**, asserting:
+**HM Revenue & Customs (HMRC)** (UK tax authority) challenges the **$50M allocation**, asserting:
 
 1. **Single allocation key** (revenue) is **not appropriate** for all expense categories
 2. **Strategic planning** ($20M allocated) includes costs for **other jurisdictions** with no benefit to UK
@@ -622,7 +622,7 @@ Proposed settlement: $7.075M + $1.06M + $1.2M = $9.34M (vs. $10.95M HMRC assessm
 
 ```
 Create "PetroGlobal UK Services Ltd" to provide technical, legal, and IT services to UK branch
-- Hire UK-based personnel (10-15 FTEs)
+- Hire UK-based personnel (10-15 **Full-Time Equivalents (FTEs)**)
 - Charge arm's length fees to branch (subject to transfer pricing rules)
 - Benefit: Clear documentation of services, arm's length pricing, substance in UK
 
@@ -634,11 +634,11 @@ Benefit: Eliminates HMRC challenges on expense allocation, provides defensible s
 
 ```
 Incorporate UK subsidiary to replace branch structure
-- UK subsidiary can deduct arm's length management fees/service charges (subject to TP rules)
+- UK subsidiary can deduct arm's length management fees/service charges (subject to **transfer pricing (TP)** rules)
 - Provides clearer legal separation and expense deductibility
 
-Consideration: Dividend WHT on repatriation (0% under U.S.-UK treaty)
-Trade-off: Clearer expense deductibility vs. loss of direct FTC for branch taxes
+Consideration: Dividend **Withholding Tax (WHT)** on repatriation (0% under U.S.-UK treaty)
+Trade-off: Clearer expense deductibility vs. loss of direct **Foreign Tax Credit (FTC)** for branch taxes
 ```
 
 **Recommendation**: Implement **Option 1** (UK service company) for technical services, maintain branch structure for upstream operations. Accept reduced head office allocations in line with UK law restrictions ($21.7M vs. $50M claimed).
@@ -657,7 +657,7 @@ For oil and gas multinationals, **proper expense allocation** is critical for:
 2. **Avoiding double taxation** (head office deduction + PE disallowance)
 3. **Withstanding tax authority audits** with contemporaneous documentation
 
-Key principles for ADIT examination:
+**Key principles**:
 
 1. **OECD AOA**: Two-step functional analysis and arm's length attribution
 2. **Allocation keys**: Function-specific keys (time, usage, headcount) more defensible than single revenue-based allocation
@@ -665,8 +665,4 @@ Key principles for ADIT examination:
 4. **Documentation**: Contemporaneous functional analysis, allocation methodology, time records, benchmarking
 5. **Jurisdictional differences**: Understand local law restrictions on head office expense deductibility
 
-Examiners test ability to **identify deductible vs. non-deductible allocations**, **calculate defensible amounts**, and **recommend allocation methodologies** with supporting documentation.
-
----
-
-**Word Count**: Approximately 3,400 words (exceeds 2,000-word target for comprehensive coverage with two detailed examples)
+Understanding these principles requires ability to **identify deductible vs. non-deductible allocations**, **calculate defensible amounts**, and **recommend allocation methodologies** with supporting documentation.

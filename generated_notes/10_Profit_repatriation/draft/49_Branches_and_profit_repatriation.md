@@ -7,7 +7,7 @@ A **branch** (or **permanent establishment**, PE) is an unincorporated extension
 - **Subsidiary**: Profits repatriated via **dividends** → subject to **withholding tax** (typically 5-15% under treaties)
 - **Branch**: Profits repatriated via **remittances** to head office → typically **NO withholding tax** (internal transfer within same legal entity)
 
-However, some jurisdictions impose **branch profits tax** or **branch remittance tax** to equalize the tax treatment with subsidiaries. The OECD's **Authorised OECD Approach (AOA)** provides the framework for **attributing profits** to branches, treating them as if they were separate enterprises for profit calculation purposes.
+However, some jurisdictions impose **branch profits tax** or **branch remittance tax** to equalize the tax treatment with subsidiaries. The OECD's **Authorised OECD Approach (AOA)** provides the framework for **attributing profits** to branches, treating them as if they were separate enterprises for profit calculation purposes. Under the AOA, branches are treated as **functionally separate enterprises** for determining arm's length profits.
 
 For oil and gas multinationals, the branch vs. subsidiary decision has profound tax implications for **profit repatriation**, **foreign tax credits**, and **treaty access**.
 
@@ -23,7 +23,7 @@ For oil and gas multinationals, the branch vs. subsidiary decision has profound 
 | **Profit repatriation** | Internal transfer (no dividend WHT) | Dividends (subject to WHT) |
 | **Losses** | Immediately offset against parent profits | Trapped in subsidiary (subject to group relief rules) |
 | **Liability** | Parent liable for branch obligations | Limited to subsidiary's assets |
-| **Foreign tax credit** | Direct FTC for branch taxes | Indirect FTC for underlying taxes (if available) |
+| **Foreign tax credit** | Direct **Foreign Tax Credit (FTC)** for branch taxes | Indirect FTC for underlying taxes (if available) |
 | **Treaty access** | Parent's treaty residence | Subsidiary's own treaty residence |
 
 ### 1.2 Profit Repatriation Mechanics
@@ -36,7 +36,7 @@ Host country tax at 30%: $30M
 After-tax profit: $70M
 
 Dividend declared: $70M
-Withholding tax at 10%: $7M
+**Withholding Tax (WHT)** at 10%: $7M
 Net to parent: $63M
 
 Total tax cost: $30M + $7M = $37M
@@ -80,7 +80,7 @@ The **2008 OECD Report on Attribution of Profits to Permanent Establishments** (
 **Step 2: Determine Arm's Length Compensation**
 - Attribute **capital** to PE based on risk-weighted assets
 - Recognize **internal dealings** between PE and head office (e.g., PE "purchases" services from head office at arm's length prices)
-- Apply **transfer pricing methods** (CUP, CPM, TNMM) to determine profits
+- Apply **transfer pricing methods** (**Comparable Uncontrolled Price (CUP)**, **Cost Plus Method (CPM)**, **Transactional Net Margin Method (TNMM)**) to determine profits
 
 **Key Principle**: PE is treated as if it were a **separate and independent enterprise** engaged in same/similar activities under same/similar conditions.
 
@@ -107,7 +107,7 @@ BUT: Many jurisdictions do NOT recognize internal interest deductions (e.g., UK,
 
 ## 3. U.S. Branch Profits Tax
 
-### 3.1 IRC Section 884 - Branch Profits Tax (BPT)
+### 3.1 Internal Revenue Code (IRC) Section 884 - Branch Profits Tax (BPT)
 
 **Purpose**: Equalize taxation of **foreign corporation's U.S. branch** with taxation of **foreign-owned U.S. subsidiary** paying dividends.
 
@@ -153,14 +153,14 @@ Effective rate: 36%
 ECEP: $79M
 DEA: $50M repatriated
 
-U.S.-Norway Treaty: Branch profits tax rate = 0% (Article 10(9))
-Branch Profits Tax: $0
+U.S.-Norway Treaty: Branch profits tax rate = 10% (reduced from 30% statutory rate)
+Branch Profits Tax: $50M × 10% = $5M
 
-Total U.S. tax: $21M (corporate tax only)
-Effective rate: 21%
+Total U.S. tax: $21M + $5M = $26M
+Effective rate: 26%
 ```
 
-**Result**: Norwegian company pays **$15M less** in BPT compared to non-treaty country.
+**Result**: Norwegian company pays **$10M less** in BPT compared to non-treaty 30% rate (saves $15M - $5M = $10M).
 
 ### 3.3 Branch Interest Tax
 
@@ -195,10 +195,11 @@ Most jurisdictions do **NOT** impose branch profits tax:
 
 ### 4.2 Jurisdictions with Branch Remittance Tax
 
-**India - Branch Profits Tax**:
-- **40% tax** on profits remitted by foreign company's Indian branch
-- **Effective rate**: Corporate tax (40%) + Branch profits tax (40% of after-tax profits) = **64% total**
-- **Treaties**: May reduce BPT rate (e.g., U.S.-India treaty: 15%)
+**India - Corporate Tax (No Additional Branch Profits Tax)**:
+- **35% corporate tax** on branch profits (reduced from 40% effective April 1, 2024)
+- **NO withholding tax** on remittance of after-tax profits to head office
+- **Note**: No separate branch profits tax is imposed in India; only corporate tax applies
+- **Effective rate**: 35% (plus applicable surcharge and cess)
 
 **Philippines - Branch Profit Remittance Tax**:
 - **15% tax** on profits remitted by branch to head office
@@ -237,7 +238,7 @@ Excess FTC: $4M (can offset other foreign income or carry forward)
 
 **Subsidiary Structure**: Parent may claim **indirect FTC** for underlying corporate taxes paid by subsidiary (if available under domestic law).
 
-**U.S. - Section 902 REPEALED** (post-TCJA): No indirect FTC for underlying foreign corporate taxes.
+**U.S. - IRC Section 902 REPEALED** (post-TCJA): No indirect FTC for underlying foreign corporate taxes.
 
 **Effect**: U.S. parent receives FTC only for **dividend WHT**, not underlying corporate tax.
 
@@ -441,7 +442,7 @@ Effective tax rate: $81M / $150M = 54%
 
 Branch profit repatriation offers **significant tax advantages** over subsidiaries in jurisdictions without branch profits tax, primarily by avoiding **dividend WHT**. However, the OECD's **AOA** requires rigorous profit attribution analysis, treating the branch as a functionally separate enterprise. The **U.S. branch profits tax** (30%, reduced by treaties) largely eliminates the repatriation advantage for inbound branches.
 
-Key principles for ADIT examination:
+**Key principles**:
 
 1. **Branch vs. subsidiary**: Understand legal, tax, and operational differences
 2. **AOA profit attribution**: Two-step functional analysis and arm's length compensation
@@ -449,8 +450,4 @@ Key principles for ADIT examination:
 4. **Foreign tax credit**: Direct FTC for branch taxes vs. no indirect FTC (post-TCJA) for subsidiary taxes
 5. **Effective rate comparison**: Quantify total tax cost under each structure, considering both host country and home country taxation
 
-Examiners test ability to **compare structures**, **calculate effective tax rates**, and **recommend optimal structure** with consideration of both tax and non-tax factors.
-
----
-
-**Word Count**: Approximately 2,200 words (exceeds 1,000-word target for comprehensive coverage)
+Understanding these principles requires ability to **compare structures**, **calculate effective tax rates**, and **recommend optimal structure** with consideration of both tax and non-tax factors.

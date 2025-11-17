@@ -4,12 +4,12 @@
 
 Multinational oil and gas groups frequently allocate **head office expenses** to foreign subsidiaries for centralized services such as **management**, **technical support**, **procurement**, **treasury**, and **shared administrative functions**. These **management fees** and **service charges** are deductible by subsidiaries, subject to strict requirements:
 
-1. **Transfer pricing compliance**: Charges must be **arm's length** under OECD Guidelines and IRC Section 482
+1. **Transfer pricing compliance**: Charges must be **arm's length** under OECD Guidelines and Internal Revenue Code (IRC) Section 482
 2. **Genuine services**: Services must be **actually rendered** and provide economic benefit
 3. **Documentation**: Contemporaneous records must demonstrate **value** and **reasonableness**
 4. **Withholding tax**: Cross-border payments may be subject to **WHT** (often 5-15% under treaties)
 
-Tax authorities intensely scrutinize related-party expense allocations, particularly when subsidiaries are in **high-tax jurisdictions** and parent companies are in **low-tax jurisdictions**. Post-BEPS, the focus is on **substance over form**: whether charges reflect genuine value creation or constitute **base erosion**.
+Tax authorities intensely scrutinize related-party expense allocations, particularly when subsidiaries are in **high-tax jurisdictions** and parent companies are in **low-tax jurisdictions**. Post-**Base Erosion and Profit Shifting (BEPS)**, the focus is on **substance over form**: whether charges reflect genuine value creation or constitute **base erosion**.
 
 ---
 
@@ -36,7 +36,7 @@ Tax authorities intensely scrutinize related-party expense allocations, particul
 - Reservoir engineering and simulation
 - Drilling optimization and well design
 - Production facilities engineering
-- Health, safety, and environmental (HSE) compliance
+- **Health, Safety, and Environmental (HSE)** compliance
 - Project management for major capex
 
 **Pricing Methods**: Typically **Cost Plus** (total costs + arm's length markup) or **Comparable Uncontrolled Price** (if external benchmarks available).
@@ -94,7 +94,7 @@ Tax authorities intensely scrutinize related-party expense allocations, particul
 
 **Safe Harbor**: For **low-margin covered services**, charges may be allocated at **cost with NO MARKUP**, provided:
 
-**Eligibility Criteria** (Revenue Procedure 2007-13, updated 2017):
+**Eligibility Criteria** (Revenue Procedure 2007-13):
 
 1. **Covered services**: 101 specified activities (HR, payroll, IT, legal, etc.) OR services with markup ≤ 7%
 2. **No significant risk**: Services do not contribute to **fundamental competitive advantages**
@@ -108,11 +108,11 @@ Tax authorities intensely scrutinize related-party expense allocations, particul
 
 **Limitations**:
 - Does NOT apply to: Manufacturing, production, **extraction**, R&D, distribution, financial transactions
-- **BEAT considerations**: SCM services may be exempt from Base Erosion and Anti-Abuse Tax (BEAT)
+- **Base Erosion and Anti-Abuse Tax (BEAT) considerations**: **Services Cost Method (SCM)** services may be exempt from BEAT
 
 ### 2.3 Cost Plus Method (CPM)
 
-**For Non-Covered Services**: Technical services, geological support, engineering, etc.
+**For Non-Covered Services**: Technical services, geological support, engineering, etc. The **Cost Plus Method (CPM)** applies when services do not qualify under SCM.
 
 **Formula**:
 
@@ -149,7 +149,7 @@ Markup% = Arm's length profit margin for comparable services
 1. **Description of services**: Detailed explanation of what services are provided
 2. **Functional analysis**: Who performs services, what functions, risks assumed, assets used
 3. **Allocation methodology**: How costs are allocated (headcount, revenue, assets, usage)
-4. **Pricing analysis**: Application of transfer pricing method (SCM, CPM, CUP)
+4. **Pricing analysis**: Application of transfer pricing method (SCM, CPM, **Comparable Uncontrolled Price (CUP)**)
 5. **Comparables**: Benchmarking analysis if using CPM or profit-based methods
 6. **Benefits**: Explanation of economic value to recipient subsidiary
 7. **Contracts**: Written agreements documenting service terms
@@ -225,19 +225,19 @@ Many jurisdictions impose **WHT on management fees** paid to non-residents:
 
 | Jurisdiction | Domestic WHT Rate | Treaty Classification |
 |--------------|-------------------|----------------------|
-| **India** | 10% | Article 12 (Fees for Technical Services) |
+| **India** | 20% (increased from 10% in 2023) | Article 12 (Fees for Technical Services) |
 | **Brazil** | 15-25% | Article 7 (Business Profits) if treaty |
-| **Angola** | 6.5% | Article 12 or Article 7 (depends on treaty) |
-| **Nigeria** | 10% | Article 12 (Fees for Technical Services) |
+| **Angola** | 15% (increased from 6.5%) | Article 12 or Article 7 (depends on treaty) |
+| **Nigeria** | 10% (non-residents) | Article 12 (Fees for Technical Services) |
 | **China** | 10% | Article 7 (Business Profits) |
 
 ### 5.2 Treaty Relief
 
-**Article 7 (Business Profits)**: If management fees classified as **business profits** rather than royalties/FTS:
-- **No WHT** if service provider has no PE in source country
+**Article 7 (Business Profits)**: If management fees classified as **business profits** rather than royalties/**Fees for Technical Services (FTS)**:
+- **No WHT** if service provider has no **Permanent Establishment (PE)** in source country
 - Most favorable for service providers
 
-**Article 12 (Royalties)** or **Fees for Technical Services** (UN Model Article 12):
+**Article 12 (Royalties)** or **Fees for Technical Services (FTS)** (UN Model Article 12):
 - **Reduced WHT rates** (typically 5-15% under treaties)
 - Source country retains taxing rights even without PE
 
@@ -245,12 +245,12 @@ Many jurisdictions impose **WHT on management fees** paid to non-residents:
 
 ```
 U.S. parent could provide services directly to Indian subsidiary:
-U.S.-India Treaty: Management fees = Article 12 (FTS), 10-15% WHT
+U.S.-India Treaty: Management fees = Article 12 (FTS), 15-20% WHT
 
 Alternatively, establish Netherlands service company:
 Netherlands-India Treaty: Management fees = Article 7 (Business Profits), 0% WHT if no PE
 
-Tax savings: 10-15% WHT eliminated (but requires substance in Netherlands)
+Tax savings: 15-20% WHT eliminated (but requires substance in Netherlands)
 ```
 
 ---
@@ -280,7 +280,7 @@ Tax savings: 10-15% WHT eliminated (but requires substance in Netherlands)
 
 **Angola Tax Authority Audit Position** (2025):
 
-The Autoridade Geral Tributária (AGT) challenges **all $18M in service charges**, asserting:
+The **Autoridade Geral Tributária (AGT)** (Angola's tax authority) challenges **all $18M in service charges**, asserting:
 
 1. **No contemporaneous documentation** provided within 30 days of request
 2. **Excessive markup** on technical services (20% exceeds market rates)
@@ -364,7 +364,7 @@ OECD Benefit Test:
 - Does service provide economic value? YES (IT infrastructure necessary for operations)
 - Would independent entity pay for this? YES (alternative is duplicating IT infrastructure locally)
 
-IRC Section 482 SCM: Likely qualifies as "covered service" (IT support, software licensing)
+IRC Section 482 **Services Cost Method (SCM)**: Likely qualifies as "covered service" (IT support, software licensing)
 - Can be allocated at COST with NO MARKUP
 - Angola headcount allocation (15%) is reasonable
 
@@ -433,7 +433,7 @@ Additional tax due: $34.17M - $31M = $3.17M
 
 **Immediate Actions (Documentation)**:
 
-1. **Prepare contemporaneous TP documentation**:
+1. **Prepare contemporaneous transfer pricing (TP) documentation**:
    - Functional analysis for each service category
    - Time records for technical services (employee hours, projects)
    - IT cost allocation model (show how 15% headcount ratio derived)
@@ -458,7 +458,7 @@ Additional tax due: $34.17M - $31M = $3.17M
 
 ```
 Create "PetroGlobal Africa Services Ltd." (South Africa or Mauritius)
-- Hire technical personnel (10-15 FTEs: reservoir engineers, drilling engineers)
+- Hire technical personnel (10-15 **Full-Time Equivalents (FTEs)**: reservoir engineers, drilling engineers)
 - Provide services to Angola and other African subsidiaries
 - Charge cost plus 12-15% markup (defensible with substance)
 - Benefits:
@@ -531,7 +531,7 @@ Savings: $9.47M
 
 Deductibility of management fees and service charges between parent companies and subsidiaries requires rigorous **transfer pricing compliance**, **contemporaneous documentation**, and **demonstration of genuine economic benefit**. Tax authorities in high-tax jurisdictions (particularly petroleum-producing countries) intensely scrutinize these charges as potential **base erosion**.
 
-Key principles for ADIT examination:
+**Key principles**:
 
 1. **OECD Benefit Test**: Services must provide economic value that independent entity would pay for
 2. **Shareholder vs. Stewardship**: Distinguish between shareholder activities (NOT deductible) and genuine services
@@ -539,8 +539,4 @@ Key principles for ADIT examination:
 4. **Pricing Methods**: SCM for low-margin covered services, CPM for technical services, benchmarking required
 5. **Withholding Tax**: Consider treaty classification (Article 7 vs. Article 12) and impact on net group cost
 
-Examiners test ability to **classify service charges**, **assess deductibility**, **calculate arm's length prices**, and **recommend documentation/restructuring** with cost-benefit analysis.
-
----
-
-**Word Count**: Approximately 2,600 words (exceeds 1,000-word target for comprehensive coverage)
+Understanding these principles requires ability to **classify service charges**, **assess deductibility**, **calculate arm's length prices**, and **recommend documentation/restructuring** with cost-benefit analysis.
