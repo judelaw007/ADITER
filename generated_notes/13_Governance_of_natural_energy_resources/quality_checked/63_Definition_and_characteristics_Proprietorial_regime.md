@@ -1,12 +1,5 @@
 # Definition and Characteristics: Proprietorial Regime
 
-## ADIT Module 3.04 - Energy Resources Option
-
-**Knowledge Level:** Broad (Level 1)
-**Word Count:** ~1000 words
-**Examination Level:** 1
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework and Legal Foundation
@@ -82,16 +75,16 @@ The state captures resource rents through **taxation instruments** rather than t
    - Often subject to **ring-fencing** provisions
 
 3. **Supplementary Taxes or Resource Rent Taxes**
-   - **UK Supplementary Charge**: 10% additional tax (reduced from historical 38%)
-   - **UK Energy Profits Levy**: 35% temporary windfall tax (2022-2028)
-   - **Norway Special Petroleum Tax**: 56% (combined with 22% CIT = 78% marginal rate)
-   - **Australia Petroleum Resource Rent Tax (PRRT)**: 40% on excess profits
+   - **UK Supplementary Charge (SC)**: 10% additional tax applied to ring fence profits
+   - **UK Energy Profits Levy (EPL)**: 38% temporary windfall tax (introduced May 2022, rate increased to 38% from November 2024, scheduled to end March 2030). The EPL was introduced in response to exceptional profits from elevated oil and gas prices following geopolitical events, designed to capture extraordinary gains while funding household energy support measures.
+   - **Norway Special Petroleum Tax (SPT)**: 56% (combined with 22% CIT = 78% marginal rate)
+   - **Australia Petroleum Resource Rent Tax (PRRT)**: 40% on excess profits above threshold return
 
 **Comparison Table:**
 
 | **Jurisdiction** | **Royalty** | **CIT** | **Special Tax** | **Combined Marginal Rate** |
 |------------------|-------------|---------|-----------------|----------------------------|
-| **UK** | 0% | 30% | 10% SC + 35% EPL | 75.25% |
+| **UK** | 0% | 30% | 10% SC + 38% EPL | 78% |
 | **Norway** | 0% | 22% | 56% SPT | 78% |
 | **Ghana** | 5% | 35% | - | ~38% |
 | **Canada (Alberta)** | 5-40% sliding | 23% federal + 8% provincial | - | ~31-50% |
@@ -101,15 +94,16 @@ The state captures resource rents through **taxation instruments** rather than t
 Unlike Production Sharing Contracts (PSCs) with explicit "cost oil" mechanisms, proprietorial regimes provide cost recovery through **tax code provisions**:
 
 **Capital Allowances:**
-- **Immediate expensing** (UK historically: 100% First Year Allowances)
-- **Accelerated depreciation** (Norway: 16.67% straight-line over 6 years)
-- **Depletion allowances** (USA: percentage or cost depletion)
+- **Immediate expensing** (UK historically: 100% First Year Allowances for most qualifying expenditure). Capital allowances serve to stimulate investment by reducing the effective tax burden on capital-intensive projects, offsetting the high nominal tax rates.
+- **Accelerated depreciation** (Norway: 16.67% straight-line over 6 years for most production facilities)
+- **Depletion allowances** (USA: percentage or cost depletion, recognizing resource exhaustion)
+- **Decarbonisation Investment Allowance** (UK: 66% allowance for EPL purposes from November 2024, incentivizing investment in emissions reduction technologies and electrification of offshore installations)
 
 **Operating Expenditure:**
 - Fully deductible as incurred against taxable income
 
 **Exploration Costs:**
-- Typically immediately deductible, encouraging exploration activity
+- Typically immediately deductible, encouraging exploration activity and risk-taking in frontier areas
 
 ### 2.5 Ring-Fencing Provisions
 
@@ -186,7 +180,7 @@ Calculate the total UK petroleum tax liability under the proprietorial regime.
 
 **Analysis:**
 
-The UK operates a **three-tier proprietorial tax system**: Ring Fence Corporation Tax (30%), Supplementary Charge (10%), and Energy Profits Levy (35%).
+The UK operates a **three-tier proprietorial tax system**: Ring Fence Corporation Tax (30%), Supplementary Charge (10%), and Energy Profits Levy (38% from November 2024).
 
 **Calculation:**
 
@@ -223,40 +217,43 @@ SC @ 10% = £0M × 10% = £0M
 
 *(Investment allowance exceeds adjusted profit, reducing SC to nil)*
 
-**Step 3: Energy Profits Levy (35%)**
+**Step 3: Energy Profits Levy (38%)**
 
 ```
 Adjusted profit                                     £30M
-Less: EPL allowance (80% × £40M)                   (£32M)
+Less: Decarbonisation allowance (assumes nil for
+      standard production capex)                     £0M
                                                     ─────
-EPL taxable profit                                   £0M
+EPL taxable profit                                  £30M
                                                     ═════
 
-EPL @ 35% = £0M × 35% = £0M
+EPL @ 38% = £30M × 38% = £11.4M
 ```
+
+*Note: From November 2024, the general EPL investment allowance was removed. Only the Decarbonisation Investment Allowance (66%) remains, applicable specifically to qualifying emissions reduction expenditure.*
 
 **Total Tax Liability:**
 
 ```
 Ring Fence CT:          £7.5M
 Supplementary Charge:   £0.0M
-Energy Profits Levy:    £0.0M
+Energy Profits Levy:   £11.4M
                         ─────
-Total tax:              £7.5M
+Total tax:             £18.9M
                         ═════
 
-Effective tax rate: £7.5M / £55M = 13.6%
+Effective tax rate: £18.9M / £55M = 34.4%
 ```
 
 **Conclusion:**
 
-Despite the headline combined rate of **75.25%**, the effective rate is only **13.6%** due to the **80% investment allowances** for SC and EPL. The £40M capital expenditure generates:
-- £40M RF CT deduction (value: £12M)
-- £32M SC allowance (value: £3.2M)
-- £32M EPL allowance (value: £11.2M)
-- **Total tax relief: £26.4M (66% of capex)**
+Despite the headline combined rate of **78%**, the effective rate is **34.4%** in this example. The £40M capital expenditure generates:
+- £40M RF CT deduction (tax value: £12M)
+- £32M SC allowance (tax value: £3.2M)
+- £0M EPL allowance for standard capex (only decarbonisation expenditure qualifies)
+- **Total tax relief: £15.2M (38% of capex)**
 
-This demonstrates that proprietorial regimes use **generous capital allowances** to incentivize investment while maintaining high nominal tax rates.
+The November 2024 removal of the general EPL investment allowance significantly increased the effective tax rate on new investment. This demonstrates how proprietorial regimes balance high nominal tax rates with capital allowances, though recent UK policy changes have reduced investment incentives to capture more revenue from elevated commodity prices.
 
 ═══════════════════════════════════════════
 
@@ -296,23 +293,3 @@ Proprietorial regimes interact with:
 **Stabilization Clauses:** Freezing fiscal terms at contract signature (common in developing countries; less common in OECD jurisdictions like UK/Norway where legislative changes prevail)
 
 ---
-
-## Key Takeaways
-
-1. **Proprietorial regimes** transfer resource ownership to investors **at the point of extraction** (wellhead/pithead)
-2. Government revenue is derived through **taxation instruments** (royalties, CIT, special taxes) rather than production sharing
-3. **Investor bears 100% of exploration and development risk** with full commodity price exposure
-4. **Ring-fencing provisions** ensure extractive profits are taxed separately from other business activities
-5. **High nominal tax rates** (UK 75.25%, Norway 78%) are offset by **generous capital allowances** creating lower effective rates for capital-intensive projects
-6. **Fiscal stability** is a key investor concern, requiring stabilization clauses or investment treaties for protection
-7. Proprietorial regimes are the **dominant model** in OECD countries and mature petroleum provinces (UK, Norway, USA, Canada, Australia)
-
----
-
-**References:**
-- IMF, *Fiscal Regimes for Extractive Industries: Design and Implementation*, 2012
-- Bindemann, K., *Production Sharing Agreements: An Economic Analysis*, Oxford Institute for Energy Studies, 1999
-- OECD, *Model Tax Convention on Income and on Capital*, 2017
-- UK Corporation Tax Act 2010, Finance Act 2022, Finance Act 2023
-- Norway Petroleum Tax Act 1975
-- Daniel, P., et al., *International Taxation and the Extractive Industries*, Routledge, 2017

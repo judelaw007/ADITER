@@ -1,19 +1,12 @@
 # The Link Between International Agreements and Different Types of Natural Resource Governance
 
-## ADIT Module 3.04 - Energy Resources Option
-
-**Knowledge Level:** Working Knowledge (Level 2)
-**Word Count:** ~2000 words
-**Examination Level:** 2
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework: International Agreements in Extractive Industries
 
 ### 1.1 Introduction to the Governance-Treaty Nexus
 
-The choice between **proprietorial (concession)** and **non-proprietorial (PSC)** governance regimes profoundly affects how **international agreements** operate to protect investors, allocate taxing rights, and resolve disputes. International agreements serve as a **protective framework** that overlays domestic fiscal regimes, creating binding obligations between states and establishing investor rights that transcend national legislation [UNCTAD, 2024].
+The choice between **proprietorial (concession)** and **non-proprietorial (PSC)** governance regimes profoundly affects how **international agreements** operate to protect investors, allocate taxing rights, and resolve disputes. International agreements serve as a **protective framework** that overlays domestic fiscal regimes, creating binding obligations between states and establishing investor rights that transcend national legislation.
 
 **Three Primary Categories of International Agreements:**
 
@@ -47,7 +40,7 @@ Each category interacts differently with proprietorial vs. non-proprietorial reg
 
 ### 2.1 Structure and Key Provisions of BITs
 
-**Definition:** A **Bilateral Investment Treaty (BIT)** is an agreement between two sovereign states establishing legal protections for investments made by nationals of one state in the territory of the other [UNCTAD, 2024].
+**Definition:** A **Bilateral Investment Treaty (BIT)** is an agreement between two sovereign states establishing legal protections for investments made by nationals of one state in the territory of the other.
 
 **Standard BIT Provisions:**
 
@@ -58,7 +51,7 @@ Each category interacts differently with proprietorial vs. non-proprietorial reg
 5. **Free Transfer of Funds**: Repatriation of profits, dividends, and capital
 6. **Investor-State Dispute Settlement (ISDS)**: Arbitration under ICSID, UNCITRAL, or ICC rules
 
-**By 2024, 2,835 BITs** had been negotiated globally, with 2,222 in force, providing the primary international legal framework for investment protection [UNCTAD, 2024].
+Over **2,800 BITs** have been negotiated globally, providing the primary international legal framework for investment protection in the extractive industries and other sectors.
 
 ### 2.2 BIT Application to Proprietorial Regimes
 
@@ -77,7 +70,7 @@ In proprietorial regimes, BITs provide critical protection because:
 
 **Example Case: *Occidental Petroleum v. Republic of Ecuador* (2012)**
 
-Ecuador cancelled Occidental's **concession license** (proprietorial regime) for alleged contract violations. Occidental invoked the **USA-Ecuador BIT**, claiming expropriation. The ICSID tribunal awarded **$1.77 billion** compensation, demonstrating BIT protection strength even absent a PSC-style contract [ICSID Case No. ARB/06/11].
+Ecuador cancelled Occidental's **concession license** (proprietorial regime) for alleged contract violations. Occidental invoked the **USA-Ecuador BIT**, claiming expropriation. The ICSID tribunal initially awarded **$1.77 billion** compensation (later reduced to $1.1 billion following partial annulment in 2015), demonstrating BIT protection strength even absent a PSC-style contract [ICSID Case No. ARB/06/11]. The tribunal found that while Occidental had breached the participation contract, Ecuador's termination decree was not proportionate and constituted a breach of the BIT.
 
 ### 2.3 BIT Application to Non-Proprietorial Regimes (PSCs)
 
@@ -156,9 +149,9 @@ The enforceability of stabilization clauses depends on:
 3. **ISDS Mechanism**: Investor-state arbitration under ICSID, SCC, or UNCITRAL rules
 4. **Treaty on Energy Transit**: Protects cross-border energy flows
 
-**2024 Developments:**
-- **EU Withdrawal**: EU and 7 member states (France, Germany, Italy, Spain, Netherlands, Poland, Denmark) withdrew in 2024, citing incompatibility with climate goals
-- **Modernization Amendments**: December 2024 amendments adopted to align ECT with Paris Agreement and limit fossil fuel investment protections
+**Recent Developments:**
+- **EU Withdrawal**: The EU formally adopted its withdrawal decision in May 2024, with the withdrawal taking effect thereafter. Multiple member states withdrew individually: Italy (2016), France, Germany and Poland (2023), with additional states including Spain, Netherlands, Luxembourg, Slovenia, Portugal and the UK following in 2024-2025. The primary reason cited was incompatibility with climate goals under the European Green Deal and Paris Agreement.
+- **Modernization Efforts**: Amendments were proposed to align ECT with Paris Agreement and limit fossil fuel investment protections, though many states opted for withdrawal rather than reform
 
 ### 3.2 ECT and Governance Regimes
 
@@ -166,10 +159,10 @@ The enforceability of stabilization clauses depends on:
 
 **Application to Different Governance Types:**
 
-**Proprietorial Regimes (UK, Netherlands, Denmark - pre-2024):**
+**Proprietorial Regimes (UK, Netherlands, Denmark - prior to respective withdrawals):**
 - ECT provided **additional layer** beyond domestic law
-- Investors could challenge tax increases (e.g., UK windfall taxes) via ECT arbitration
-- **Example**: Potential claims under ECT regarding UK's 2022 Energy Profits Levy (35% windfall tax) - no public cases filed but legal basis existed
+- Investors could challenge tax increases via ECT arbitration
+- **Example**: Potential claims under ECT regarding UK's Energy Profits Levy (windfall tax introduced in 2022) - the legal basis for such claims existed under ECT protections
 
 **Non-Proprietorial Regimes (Kazakhstan, Azerbaijan, Turkmenistan):**
 - ECT **reinforces PSC stabilization clauses**
@@ -178,15 +171,15 @@ The enforceability of stabilization clauses depends on:
 
 ### 3.3 Impact of ECT Withdrawal on Governance
 
-The **EU withdrawal** (effective 2024) creates **asymmetry**:
+The **EU and member state withdrawals** create **asymmetry** in investment protection:
 
-| **Scenario** | **Pre-2024 (ECT in force)** | **Post-2024 (EU withdrawn)** |
-|--------------|----------------------------|------------------------------|
+| **Scenario** | **With ECT in force** | **After withdrawal** |
+|--------------|-----------------------|----------------------|
 | **EU investor in non-EU ECT state** | ECT protection available | BIT protection only (if BIT exists) |
-| **Non-EU investor in EU state** | ECT protection (but sunset clause applies 20 years) | BIT protection only |
-| **EU-to-EU investment** | ECT protection | BIT protection (if intra-EU BIT exists, but CJEU restricts) |
+| **Non-EU investor in EU state** | ECT protection (sunset clause applies 20 years) | BIT protection only |
+| **EU-to-EU investment** | ECT protection | BIT protection (if intra-EU BIT exists, but CJEU restricts intra-EU arbitration) |
 
-**Implication for Governance Choice:** Investors in PSC regimes (e.g., Kazakhstan, Azerbaijan) now rely more heavily on **contractual stabilization** and **BITs** rather than multilateral ECT protection.
+**Implication for Governance Choice:** Following EU withdrawals, investors in PSC regimes (e.g., Kazakhstan, Azerbaijan) rely more heavily on **contractual stabilization** and **bilateral BITs** rather than multilateral ECT protection.
 
 ---
 
@@ -623,60 +616,3 @@ However, **PSC regimes generate higher government take** (63% vs. 35%) while mai
 ═══════════════════════════════════════════
 
 ---
-
-## 7. Future Trends and Evolving Framework
-
-### 7.1 Investment Treaty Reform and Climate Considerations
-
-**2024-2025 Trends:**
-- **ECT modernization and EU withdrawal**: Limiting fossil fuel protections, aligning with Paris Agreement
-- **BIT renegotiation**: Many states revising older BITs to include **climate carve-outs** and **right to regulate**
-- **ISDS reform**: UNCITRAL Working Group III developing **multilateral investment court** as ISDS alternative
-
-**Implications for Governance:**
-- PSC regimes may face pressure to include **climate-linked adjustments** to profit splits (e.g., carbon pricing mechanisms)
-- Concession regimes more vulnerable to legislative carbon taxes (unless protected by modern BITs)
-
-### 7.2 Increasing Preference for PSC-BIT Combination
-
-**Emerging Best Practice:**
-- Investors increasingly prefer **PSC regimes in BIT-protected jurisdictions** for dual-layer protection
-- Host states recognize PSCs with **economic equilibrium clauses** balance sovereignty and investor security
-
-### 7.3 Tax Treaty Alignment with BEPS
-
-**OECD BEPS Actions** (particularly Actions 6, 7, 13, 15) are being incorporated into tax treaties:
-- **Principal Purpose Test (PPT)**: Prevents treaty shopping
-- **PE definition expansion**: Digital economy considerations
-- **Enhanced transparency**: Country-by-country reporting
-
-**Impact:** Both proprietorial and PSC regimes face increased **transfer pricing scrutiny**, reducing fiscal advantages of complex structures.
-
----
-
-## Key Takeaways
-
-1. **International agreements** (BITs, ECT, tax treaties) interact fundamentally differently with **proprietorial** vs. **non-proprietorial** governance regimes
-
-2. **BITs provide critical protection** for concession regimes (lacking contractual stabilization), while **reinforcing** PSC contractual protections
-
-3. **Stabilization clauses** in PSCs create **dual protection** when combined with BITs: contractual freeze + treaty-level investor rights
-
-4. **Tax treaties** provide **greater economic value** in concession regimes (dividend repatriation focus) than PSC regimes (profit oil bypasses WHT)
-
-5. **PSC + BIT combination** offers **strongest investor protection** against fiscal instability, with 85-95% success rates in arbitration vs. 60-70% for concessions
-
-6. The **Energy Charter Treaty** historically provided multilateral protection but is being phased out (EU withdrawal 2024), increasing reliance on bilateral frameworks
-
-7. **Future reforms** are likely to prioritize **climate-aligned stabilization** and **enhanced transparency**, affecting both governance types
-
----
-
-**References:**
-- UNCTAD, *Investment Policy Hub - IIA Navigator*, 2024
-- Energy Charter Treaty (1994), as amended 2024
-- OECD, *Model Tax Convention on Income and on Capital*, 2017
-- Oxford Institute for Energy Studies, *Fiscal Stabilization in Oil and Gas Contracts*, 2016
-- ICSID Case Law: *Occidental v. Ecuador* (ARB/06/11), *Chevron v. Ecuador* (PCA 2009-23), *Yukos v. Russia* (PCA AA 227)
-- IMF, *Fiscal Regimes for Extractive Industries*, 2012
-- Daniel, P., et al., *International Taxation and the Extractive Industries*, Routledge, 2017

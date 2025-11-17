@@ -1,12 +1,5 @@
 # Definition and Characteristics: Non-Proprietorial Regime
 
-## ADIT Module 3.04 - Energy Resources Option
-
-**Knowledge Level:** Broad (Level 1)
-**Word Count:** ~1000 words
-**Examination Level:** 1
-**Last Updated:** November 2025
-
 ---
 
 ## 1. Core Framework and Legal Foundation
@@ -92,7 +85,7 @@ Split into:
        └─ Contractor Share (typically 15-40%)
 ```
 
-**Key Feature:** Cost recovery is **explicit and contractual**, not dependent on domestic tax code provisions.
+**Key Feature:** Cost recovery is **explicit and contractual**, not dependent on domestic tax code provisions. This provides certainty to contractors regarding cost reimbursement, protecting them from changes in tax legislation that could affect deduction availability. The contractual nature of cost recovery also allows governments to audit and control costs more directly than under a tax-based system.
 
 ### 2.4 Government Revenue Mechanisms
 
@@ -232,11 +225,11 @@ R > 2.0:  Government 80% / Contractor 20%
 
 ### 4.1 Advantages for Host Governments
 
-1. **Retained Sovereignty:** State maintains legal ownership throughout
-2. **Higher Government Take:** Typically 70-90% vs. 40-75% in proprietorial regimes
-3. **Fiscal Stability:** Contractual terms resist legislative changes
-4. **Political Acceptability:** Aligns with resource nationalism policies
-5. **Direct Control:** State (via NOC) participates in operations and decisions
+1. **Retained Sovereignty:** State maintains legal ownership throughout. This is particularly important in jurisdictions where constitutional provisions mandate state ownership of subsurface resources, or where political considerations favor continued state control over strategic assets.
+2. **Higher Government Take:** Typically 70-90% vs. 40-75% in proprietorial regimes. The production sharing mechanism allows governments to capture a larger share of resource rents without relying solely on tax instruments, which can be subject to avoidance strategies.
+3. **Fiscal Stability:** Contractual terms resist legislative changes. Long-term PSCs (20-30 years) provide contractual protection that helps attract foreign investment by reducing sovereign risk.
+4. **Political Acceptability:** Aligns with resource nationalism policies prevalent in developing countries and major oil exporters, where public sentiment favors state ownership of natural resources.
+5. **Direct Control:** State (via NOC) participates in operations and decisions, enabling technology transfer, skills development, and operational oversight.
 
 ### 4.2 Advantages for Contractors
 
@@ -410,24 +403,3 @@ Non-proprietorial regimes interact with:
 - **Intangibility clauses**: Contract cannot be amended without mutual consent
 
 ---
-
-## Key Takeaways
-
-1. **Non-proprietorial regimes** retain **state ownership** of resources throughout extraction and production
-2. Government revenue derived through **production sharing** (profit oil) rather than primarily through taxation
-3. **Contractor bears exploration and development risk** but receives contractual cost recovery and profit share
-4. **Cost recovery ceiling** (typically 50-80%) limits annual cost reimbursement, with unrecovered costs carried forward
-5. **Contract-level ring-fencing** prevents cross-project loss relief
-6. **Classic PSCs** have profit oil **in lieu of tax**; **hybrid PSCs** impose both profit sharing and CIT
-7. **Progressive PSCs** (R-Factor, sliding scale) increase government take as profitability improves
-8. Non-proprietorial regimes are the **dominant model** in developing countries and major oil exporters (Indonesia, Malaysia, Angola, Iraq, Egypt, Trinidad & Tobago)
-
----
-
-**References:**
-- IMF, *Fiscal Regimes for Extractive Industries: Design and Implementation*, 2012
-- Bindemann, K., *Production Sharing Agreements: An Economic Analysis*, Oxford Institute for Energy Studies, 1999
-- Indonesia Oil & Gas Law No. 22/2001
-- Malaysia Petroleum Development Act 1974
-- Daniel, P., et al., *International Taxation and the Extractive Industries*, Routledge, 2017
-- OECD, *Model Tax Convention on Income and on Capital*, 2017
