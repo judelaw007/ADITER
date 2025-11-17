@@ -63,8 +63,8 @@ An **Emissions Trading Scheme** is a regulatory framework that:
 
 | ETS | Launch Year | Coverage (% national emissions) | Sectors Covered |
 |-----|-------------|---------------------------------|-----------------|
-| **EU ETS** | 2005 | 40% | Power, industry, aviation |
-| **China ETS** | 2021 | 45% | Power (only, expanding) |
+| **EU ETS** | 2005 | 45% | Power, industry, aviation |
+| **China ETS** | 2021 | 40% | Power (initially, expanding to include steel, cement, aluminum) |
 | **California** | 2013 | 85% | Power, industry, transport, buildings |
 | **UK ETS** | 2021 | 33% | Power, industry, aviation |
 | **New Zealand** | 2008 | 50% | All sectors (some agriculture exempt) |
@@ -85,8 +85,9 @@ The cap is the most critical design element, determining environmental stringenc
    - Disadvantage: Total emissions uncertain
 
 3. **Declining Cap**: Reduces over time to meet long-term targets
-   - EU ETS: Linear Reduction Factor of 2.2%/year (Phase 4, to 2030)
-   - Advantage: Provides long-term certainty
+   - EU ETS: **Linear Reduction Factor (LRF)** of 4.3%/year (2024-2027) and 4.4%/year (2028-2030) under revised Phase 4
+   - Previous LRF: 2.2%/year (2021-2023) - significantly strengthened in 2023 revision
+   - Advantage: Provides long-term certainty and accelerates decarbonization trajectory
 
 **EU ETS Cap Evolution**:
 - Phase 1 (2005-2007): 2.2 billion allowances/year
@@ -130,10 +131,10 @@ The cap is the most critical design element, determining environmental stringenc
 
 Price volatility can undermine investment certainty and political support. Mechanisms to stabilize prices include:
 
-**Price Floor**:
-- Minimum auction reserve price
-- Example: UK ETS has £22/tonne floor (2024)
-- Prevents collapse during low demand
+**Price Floor** (Auction Reserve Price):
+- Minimum auction reserve price below which allowances will not be sold
+- Example: UK ETS has £22/tonne **Auction Reserve Price** (ARP) in 2024
+- Prevents price collapse during low demand periods, providing investment certainty
 
 **Price Ceiling**:
 - Maximum allowance price or commitment to issue additional allowances
@@ -235,10 +236,10 @@ Price volatility can undermine investment certainty and political support. Mecha
 ### 4.4 Offset Mechanisms
 
 **Clean Development Mechanism (CDM)** / **Joint Implementation (JI)**:
-- Kyoto Protocol flexibility mechanisms
-- Projects in developing (CDM) or other Annex B (JI) countries
-- Generate Certified Emission Reductions (CERs) or Emission Reduction Units (ERUs)
-- Can be used for ETS compliance (subject to limits)
+- **Kyoto Protocol** flexibility mechanisms allowing developed countries to achieve emission reduction targets through projects in other countries
+- **CDM**: Projects in developing countries generate **Certified Emission Reductions (CERs)** - provides technology transfer and sustainable development
+- **JI**: Projects in other Annex B (industrialized) countries generate **Emission Reduction Units (ERUs)**
+- Can be used for ETS compliance (subject to qualitative and quantitative limits)
 
 **Limits and Quality Concerns**:
 - EU ETS Phase 3: Max 50% of reductions via offsets; restricted after 2012
@@ -1147,11 +1148,3 @@ Instead of separate Trading entity, use **shared services model**:
 **Final Recommendation**: Current structure is **defensible** if substance requirements are met. Benefits (centralization, expertise) justify existence of Trading entity. Maintain robust documentation and ensure genuine German operations.
 
 ═══════════════════════════════════════════════════════════════
-
-## 8. Conclusion
-
-Emissions Trading Schemes represent sophisticated market-based mechanisms for achieving emission reduction targets at minimum economic cost. The cap provides environmental certainty while trading ensures cost-effectiveness by equalizing marginal abatement costs across emitters.
-
-For the oil and gas sector, ETS creates significant compliance costs—particularly for refineries and petrochemicals—while also providing economic incentives for emission reduction investments. International tax considerations, including allowance purchase deductibility, transfer pricing for intragroup transactions, and carbon leakage competitiveness impacts, substantially affect the economics of ETS compliance.
-
-As ETS expand globally and systems become linked, understanding the design elements, compliance requirements, and tax implications becomes essential for tax professionals advising energy sector clients. The interplay between ETS, carbon taxes, and border carbon adjustments will shape international investment decisions and operational strategies for decades to come.

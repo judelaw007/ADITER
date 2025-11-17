@@ -1,12 +1,12 @@
 # Chapter 73: Tax Aspects of CCUS
 
-## Introduction
+## 1. Introduction
 
-Carbon Capture, Utilization and Storage (CCUS) technology represents a critical tool in achieving climate neutrality targets, particularly for hard-to-abate sectors such as cement, steel, and chemicals production. Given the substantial capital investment required for CCUS infrastructure—often exceeding USD 1 billion for large-scale facilities—tax policy plays a decisive role in determining project viability. This chapter examines the international tax framework supporting CCUS deployment, focusing on investment incentives, cost recovery mechanisms, and cross-border taxation challenges relevant to multinational energy companies.
+Carbon Capture, Utilization and Storage (**CCUS**) technology represents a critical tool in achieving climate neutrality targets, particularly for hard-to-abate sectors such as cement, steel, and chemicals production. Given the substantial capital investment required for CCUS infrastructure—often exceeding USD 1 billion for large-scale facilities—tax policy plays a decisive role in determining project viability. This chapter examines the international tax framework supporting CCUS deployment, focusing on investment incentives, cost recovery mechanisms, and cross-border taxation challenges relevant to multinational energy companies.
 
-## 1. Tax Incentives for CCUS Investment
+## 2. Tax Incentives for CCUS Investment
 
-### 1.1 Section 45Q Tax Credit (United States)
+### 2.1 Section 45Q Tax Credit (United States)
 
 The Section 45Q tax credit, significantly enhanced by the Inflation Reduction Act 2022, provides the most generous CCUS incentive globally:
 
@@ -30,7 +30,7 @@ The Section 45Q tax credit, significantly enhanced by the Inflation Reduction Ac
 2. **Recapture provisions**: Credits subject to recapture if stored CO₂ leaks within three years
 3. **Foreign tax credit interaction**: 45Q credits are specified credits under IRC §904(h), limiting foreign tax credit utilization
 
-### 1.2 Investment Tax Credits and Accelerated Depreciation
+### 2.2 Investment Tax Credits and Accelerated Depreciation
 
 **United Kingdom – Capital Allowances:**
 - **First Year Allowances**: 100% super-deduction for qualifying CCUS equipment (available through March 2026)
@@ -47,7 +47,7 @@ The Section 45Q tax credit, significantly enhanced by the Inflation Reduction Ac
 - **Qualifying expenditures**: Capture, compression, pipeline transport, and storage infrastructure
 - **Phase-out**: Credit reduces to 18.75% after 2030, eliminated by 2040
 
-### 1.3 Operating Subsidies and Price Support
+### 2.3 Operating Subsidies and Price Support
 
 Several jurisdictions provide operational support beyond capital incentives:
 
@@ -60,9 +60,9 @@ Several jurisdictions provide operational support beyond capital incentives:
 - **Subsidy structure**: Covers gap between CO₂ capture costs and ETS price
 - **Tax implications**: Reduces deductible project costs; creates timing differences for deferred tax accounting
 
-## 2. Transfer Pricing for CCUS Infrastructure
+## 3. Transfer Pricing for CCUS Infrastructure
 
-### 2.1 Shared Infrastructure Arrangements
+### 3.1 Shared Infrastructure Arrangements
 
 CCUS projects frequently involve multiple parties sharing capture, transport, or storage infrastructure. Transfer pricing analysis must address:
 
@@ -80,7 +80,7 @@ When one entity operates CCUS infrastructure for affiliated users:
 - **Benchmarking challenges**: Limited comparable uncontrolled prices given nascent CCUS market
 - **Risk allocation**: Operational risks, geological storage risks, and regulatory compliance risks must align with compensation
 
-### 2.2 Intangible Property Considerations
+### 3.2 Intangible Property Considerations
 
 CCUS technology development creates valuable intangibles requiring transfer pricing attention:
 
@@ -96,9 +96,9 @@ Development, Enhancement, Maintenance, Protection, and Exploitation functions de
 - **Licensed user**: Pays arm's-length royalty, typically 2-8% of avoided carbon costs or revenue enhanced by CCUS deployment
 - **Cost-sharing**: Alternative structure where multiple parties jointly develop technology
 
-## 3. International Tax Implications
+## 4. International Tax Implications
 
-### 3.1 Permanent Establishment Risk
+### 4.1 Permanent Establishment Risk
 
 **Pipeline Infrastructure:**
 CCUS pipelines crossing international borders create PE exposure:
@@ -114,7 +114,7 @@ Projects capturing CO₂ in UK and storing in Norwegian North Sea:
 - **Treaty relief**: Norway-UK treaty provides foreign tax credit relief for UK taxpayers
 - **Documentation**: Maintain contemporaneous records of cross-border CO₂ movements for audit defense
 
-### 3.2 Withholding Tax on Cross-Border Payments
+### 4.2 Withholding Tax on Cross-Border Payments
 
 **Service Fees:**
 Payments for CCUS services to non-resident providers may trigger withholding:
@@ -127,7 +127,7 @@ Payments for CCUS services to non-resident providers may trigger withholding:
 - **Treaty rates**: Typically 0-15% depending on bilateral treaty
 - **Hybrid mismatches**: ATAD 2 denies deductions for payments not included in recipient's income; relevant for payments to hybrid entities in non-EU jurisdictions
 
-### 3.3 Tax Credit Export and Monetization
+### 4.3 Tax Credit Export and Monetization
 
 **Section 45Q Credit Transferability:**
 IRS Notice 2023-XX permits one-time credit transfers:
@@ -141,9 +141,9 @@ IRS Notice 2023-XX permits one-time credit transfers:
 - **UK Contract for Difference**: CfD payments to foreign investors subject to 20% withholding unless treaty relief
 - **Norwegian uplift**: Non-resident licensees may utilize uplift only against Norwegian petroleum income
 
-## 4. Tax Accounting for CCUS Projects
+## 5. Tax Accounting for CCUS Projects
 
-### 4.1 Revenue Recognition – ASC 606
+### 5.1 Revenue Recognition – ASC 606
 
 **45Q Credit Revenue:**
 Performance obligation satisfied when CO₂ permanently stored (or utilized):
@@ -159,7 +159,7 @@ Government grants for CCUS projects:
 - **Conditionality**: Income recognized when conditions reasonably certain to be met
 - **Presentation**: Disclose accounting policy choice and grant amounts in financial statement notes
 
-### 4.2 Deferred Tax – IAS 12
+### 5.2 Deferred Tax – IAS 12
 
 **Temporary Differences:**
 Book-tax differences arise from:
@@ -175,9 +175,9 @@ CCUS facility with USD 500 million cost:
 - **Taxable temporary difference**: USD 450 million
 - **Deferred tax liability**: USD 450 million × 21% = USD 94.5 million
 
-## 5. State Aid and Subsidy Control
+## 6. State Aid and Subsidy Control
 
-### 5.1 EU State Aid Rules (Pre-Brexit UK Projects)
+### 6.1 EU State Aid Rules (Pre-Brexit UK Projects)
 
 CCUS subsidies must comply with Article 107 TFEU:
 
@@ -193,7 +193,7 @@ Large-scale CCUS projects may qualify under Article 107(3)(b):
 - **Notification required**: Pre-clearance by European Commission
 - **Tax implications**: State aid creates taxable income; recipient must evaluate whether EUR 200,000 de minimis exception applies
 
-### 5.2 UK Subsidy Control Act 2022
+### 6.2 UK Subsidy Control Act 2022
 
 Post-Brexit subsidy framework:
 
@@ -553,33 +553,4 @@ Replace NSCS BV with:
 
 **Result:** Same total tax, but participation exemption avoids excess FTC issue, preserving value of future Dutch losses or credits.
 
----
-
-## Conclusion
-
-Tax policy represents a pivotal determinant of CCUS project viability, with incentives such as Section 45Q in the United States providing NPV impacts exceeding initial capital costs. Multinational projects must navigate complex transfer pricing requirements for shared infrastructure, ensuring allocation methods align with OECD Guidelines while respecting each jurisdiction's tax base. The permanent establishment risks associated with cross-border storage operations demand careful structuring to optimize foreign tax credit utilization and avoid excess credit limitations. As jurisdictions worldwide enhance CCUS incentives to meet climate commitments, tax professionals must remain current on evolving legislation and maintain robust documentation to substantiate positions during what will inevitably be increased regulatory scrutiny.
-
----
-
-**Chapter Word Count:** 2,012 words
-**Worked Examples:** 2
-**Visual Elements:** 23 tables (23% of content)
-**Statutory References:** IRC §45Q, OECD TPG Chapter VIII, OECD Model Article 5, IAS 12, ASC 606
-**Jurisdictions Covered:** United States, United Kingdom, Norway, Netherlands, Canada, EU
-
----
-
-## Further Reading
-
-1. **Internal Revenue Code:** Section 45Q (Credit for Carbon Oxide Sequestration), Section 704(b) (Partner's distributive share)
-2. **OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations** (2022), Chapter VIII (Cost Contribution Arrangements)
-3. **OECD Model Tax Convention on Income and on Capital** (2017), Article 5 (Permanent Establishment), Commentary
-4. **IRS Notice 2023-42:** Guidance on Section 45Q Credit Transferability
-5. **HM Revenue & Customs:** CCUS Business Models – Industrial Carbon Capture (ICC) Contract Guidance (2023)
-6. **Norwegian Ministry of Finance:** Petroleum Taxation Act – Guidance on Uplift and Depreciation
-7. **European Commission:** Guidelines on State Aid for Environmental Protection and Energy 2022-2027
-8. **Global CCS Institute:** Global Status of CCS 2024 – Economic and Policy Analysis
-
----
-
-*End of Chapter 73*
+═══════════════════════════════════════════════════════════════

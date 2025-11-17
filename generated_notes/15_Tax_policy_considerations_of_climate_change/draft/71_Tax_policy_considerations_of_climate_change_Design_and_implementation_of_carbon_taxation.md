@@ -19,7 +19,7 @@ A **carbon tax** is an excise tax on fossil fuel producers or consumers based on
 
 ### 2.2 Economic Rationale
 
-The Pigouvian tax theory provides the economic foundation for carbon taxation. Emissions create social costs not reflected in market prices. A carbon tax corrects this market failure by:
+The **Pigouvian tax** theory (named after economist Arthur Pigou) provides the economic foundation for carbon taxation. Emissions create **social costs** (negative externalities) not reflected in market prices—the atmosphere's capacity to absorb emissions is treated as a free resource. A carbon tax corrects this market failure by:
 
 1. **Internalizing externalities**: Forcing emitters to bear full social cost
 2. **Incentivizing efficiency**: Making low-carbon options economically competitive
@@ -59,12 +59,12 @@ Carbon tax rates must balance environmental effectiveness with economic competit
 **Approaches to Rate Determination**:
 
 1. **Social Cost of Carbon (SCC)**: Rate equals estimated economic damage per tonne CO2
-   - US SCC estimates (2023): $51-190/tonne
-   - Challenges: Wide range; uncertainty about future impacts
+   - US SCC: Biden administration interim value (2021): $51/tonne; EPA updated central estimate (2023): $190/tonne
+   - Challenges: Wide range; uncertainty about future impacts; discount rate sensitivity
 
 2. **Emission Reduction Targets**: Rate set to achieve specific emission reductions
    - Modeling required to estimate behavioral responses
-   - Sweden example: €110/tonne achieving 26% reduction since 1990
+   - Sweden example: €126/tonne (2024) - studies show emissions would have been approximately 30% higher without carbon pricing since 1990
 
 3. **Revenue Requirements**: Rate calibrated to generate specific government revenue
    - Risk: May not achieve environmental goals
@@ -78,8 +78,8 @@ Carbon tax rates must balance environmental effectiveness with economic competit
 
 | Country | Tax Rate (per tonne CO2) | Year Introduced | Coverage |
 |---------|-------------------------|-----------------|----------|
-| **Sweden** | €110 | 1991 | Transport, heating (not industry in EU ETS) |
-| **Switzerland** | €96 | 2008 | Heating and process fuels |
+| **Sweden** | €126 | 1991 | Transport, heating (not industry in EU ETS) |
+| **Switzerland** | CHF 120 (€120) | 2008 | Heating and process fuels |
 | **Finland** | €90 | 1990 | Transport and heating fuels |
 | **France** | €45 | 2014 | All fossil fuels (industry partly exempt) |
 | **Canada** | C$65 (€45) | 2019 | All fossil fuels (federal backstop) |
@@ -99,10 +99,11 @@ Most carbon tax systems include provisions to protect competitiveness and vulner
 5. **Biomass fuels**: Renewable carbon sources
 
 **Relief Mechanisms**:
-- **Tax-free thresholds**: First X tonnes exempt (South Africa: 60% basic threshold)
-- **Phase-in schedules**: Gradual rate increases over time
-- **Credit for abatement**: Reductions from baseline earn credits
-- **Refunds for specific uses**: Fuel for non-combustion industrial processes
+- **Tax-free thresholds**: First X tonnes exempt (e.g., South Africa: 60% basic threshold reducing taxable base, providing competitiveness relief while maintaining environmental signal)
+- **Output-based allocations**: Free permits up to industry benchmark emission intensity, rewarding efficient producers
+- **Phase-in schedules**: Gradual rate increases over time allowing adjustment (e.g., Canada's C$15/year escalation)
+- **Credit for abatement**: Reductions from baseline earn credits saleable to other emitters
+- **Refunds for specific uses**: Fuel for non-combustion industrial processes (e.g., chemical feedstock)
 
 ### 3.4 Revenue Recycling
 
@@ -167,10 +168,10 @@ How governments use carbon tax revenues significantly affects political acceptab
 - Existing petroleum tax infrastructure adaptable
 
 **Example - Canada Federal Carbon Pricing**:
-- Applied to fuel distributors and importers
-- Rates: C$65/tonne (2023), rising C$15/year to C$170/tonne (2030)
+- Applied to fuel distributors and importers under the **Greenhouse Gas Pollution Pricing Act** (federal legislation)
+- Rates: C$65/tonne (2023), C$80/tonne (2024), rising C$15/year to reach C$170/tonne (2030)
 - Covers: gasoline, diesel, natural gas, propane, aviation fuel
-- ~200 registered distributors nationwide
+- Approximately 200 registered distributors nationwide
 
 **Downstream Collection** (Large Emitters):
 
@@ -186,10 +187,10 @@ How governments use carbon tax revenues significantly affects political acceptab
 - Significant administrative capacity
 
 **Example - Singapore Carbon Tax**:
-- Applied to facilities emitting ≥25,000 tCO2/year
-- ~50 facilities covered (power, petrochemicals, semiconductors)
-- Annual reporting and payment
-- Built on existing air emissions reporting
+- Applied to facilities emitting ≥25,000 tCO2/year (threshold ensures administrative efficiency by targeting large emitters)
+- Approximately 50 facilities covered (power generation, petrochemicals, semiconductors)
+- Annual reporting and payment cycle
+- Built on existing air emissions reporting infrastructure under Environmental Protection and Management Act
 
 ### 4.3 Monitoring, Reporting and Verification (MRV)
 
@@ -240,11 +241,11 @@ Oil and gas extraction and processing activities face carbon tax on:
 - Oil sands: 60-80 kg CO2/barrel
 - Natural gas processing: 30-50 kg CO2/tonne LNG
 
-**Tax Impact Example**:
+**Tax Impact Example** (2024):
 - Oil sands operation: 70 kg CO2/barrel
-- Canadian carbon tax: C$65/tonne (2023)
-- **Tax cost: C$4.55/barrel** (= 0.070 × C$65)
-- At production cost of C$30/barrel: **15% cost increase**
+- Canadian carbon tax: C$80/tonne
+- **Tax cost: C$5.60/barrel** (= 0.070 × C$80)
+- At production cost of C$30/barrel: **18.7% cost increase**
 
 ### 5.2 Refining and Petrochemicals
 
@@ -617,14 +618,7 @@ Price elasticity of demand for fossil fuels:
 
 **Conclusion**:
 
-The $50/tonne carbon tax generates $6.5 billion annually (1.3% of GDP) while reducing emissions by 3.9% initially and 9.1% long-term. The progressive rebate mechanism (Option B) ensures low and middle-income households are net beneficiaries, improving political acceptability. Trade-exposed industries require competitiveness measures to prevent carbon leakage. The combination of carbon pricing, revenue recycling, and green investment creates a comprehensive climate policy framework.
-
-**Policy Recommendations**:
-1. Implement progressive rebate (Option B) for equity
-2. Provide output-based allocations to trade-exposed industries
-3. Escalate tax rate C$10/year to strengthen emission signal
-4. Use green infrastructure fund for public transit, efficiency programs
-5. Review and adjust after 3 years based on emission data
+The $50/tonne carbon tax generates $6.5 billion annually (1.3% of GDP) while reducing emissions by 3.9% initially and 9.1% long-term. The progressive rebate mechanism (Option B) ensures low and middle-income households are net beneficiaries, improving political acceptability. Trade-exposed industries require competitiveness measures such as output-based allocations or border carbon adjustments to prevent carbon leakage.
 
 ═══════════════════════════════════════════════════════════════
 
@@ -885,11 +879,3 @@ The differential tax treatment between corporate income taxes (creditable) and c
 - Explore lower-emission jurisdictions for new refinery capacity
 
 ═══════════════════════════════════════════════════════════════
-
-## 8. Conclusion
-
-The design and implementation of carbon taxation requires careful consideration of environmental effectiveness, economic efficiency, administrative feasibility, and equity. For the oil and gas sector, carbon taxes create direct cost pressures that influence operational decisions, investment location, and emission abatement strategies.
-
-International tax considerations—particularly foreign tax credit treatment and transfer pricing—significantly affect the economic impact of carbon taxes on multinational enterprises. Tax professionals advising energy sector clients must understand both the environmental policy objectives and the fiscal mechanics of carbon taxation to provide effective guidance.
-
-As carbon pricing expands globally, the interaction between carbon taxes, corporate income taxes, and international tax rules will become increasingly complex, requiring sophisticated tax planning and proactive engagement with policymakers to ensure that climate and fiscal objectives align.

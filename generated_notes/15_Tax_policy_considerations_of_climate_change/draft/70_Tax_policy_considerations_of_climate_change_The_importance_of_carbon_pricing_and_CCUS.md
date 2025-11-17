@@ -8,7 +8,7 @@ Climate change poses one of the most significant challenges to global economic s
 
 ### 2.1 Definition and Purpose
 
-**Carbon pricing** is an instrument of environmental cost internalization that places a monetary value on greenhouse gas emissions, primarily carbon dioxide (CO2). The fundamental principle is that entities responsible for GHG emissions should bear the cost of the environmental damage they cause, thereby incentivizing emission reductions [World Bank, 2024].
+**Carbon pricing** is an instrument of environmental cost internalization that places a monetary value on greenhouse gas emissions, primarily carbon dioxide (CO2). The fundamental principle, known as the **"polluter pays" principle**, is that entities responsible for GHG emissions should bear the cost of the environmental damage they cause, thereby incentivizing emission reductions. This addresses the market failure where environmental costs are externalized—borne by society rather than the emitting entity—creating economic incentives for cleaner production methods [World Bank, 2024].
 
 The primary objectives of carbon pricing include:
 
@@ -38,8 +38,8 @@ There are two principal carbon pricing mechanisms, each with distinct characteri
 
 A **carbon tax** is an excise tax levied on producers of fossil fuels based on the carbon content of those fuels. Under this mechanism, governments set a price that emitters must pay for each tonne of GHG emissions [UN Handbook, 2021]. The tax can be applied:
 
-- **Upstream**: At the point of fuel production or import (lower administrative cost)
-- **Downstream**: At the point of emission (requires monitoring, reporting and verification - MRV systems)
+- **Upstream**: At the point of fuel production or import (lower administrative cost, as fewer collection points exist)
+- **Downstream**: At the point of emission (requires **monitoring, reporting and verification (MRV)** systems to track actual emissions at each facility)
 
 Key characteristics include:
 
@@ -48,11 +48,11 @@ Key characteristics include:
 3. **Revenue generation**: Provides stable government revenue streams
 4. **Administrative simplicity**: Can leverage existing tax collection systems
 
-As of 2024, **39 jurisdictions** worldwide have implemented carbon taxes, including Canada, Singapore, South Africa, Chile, Colombia, and multiple European countries [World Bank Dashboard, 2024].
+As of 2024, carbon taxes have been implemented in approximately **37 national and subnational jurisdictions** worldwide, including Canada (federal and provincial levels), Singapore, South Africa, Chile, Colombia, and multiple European countries such as Sweden, Finland, Norway, France, and the Netherlands [World Bank State and Trends of Carbon Pricing, 2024].
 
 #### 2.2.2 Emissions Trading Systems (Cap-and-Trade)
 
-An **ETS**, also termed a cap-and-trade system, establishes a maximum limit (cap) on total GHG emissions from covered sources. The government issues emission allowances consistent with the cap, where each allowance permits the emission of one tonne of CO2 equivalent. Companies must surrender allowances equal to their emissions and may buy or sell allowances, thereby establishing a market price for emissions [EU Commission, 2025].
+An **ETS**, also termed a cap-and-trade system, establishes a maximum limit (cap) on total GHG emissions from covered sources. The government issues emission allowances consistent with the cap, where each allowance permits the emission of one tonne of CO2 equivalent. Companies must surrender allowances equal to their emissions and may buy or sell allowances, thereby establishing a market price for emissions [EU Commission, 2024].
 
 The mechanism operates through five key steps:
 
@@ -62,7 +62,7 @@ The mechanism operates through five key steps:
 4. **Trading**: Market participants buy/sell allowances based on abatement costs
 5. **Surrender**: Entities must hold allowances equal to emissions; penalties apply for non-compliance
 
-The **EU Emissions Trading System (EU ETS)**, launched in 2005, is the world's largest carbon market. By 2024, it covered approximately **10,000 installations** in power generation and industrial manufacturing, representing about **40% of EU greenhouse gas emissions**. The system has achieved a **47% reduction** in covered sector emissions compared to 2005 levels [EU Commission, 2025].
+The **EU Emissions Trading System (EU ETS)**, launched in 2005, is the world's largest carbon market. By 2024, it covered approximately **10,000 installations** in power generation and industrial manufacturing, representing about **45% of EU greenhouse gas emissions**. The system has achieved a **47.6% reduction** in covered sector emissions compared to 2005 levels, demonstrating significant effectiveness in driving decarbonization [EU Commission, 2024].
 
 ## 3. Carbon Pricing: Mechanisms and Effectiveness
 
@@ -96,8 +96,8 @@ Carbon pricing creates emission reductions through multiple channels:
 
 The EU ETS has demonstrated substantial effectiveness despite initial design challenges:
 
-- **Emission reductions**: 47% decline in covered sectors (2005-2023)
-- **Economic neutrality**: Academic research confirms 14-16% emissions reduction by regulated manufacturers with no detectable contraction in economic activity [Oxford Academic, 2025]
+- **Emission reductions**: 47.6% decline in covered sectors (2005-2023)
+- **Economic neutrality**: Academic research confirms 14-16% emissions reduction by regulated manufacturers with no detectable contraction in economic activity [Oxford Academic, 2024]
 - **Global impact**: Evidence shows the EU ETS induced global emissions reductions, not merely emissions leakage to uncovered jurisdictions
 - **Price evolution**: Allowance prices increased from €7/tonne (2017) to €63/tonne (2021), providing stronger abatement signals
 
@@ -105,7 +105,7 @@ The EU ETS has demonstrated substantial effectiveness despite initial design cha
 
 Countries implementing carbon taxes have achieved measurable emission reductions:
 
-- **Sweden**: Carbon tax of €110/tonne CO2 (among world's highest) contributed to **26% emission reduction** since 1990 while GDP doubled
+- **Sweden**: Carbon tax of approximately €126/tonne CO2 (as of 2024, among world's highest) contributed to significant emission reductions since 1990 while GDP doubled. Studies indicate that without carbon pricing, Sweden's emissions would have been approximately 30% higher
 - **British Columbia**: Carbon tax implemented 2008 resulted in 5-15% emission reduction in covered sectors
 - **Singapore**: First Southeast Asian carbon tax (2019) set at S$5/tonne, escalating to S$50-80/tonne by 2030
 
@@ -132,7 +132,7 @@ The oil and gas industry faces specific considerations under carbon pricing mech
 
 ### 4.1 Definition and Technology Overview
 
-**Carbon capture, use and storage (CCUS)** encompasses technologies that capture CO2 emissions from large point sources (power plants, industrial facilities, oil and gas operations), transport the captured CO2, and either utilize it in industrial processes or store it permanently in geological formations [IEA, 2025].
+**Carbon capture, use and storage (CCUS)** encompasses technologies that capture CO2 emissions from large point sources (power plants, industrial facilities, oil and gas operations), transport the captured CO2, and either utilize it in industrial processes or store it permanently in geological formations [IEA, 2024].
 
 **Table 2: CCUS Technology Components**
 
@@ -155,11 +155,11 @@ CCUS plays a critical role in decarbonization strategies for multiple reasons:
 ### 4.3 Current CCUS Deployment
 
 As of 2024:
-- **Operating facilities**: Approximately 40 commercial CCUS facilities worldwide
-- **Capture capacity**: About 45 million tonnes CO2 per year
-- **Planned projects**: Over 300 projects in development pipeline
-- **US leadership**: 12 of 40 operating facilities located in United States
-- **Primary use**: 11 of 12 US facilities use captured CO2 for Enhanced Oil Recovery (EOR)
+- **Operating facilities**: Approximately 44-50 commercial CCUS facilities worldwide
+- **Capture capacity**: About 50 million tonnes CO2 per year
+- **Planned projects**: Over 600 projects in development pipeline globally
+- **US leadership**: 15-17 operating facilities located in United States (representing North America's capture capacity of approximately 26.5 million tonnes per annum)
+- **Primary use**: Majority of US facilities use captured CO2 for Enhanced Oil Recovery (EOR), while over 60% of global operational capture capacity is at natural gas processing facilities
 
 ## 5. Tax Policy and CCUS
 
@@ -169,13 +169,13 @@ Governments have introduced substantial tax incentives to accelerate CCUS deploy
 
 #### 5.1.1 United States Section 45Q Tax Credit
 
-The **Inflation Reduction Act (IRA)** significantly expanded the Section 45Q tax credit:
+The **Inflation Reduction Act of 2022 (IRA)**, enacted August 16, 2022, significantly expanded the Section 45Q tax credit to accelerate CCUS deployment and support decarbonization of industrial sectors. The policy rationale is to bridge the economic viability gap for CCUS technologies by providing substantial financial incentives that make carbon capture competitive with unabated emissions:
 
 **Credit Values (per tonne CO2)**:
 - **Saline geological storage**: $85/tonne
 - **Enhanced Oil Recovery (EOR)**: $60/tonne
 - **Direct Air Capture (DAC) with storage**: $180/tonne
-- **DAC with EOR**: $130/tonne
+- **Direct Air Capture (DAC) with EOR**: $130/tonne
 
 **Key Provisions**:
 - **Eligibility period**: Projects beginning construction before January 1, 2033
@@ -184,17 +184,17 @@ The **Inflation Reduction Act (IRA)** significantly expanded the Section 45Q tax
 - **Direct pay option**: Entities can receive credit as direct payment for first 5 years
 - **Transferability**: Credits can be transferred to third parties
 
-**Estimated Impact**: US Energy Information Administration projects CO2 capture at power and industrial facilities will increase substantially through the 2030s, driven primarily by enhanced 45Q credits [EIA, 2025].
+**Estimated Impact**: US Energy Information Administration projects CO2 capture at power and industrial facilities will increase substantially through the 2030s, driven primarily by enhanced 45Q credits [EIA, 2024].
 
 #### 5.1.2 Other Jurisdictions
 
-**Canada**: Investment Tax Credit for CCUS providing 50-60% of project capital costs
+**Canada**: Investment Tax Credit for CCUS providing 50-60% of project capital costs. The credit aims to position Canada as a leader in CCUS technology while supporting emission reductions in hard-to-abate sectors.
 
-**United Kingdom**: Business models under development including contracts for difference for CCUS projects
+**United Kingdom**: Business models under development including contracts for difference for CCUS projects to provide revenue certainty and accelerate deployment of industrial carbon capture clusters.
 
-**European Union**: Innovation Fund providing €38 billion for low-carbon technology deployment including CCUS
+**European Union**: Innovation Fund providing €38 billion (2020-2030) for low-carbon technology deployment including CCUS, funded through EU ETS allowance auctions.
 
-**Norway**: Longstanding support through state investment in Longship project (full-chain CCUS)
+**Norway**: Longstanding support through state investment in the Longship project, which represents a full-chain CCUS demonstration including transport and offshore storage infrastructure.
 
 ### 5.2 Interaction with Carbon Pricing
 
@@ -235,9 +235,9 @@ Carbon pricing and CCUS tax incentives significantly impact international invest
 
 ### 6.2 Carbon Border Adjustment Mechanisms (CBAM)
 
-The **EU Carbon Border Adjustment Mechanism (CBAM)**, implemented 2023-2025, addresses carbon leakage by imposing charges on imports from jurisdictions without equivalent carbon pricing:
+The **EU Carbon Border Adjustment Mechanism (CBAM)**, with transitional phase from October 2023 to December 2025 and full implementation from January 2026, addresses carbon leakage by imposing charges on imports from jurisdictions without equivalent carbon pricing. During the transitional phase, importers must report embedded emissions without making financial payments; from 2026 onwards, they must purchase and surrender CBAM certificates:
 
-**Covered Sectors** (initial): Cement, iron and steel, aluminum, fertilizers, electricity, hydrogen
+**Covered Sectors**: Cement, iron and steel, aluminum, fertilizers, electricity, and hydrogen (as of 2024)
 
 **Mechanism**:
 - Importers must purchase CBAM certificates reflecting embedded emissions
@@ -701,16 +701,3 @@ Without Swiss structure:
 - **Low risk**: Deductibility of ETS compliance costs (established practice)
 
 ═══════════════════════════════════════════════════════════════
-
-## 8. Conclusion
-
-Carbon pricing and CCUS represent critical policy instruments for addressing climate change while maintaining economic growth. The integration of these mechanisms into fiscal policy creates both opportunities and complexities for the international oil and gas sector. Tax professionals must navigate evolving carbon pricing regimes, optimize CCUS tax incentives, and manage international tax implications of emission reduction strategies.
-
-Key takeaways include:
-- Carbon pricing (both taxes and ETS) effectively reduces emissions while generating government revenue
-- CCUS technology requires substantial tax support to be economically viable in most applications
-- International tax considerations significantly impact the economics of both carbon pricing compliance and CCUS investment
-- Transfer pricing, permanent establishment, and withholding tax issues require careful analysis in cross-border carbon management strategies
-- The global trend toward carbon pricing and climate-related taxation will continue to intensify, requiring sophisticated tax planning
-
-Understanding these mechanisms and their interactions is essential for tax advisers serving clients in the energy resources sector as the global economy transitions to lower carbon intensity.
