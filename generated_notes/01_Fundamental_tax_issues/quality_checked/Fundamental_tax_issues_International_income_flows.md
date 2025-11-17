@@ -304,4 +304,3 @@ If ETG were to restructure payments (with proper substance):
 **Total Tax Cost (Alternative)**: **USD 15.65M** (unchanged)
 
 **Observation**: Because Nigeria applies the same 10% domestic withholding rate to royalties, technical fees, and dividends in the absence of treaty relief, mere recharacterization among these payment types does not reduce total tax cost. Both royalties and service fees are deductible against Nigerian corporate tax, creating the same taxable base. The key planning imperative is ensuring that the characterization reflects genuine commercial substance and satisfies transfer pricing requirements in both jurisdictions.
-
