@@ -1,75 +1,75 @@
 #!/usr/bin/env python3
 """
-Batch converter script to convert all markdown files to DOCX format
-Using the create_enhanced_docx module
+Script to batch convert markdown files to DOCX format
+using the create_enhanced_docx module
 """
 
 import os
 import sys
 from pathlib import Path
+
+# Add the project root to the path to import create_enhanced_docx
+sys.path.insert(0, '/home/user/ADITER')
+
 from create_enhanced_docx import create_enhanced_document
 
-def convert_directory_md_to_docx(source_dir, output_dir=None):
+def convert_markdown_files(source_dir, output_dir):
     """
-    Convert all markdown files in a directory to DOCX format
+    Convert all markdown files in source_dir to DOCX format in output_dir
 
     Args:
         source_dir: Directory containing markdown files
-        output_dir: Directory to save DOCX files (defaults to source_dir)
+        output_dir: Directory to save DOCX files
     """
+    source_path = Path(source_dir)
+    output_path = Path(output_dir)
 
-    if output_dir is None:
-        output_dir = source_dir
-
-    # Ensure output directory exists
-    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    # Create output directory if it doesn't exist
+    output_path.mkdir(parents=True, exist_ok=True)
 
     # Find all markdown files
-    source_path = Path(source_dir)
-    md_files = list(source_path.glob('*.md'))
+    md_files = sorted(source_path.glob('*.md'))
 
     if not md_files:
-        print(f"⚠️  No markdown files found in {source_dir}")
-        return 0
+        print(f"❌ No markdown files found in {source_dir}")
+        return False
 
-    print(f"Found {len(md_files)} markdown file(s) to convert")
-    print("-" * 50)
+    print(f"Found {len(md_files)} markdown files to convert\n")
 
-    converted_count = 0
+    success_count = 0
 
-    for md_file in sorted(md_files):
+    for md_file in md_files:
         try:
-            # Read markdown file
+            # Read markdown content
             with open(md_file, 'r', encoding='utf-8') as f:
-                md_content = f.read()
+                content = f.read()
 
-            # Generate output filename
-            output_path = Path(output_dir)
-            output_filename = str(output_path / (md_file.stem + '.docx'))
-
-            # Extract title from filename (remove prefix and underscores)
+            # Extract title from filename
+            # Remove the .md extension and clean up the name
             title = md_file.stem.replace('_', ' ')
 
+            # Create output filename
+            output_filename = str(output_path / f"{md_file.stem}.docx")
+
             # Convert to DOCX
-            print(f"\n📄 Converting: {md_file.name}")
-            create_enhanced_document(md_content, title, output_filename)
-            converted_count += 1
+            print(f"Converting: {md_file.name}")
+            create_enhanced_document(content, title, output_filename)
+            success_count += 1
 
         except Exception as e:
             print(f"❌ Error converting {md_file.name}: {str(e)}")
             continue
 
-    print("\n" + "=" * 50)
-    print(f"✅ Successfully converted {converted_count}/{len(md_files)} files")
-    return converted_count
+    print(f"\n✅ Successfully converted {success_count}/{len(md_files)} files")
+    return success_count == len(md_files)
 
 if __name__ == '__main__':
-    # Directory containing markdown files
-    source_directory = '/home/user/ADITER/generated_notes/04_Permanent_establishments/quality_checked'
+    source_directory = '/home/user/ADITER/generated_notes/05_Technical_services/quality_checked'
+    output_directory = '/home/user/ADITER/generated_notes/05_Technical_services/quality_checked/word_docs'
 
-    print("Markdown to DOCX Batch Converter")
+    print("Markdown to DOCX Converter")
     print("=" * 50)
-    print(f"Source directory: {source_directory}")
+    print(f"Source: {source_directory}")
+    print(f"Output: {output_directory}\n")
 
-    # Convert all files in the source directory
-    convert_directory_md_to_docx(source_directory)
+    convert_markdown_files(source_directory, output_directory)
