@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamental Tax Issues - ADIT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #003F87;
+            --secondary: #0066CC;
+            --accent: #FF6B35;
+            --light-bg: #F8F9FA;
+            --dark-text: #1A1F36;
+            --light-text: #FFFFFF;
+            --success: #27AE60;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--light-text);
+            text-align: center;
+            padding: 60px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .welcome-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+        }
+
+        .welcome-content {
+            max-width: 800px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo-circle {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+
+        .welcome-content h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .welcome-content .tagline {
+            font-size: 20px;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+
+        .welcome-content .description {
+            font-size: 16px;
+            line-height: 1.8;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 16px 50px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        /* Curriculum Section */
+        .curriculum-section {
+            padding: 80px 40px;
+        }
+
+        .curriculum-section header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--light-text);
+            padding: 50px 40px;
+            text-align: center;
+            margin-bottom: 60px;
+            border-radius: 12px;
+        }
+
+        .curriculum-section header h2 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .curriculum-section header p {
+            font-size: 16px;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .module-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--accent);
+        }
+
+        .module-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 15px 35px rgba(0, 63, 135, 0.15);
+        }
+
+        .module-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--light-text);
+            padding: 30px 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .module-number {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .module-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .module-body {
+            padding: 25px;
+        }
+
+        .module-description {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .module-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            color: #888;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            margin-bottom: 15px;
+        }
+
+        .module-link {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--light-text);
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 63, 135, 0.2);
+        }
+
+        .module-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 63, 135, 0.3);
+        }
+
+        /* Topic Sections */
+        .topic-section {
+            padding: 60px 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .topic-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--light-text);
+            padding: 40px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+
+        .topic-title {
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .content-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            color: var(--primary);
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--light-bg);
+            position: relative;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent), var(--secondary));
+        }
+
+        .bullet-points {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .bullet-points li {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 16px;
+            line-height: 1.7;
+            color: #555;
+            font-size: 15px;
+        }
+
+        .bullet-points li::before {
+            content: '▸';
+            color: var(--accent);
+            font-weight: bold;
+            flex-shrink: 0;
+            font-size: 18px;
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .welcome-content h1 {
+                font-size: 32px;
+            }
+
+            .curriculum-section {
+                padding: 40px 20px;
+            }
+
+            .curriculum-section header h2 {
+                font-size: 32px;
+            }
+
+            .modules-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .topic-section {
+                padding: 40px 20px;
+            }
+
+            .topic-title {
+                font-size: 28px;
+            }
+
+            .content-section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Welcome Section -->
+    <section class="welcome-section" id="welcome">
+        <div class="welcome-content">
+            <div class="logo-circle">🏛️</div>
+            <h1>Fundamental Tax Issues</h1>
+            <p class="tagline">ADIT Module - Advanced International Taxation</p>
+            <p class="description">
+                Master the core principles of international taxation including income flows, investment structures,
+                tax treaties, and transfer pricing methodologies essential for global tax professionals.
+            </p>
+            <a href="#curriculum" class="cta-button">Begin Learning</a>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class="curriculum-section" id="curriculum">
+        <header>
+            <h2>Course Curriculum</h2>
+            <p>Four Core Topics in International Tax Fundamentals</p>
+        </header>
+
+        <div class="container">
+            <div class="modules-grid">
+
+            <div class="module-card">
+                <div class="module-header">
+                    <div class="module-number">1</div>
+                    <div class="module-title">International Income Flows</div>
+                </div>
+                <div class="module-body">
+                    <p class="module-description">
+                        Comprehensive coverage of international income flows principles and applications.
+                    </p>
+                    <div class="module-meta">
+                        <span>📚 16 sections</span>
+                    </div>
+                    <a href="#topic-1" class="module-link">View Topic</a>
+                </div>
+            </div>
+
+            <div class="module-card">
+                <div class="module-header">
+                    <div class="module-number">2</div>
+                    <div class="module-title">International Investment</div>
+                </div>
+                <div class="module-body">
+                    <p class="module-description">
+                        Comprehensive coverage of international investment principles and applications.
+                    </p>
+                    <div class="module-meta">
+                        <span>📚 11 sections</span>
+                    </div>
+                    <a href="#topic-2" class="module-link">View Topic</a>
+                </div>
+            </div>
+
+            <div class="module-card">
+                <div class="module-header">
+                    <div class="module-number">3</div>
+                    <div class="module-title">Tax Treaties</div>
+                </div>
+                <div class="module-body">
+                    <p class="module-description">
+                        Comprehensive coverage of tax treaties principles and applications.
+                    </p>
+                    <div class="module-meta">
+                        <span>📚 17 sections</span>
+                    </div>
+                    <a href="#topic-3" class="module-link">View Topic</a>
+                </div>
+            </div>
+
+            <div class="module-card">
+                <div class="module-header">
+                    <div class="module-number">4</div>
+                    <div class="module-title">Transfer Pricing</div>
+                </div>
+                <div class="module-body">
+                    <p class="module-description">
+                        Comprehensive coverage of transfer pricing principles and applications.
+                    </p>
+                    <div class="module-meta">
+                        <span>📚 17 sections</span>
+                    </div>
+                    <a href="#topic-4" class="module-link">View Topic</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topic Content Sections -->
+
+        <div class="topic-section" id="topic-1">
+            <div class="topic-header">
+                <h2 class="topic-title">1. International Income Flows</h2>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1. Core Framework and Types of Income</h3>
+                <ul class="bullet-points">
+                    <li>International income flows in the energy resources sector encompass various cross-border payments arising from exploration, production, and commercial exploitation of petroleum, natural gas, and renewable energy assets. Proper characterization of income streams is critical as each category receives distinct tax treatment under domestic law and tax treaties.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.1 Principal Income Categories</h3>
+                <ul class="bullet-points">
+                    <li>The primary income flows in energy sector investments include:</li>
+                    <li>Active Business Income: Profits from extraction, production, processing, and trading operations. Taxable in source jurisdiction if permanent establishment (PE) exists; otherwise taxable only in residence jurisdiction (Organisation for Economic Co-operation and Development (OECD) Model Article 7).</li>
+                    <li>Dividends: Distributions of after-tax profits from subsidiaries to parent companies. Subject to withholding tax in source jurisdiction (typically 5-30%) with relief under tax treaties (typically reduced to 0-15%) (Article 10).</li>
+                    <li>Interest: Payments on debt financing for energy projects. Withholding tax in source jurisdiction (typically 10-25%) with treaty relief (typically 0-10%) (Article 11).</li>
+                    <li>Royalties: Payments for use of intellectual property, technical knowledge, or natural resource extraction rights. Withholding tax (typically 15-30%) with treaty relief (typically 5-15%) (Article 12).</li>
+                    <li>Technical Service Fees: Fees for provision of managerial, technical, or consultative services. Treatment varies significantly across jurisdictions – some treaties provide withholding tax exemption, others allow source taxation at 5-20%.</li>
+                    <li>Capital Gains: Gains on disposal of energy assets or shares. Source taxation typically applies to direct asset sales and certain share sales (immovable property companies) (Article 13).</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.2 Statutory Framework</h3>
+                <ul class="bullet-points">
+                    <li>Tax treatment is governed by:</li>
+                    <li>Domestic legislation: Defines income categories, prescribes withholding rates, and establishes filing obligations</li>
+                    <li>Tax treaties: Allocate taxing rights, reduce withholding rates, prevent double taxation</li>
+                    <li>OECD/UN Model Conventions: Provide interpretative guidance through official Commentaries</li>
+                    <li>Mutual Agreement Procedures (MAP): Resolve treaty interpretation disputes</li>
+                    <li>Advance Pricing Agreements (APAs): Provide certainty on transfer pricing treatment</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.1 Withholding Tax Rate Summary</h3>
+                <ul class="bullet-points">
+                    <li>Note on Model Convention Rates: The OECD Model Tax Convention (2017) specifies maximum withholding rates in its standard provisions, but many bilateral treaties negotiate lower rates. The United Nations (UN) Model Convention does not prescribe fixed withholding rates, leaving these to be determined through bilateral negotiations between treaty partners, typically reflecting developing countries' preference for retaining source-based taxation rights.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.2 Dividend Income</h3>
+                <ul class="bullet-points">
+                    <li>Domestic Treatment: Source jurisdiction taxes distributed profits at corporate level, then applies withholding tax on dividend payment.</li>
+                    <li>Treaty Relief: Treaties reduce withholding based on shareholding percentage:</li>
+                    <li>Direct investment (typically &gt;10%): 0-5% WHT</li>
+                    <li>Portfolio investment: 10-15% WHT</li>
+                    <li>Parent-subsidiary directive (EU): 0% WHT if &gt;10% holding for &gt;1 year</li>
+                    <li>Beneficial Ownership: Treaties deny reduced rates unless recipient is beneficial owner with economic substance. Mere conduit companies are disregarded [OECD Commentary to Article 10].</li>
+                    <li>Participation Exemption: Many residence jurisdictions exempt foreign dividends from taxation if:</li>
+                    <li>Minimum holding: &gt;5-10%</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.3 Interest Income</h3>
+                <ul class="bullet-points">
+                    <li>Source vs. Residence Taxation: Under OECD Model Article 11, interest is primarily taxable in the beneficiary's residence state, with limited source taxation permitted (maximum 10% under the Model). UN Model similarly permits source taxation at rates determined through bilateral negotiation (typically 10%).</li>
+                    <li>Anti-Avoidance Rules:</li>
+                    <li>Thin Capitalization: Limits interest deductibility when debt-to-equity ratio exceeds prescribed threshold (typically 3:1 or 4:1). Excess interest may be recharacterized as dividend subject to higher withholding.</li>
+                    <li>Earnings Stripping: Modern rules limit interest deductions to percentage of Earnings Before Interest, Taxes, Depreciation and Amortization (EBITDA) (typically 10-30%) regardless of debt-to-equity ratio. Implements OECD Base Erosion and Profit Shifting (BEPS) Action 4 recommendations (2015-2016).</li>
+                    <li>Associated Enterprise: Article 11(6) permits recharacterization of excessive interest as dividends when rate or amount exceeds arm's length parameters.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.4 Royalty Income</h3>
+                <ul class="bullet-points">
+                    <li>Definition: Payments for use of intellectual property (patents, know-how, designs) or natural resource extraction rights.</li>
+                    <li>Extraction Royalties vs. IP Royalties: Many jurisdictions distinguish:</li>
+                    <li>Extraction royalties: Payments to government or landowner for right to extract resources (typically not reduced by treaty)</li>
+                    <li>IP royalties: Payments for use of technology or knowledge (treaty relief available)</li>
+                    <li>Technical Service Fees vs. Royalties: Critical distinction:</li>
+                    <li>Royalties: Payment for passive use of IP; payer not required to utilize services</li>
+                    <li>Technical fees: Payment for active services; characterized under Article 7 (business profits) or special service articles</li>
+                    <li>OECD vs. UN Model: OECD Model (2017) recommends exclusive residence taxation (0% source withholding) on royalties; UN Model permits source taxation at rates negotiated bilaterally, typically around 10%, reflecting developing countries' preference for source-based taxation.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.5 Technical Service Fees</h3>
+                <ul class="bullet-points">
+                    <li>Treaty Treatment: Most OECD-based treaties do not permit source withholding on fees for independent services (Article 7 – taxable only if PE exists). Many UN-based and bilateral treaties include Technical Services Article permitting 5-20% source withholding.</li>
+                    <li>Dependent vs. Independent Services: Historical distinction (pre-2000 OECD Model):</li>
+                    <li>Independent services (Article 14): Professionals, consultants, technical advisers</li>
+                    <li>Dependent services: Employees (Article 15)</li>
+                    <li>Modern treaties eliminate Article 14, treating all services under Article 7 (business profits) unless PE exists.</li>
+                    <li>Make-Available Provision: Some treaties reduce/eliminate withholding if services "make available" technical knowledge enabling recipient to apply knowledge independently without ongoing involvement.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3.1 Income Classification Decision Tree</h3>
+                <ul class="bullet-points">
+                    <li>Cross-Border Payment</li>
+                    <li>|</li>
+                    <li>v</li>
+                    <li>Is it for use of IP?</li>
+                    <li>|</li>
+                    <li>Yes → Royalty (Article 12)</li>
+                    <li>|</li>
+                    <li>No  → Is it for services?</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3.2 Common Mischaracterization Risks</h3>
+                <ul class="bullet-points">
+                    <li>Disguised Dividends: Excessive interest, royalties, or service fees to related parties may be recharacterized as dividends:</li>
+                    <li>Applies when amounts exceed arm's length price</li>
+                    <li>Results in disallowance of deduction and withholding tax adjustment</li>
+                    <li>Article 9 (transfer pricing) and specific article anti-abuse provisions</li>
+                    <li>Royalties vs. Business Profits: Payments for software, equipment use, or technical know-how require careful analysis:</li>
+                    <li>Copyright payments: Typically royalties</li>
+                    <li>Software licenses: Royalties (unless standard off-the-shelf)</li>
+                    <li>Equipment rental: May be business profits or royalties depending on treaty</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="topic-section" id="topic-2">
+            <div class="topic-header">
+                <h2 class="topic-title">2. International Investment</h2>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1. Core Framework and Statutory Basis</h3>
+                <ul class="bullet-points">
+                    <li>International investment in the energy resources sector involves cross-border capital flows directed toward exploration, development, production, and distribution of petroleum, natural gas, and renewable energy assets. The tax treatment of such investments is governed by domestic legislation, bilateral tax treaties, and international standards from the OECD and UN.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.1 Statutory Foundation</h3>
+                <ul class="bullet-points">
+                    <li>The primary legislative framework comprises:</li>
+                    <li>Domestic corporate income tax laws: Each jurisdiction taxes profits from operations within its borders</li>
+                    <li>Capital gains tax provisions: Treatment of gains on disposal of energy assets or shares</li>
+                    <li>Withholding tax regimes: Taxation at source on dividends, interest, and royalties</li>
+                    <li>Anti-avoidance legislation: CFC rules, transfer pricing regulations, and GAAR</li>
+                    <li>Tax treaty networks: Over 3,000 bilateral treaties govern allocation of taxing rights</li>
+                    <li>The OECD Model Tax Convention (updated 2017, amended via MLI) provides the template for bilateral treaties, establishing principles for residence and source taxation, permanent establishment thresholds, and relief from double taxation.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.2 Fundamental Principles</h3>
+                <ul class="bullet-points">
+                    <li>Source vs. Residence Taxation: Source jurisdiction (where resources are located) claims primary taxing rights over extraction income, while residence jurisdiction (where investor is tax resident) may tax worldwide income subject to foreign tax relief.</li>
+                    <li>Permanent Establishment (PE): Under treaties, business profits are taxable only in residence state unless investor has a PE in source state. Energy sector activities often create PE through production platforms, extended operations, or construction activities exceeding treaty thresholds (typically 6-12 months).</li>
+                    <li>Arm's Length Principle: Cross-border related-party transactions must be priced as if between independent parties (OECD Model Article 9, domestic transfer pricing legislation).</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.2 Withholding Tax Rates</h3>
+                <ul class="bullet-points">
+                    <li>Energy investments generate income subject to withholding:</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.3 Capital Gains Taxation</h3>
+                <ul class="bullet-points">
+                    <li>Direct asset sales: Source taxation applies to gains on immovable property and exploration/production rights (Treaty Article 13(1)-(2)).</li>
+                    <li>Share sales: Generally taxable only in seller's residence state (Article 13(5)), except "immovable property company" provisions allow source taxation where &gt;50% of value derives from immovable property (including mining rights).</li>
+                    <li>Participation exemption: Many jurisdictions exempt capital gains on substantial holdings (&gt;5-10% held for &gt;12 months).</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3. Treaty Shopping and Anti-Avoidance</h3>
+                <ul class="bullet-points">
+                    <li>Treaty shopping involves structuring through intermediaries in treaty jurisdictions to access favorable rates not directly available.</li>
+                    <li>Modern restrictions include:</li>
+                    <li>Principal Purpose Test (PPT): Denies treaty benefits if obtaining benefits was "one of the principal purposes" and granting them would be contrary to treaty object (OECD BEPS MLI).</li>
+                    <li>Limitation on Benefits (LOB): Particularly in US treaties, imposes objective tests (publicly traded, ownership, active business).</li>
+                    <li>Beneficial ownership: Treaties deny reduced withholding unless recipient is beneficial owner – conduit companies without substance are disregarded.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3.1 Substance Requirements</h3>
+                <ul class="bullet-points">
+                    <li>To satisfy anti-avoidance tests, holding companies need:</li>
+                    <li>Physical office space and equipment</li>
+                    <li>Local qualified staff and decision-makers</li>
+                    <li>Adequate expenditure relative to income</li>
+                    <li>Board meetings and documented decisions in jurisdiction</li>
+                    <li>Day-to-day management and control</li>
+                    <li>Local bank accounts and treasury functions</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">4. Recent Developments (2023-2025)</h3>
+                <ul class="bullet-points">
+                    <li>OECD Pillar Two Global Minimum Tax: From 2024-2025, large multinationals (revenue &gt;EUR 750 million) face 15% global minimum tax through Income Inclusion Rules (IIR), Undertaxed Profits Rules (UTPR), and Qualified Domestic Minimum Top-up Tax (QDMTT). This eliminates benefits of preferential rates below 15%.</li>
+                    <li>Transfer Pricing Updates: OECD issued 2024 guidance on financial transactions including intra-group financing, guarantees, hedging, and cash pooling.</li>
+                    <li>Energy Transition Incentives: Enhanced tax credits for carbon capture and storage (CCS), hydrogen production, and renewable infrastructure (e.g., US Inflation Reduction Act 2022).</li>
+                    <li>EU CBAM: Carbon Border Adjustment Mechanism (2023-2026 phase-in) imposes carbon pricing on imports, affecting energy-intensive industries.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">Fact Pattern</h3>
+                <ul class="bullet-points">
+                    <li>GreenEnergy Holdings Inc. (GEH), a Canadian public company, invests USD 500 million in a Mozambique LNG project. Expected annual dividends: USD 40 million (from Year 4). Projected exit gain: USD 200 million (Year 10).</li>
+                    <li>Tax Rates:</li>
+                    <li>Mozambique: 32% corporate tax, 20% dividend WHT, 32% capital gains</li>
+                    <li>Canada: 26.5% corporate tax</li>
+                    <li>Canada-Mozambique treaty: 15% dividend WHT</li>
+                    <li>Netherlands-Mozambique treaty: 5% dividend WHT, capital gains exempt</li>
+                    <li>Question: Direct investment vs. Netherlands holding company?</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">Analysis</h3>
+                <ul class="bullet-points">
+                    <li>Option 1: Direct Investment</li>
+                    <li>Annual dividend tax (from Year 4):</li>
+                    <li>Mozambique WHT: USD 6.0M (15% × USD 40M)</li>
+                    <li>Canadian tax: USD 10.6M (26.5% × USD 40M)</li>
+                    <li>Foreign tax credit: USD 6.0M</li>
+                    <li>Net Canadian tax: USD 4.6M</li>
+                    <li>Total annual tax: USD 10.6M</li>
+                    <li>Exit capital gain tax (Year 10):</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="topic-section" id="topic-3">
+            <div class="topic-header">
+                <h2 class="topic-title">3. Tax Treaties</h2>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1. Core Framework and Statutory Basis</h3>
+                <ul class="bullet-points">
+                    <li>Tax treaties, formally termed double tax agreements (DTAs) or double tax conventions (DTCs), are bilateral or multilateral agreements governing allocation of taxing rights between jurisdictions. For the energy resources sector, treaties are critical instruments affecting investment returns, permanent establishment exposure, and cross-border payment taxation.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.1 Treaty Models and Hierarchy</h3>
+                <ul class="bullet-points">
+                    <li>The principal treaty models are:</li>
+                    <li>OECD Model Tax Convention on Income and Capital (2017 edition, regularly updated with Commentaries): Reflects developed country consensus favoring residence-based taxation. Adopted primarily by capital-exporting countries. The 2017 edition incorporated tax treaty-related measures from the OECD/G20 Base Erosion and Profit Shifting (BEPS) Project. Commentary updates continue to be issued (most recently in 2024 for Article 26 on Exchange of Information). Over 3,000 bilateral treaties worldwide are based on OECD or UN Models.</li>
+                    <li>UN Model Double Taxation Convention between Developed and Developing Countries (2021 edition): Provides greater source-country taxing rights. Favored by resource-rich developing countries. Includes lower permanent establishment (PE) thresholds, higher withholding rates, and broader service articles. The 2021 edition is the fifth edition, addressing concerns about taxation of automated digital services and offshore indirect transfers.</li>
+                    <li>US Model Income Tax Convention (2016): Similar to OECD Model but includes Limitation on Benefits (LOB) provisions, "savings clause" preserving US taxation of citizens/residents, and specific anti-treaty shopping rules. Released by the US Department of Treasury on February 17, 2016, updating the previous 2006 version.</li>
+                    <li>Multilateral Instrument (MLI) (OECD BEPS, 2017): The Multilateral Convention to Implement Tax Treaty Related Measures to Prevent Base Erosion and Profit Shifting (MLI) allows simultaneous modification of multiple bilateral treaties. Signed on June 7, 2017, with over 104 jurisdictions participating as of January 2025. Implements BEPS minimum standards including Principal Purpose Test (PPT), treaty abuse prevention, and dispute resolution improvements.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.2 Legal Hierarchy and Application</h3>
+                <ul class="bullet-points">
+                    <li>Constitutional Status: Treaties typically override domestic law in most jurisdictions (monist systems). Some jurisdictions require domestic legislation to implement treaties (dualist systems, e.g., United Kingdom).</li>
+                    <li>Interpretation: Vienna Convention on the Law of Treaties (concluded May 23, 1969, entered into force January 27, 1980) provides interpretation framework:</li>
+                    <li>Ordinary meaning in context</li>
+                    <li>Object and purpose consideration</li>
+                    <li>OECD/UN Commentaries as interpretative guidance (not binding but persuasive)</li>
+                    <li>Domestic courts may differ on interpretation weight given to Commentaries</li>
+                    <li>Conflict Resolution: When treaty and domestic law conflict, more favorable provision typically applies to taxpayer (though specifics depend on domestic constitutional law).</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.1 Residence and Treaty Eligibility (Article 4)</h3>
+                <ul class="bullet-points">
+                    <li>Resident Status: To access treaty benefits, taxpayer must be "resident" of contracting state, meaning:</li>
+                    <li>Individual: Resident under domestic law by domicile, residence, place of management, or similar criterion</li>
+                    <li>Company: Resident by place of incorporation, place of management, or place of effective management</li>
+                    <li>Dual Residence: Tie-breaker rules apply when entity resident in both states:</li>
+                    <li>Individual: Permanent home → center of vital interests → habitual abode → nationality → Mutual Agreement Procedure (MAP)</li>
+                    <li>Company: Place of effective management (POEM) - where key management/commercial decisions made</li>
+                    <li>POEM Determination (critical for energy companies):</li>
+                    <li>Location of board meetings</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.2 Permanent Establishment (Article 5)</h3>
+                <ul class="bullet-points">
+                    <li>Fundamental Principle: Business profits taxable in source state only if enterprise has permanent establishment in that state (Article 7(1)).</li>
+                    <li>Article 5(1) General Definition: Fixed place of business through which business wholly or partly carried on.</li>
+                    <li>Article 5(2) Specific Inclusions (deemed PE):</li>
+                    <li>Place of management</li>
+                    <li>Branch</li>
+                    <li>Office</li>
+                    <li>Factory</li>
+                    <li>Workshop</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.3 Business Profits Attribution (Article 7)</h3>
+                <ul class="bullet-points">
+                    <li>Authorized OECD Approach (AOA): PE treated as functionally separate enterprise. Profits attributed based on:</li>
+                    <li>Functions performed</li>
+                    <li>Assets used</li>
+                    <li>Risks assumed</li>
+                    <li>The Authorized OECD Approach requires functional analysis treating the PE as if it were a separate entity dealing at arm's length with the head office.</li>
+                    <li>Transfer Pricing Principles: Arm's length principle applies to dealings between PE and head office. Requires functional analysis and comparability analysis.</li>
+                    <li>Common Energy Sector Issues:</li>
+                    <li>Allocation of exploration/development costs</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.4 Withholding Tax Treaty Reductions</h3>
+                <ul class="bullet-points">
+                    <li>Dividends (Article 10):</li>
+                    <li>Interest (Article 11):</li>
+                    <li>Royalties (Article 12):</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.5 Capital Gains (Article 13)</h3>
+                <ul class="bullet-points">
+                    <li>Source Taxation Permitted For:</li>
+                    <li>Article 13(1): Gains on immovable property (including petroleum/gas rights) - taxable in situs state</li>
+                    <li>Article 13(2): Gains on movable property of PE - taxable in PE state</li>
+                    <li>Article 13(4): Gains on shares deriving &gt;50% value from immovable property - taxable in situs state (many treaties)</li>
+                    <li>Article 13(5): Other gains - taxable only in residence state</li>
+                    <li>Energy Sector Application:</li>
+                    <li>Sale of production assets: Article 13(1) - source taxation</li>
+                    <li>Sale of shares in operating company: Article 13(4) if immovable property company test met</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3.1 Principal Purpose Test (PPT)</h3>
+                <ul class="bullet-points">
+                    <li>MLI Article 7 introduces PPT as minimum standard: Treaty benefits denied if "one of the principal purposes" of arrangement was obtaining treaty benefits and granting benefits would be contrary to object/purpose of treaty provisions.</li>
+                    <li>The Principal Purpose Test (PPT) is a general anti-abuse rule requiring analysis of whether obtaining a tax benefit was one of the principal purposes of an arrangement or transaction.</li>
+                    <li>Application:</li>
+                    <li>Objective test: Circumstances surrounding arrangement</li>
+                    <li>Subjective intent considered</li>
+                    <li>Tax authority may grant benefits despite PPT if reasonable to conclude benefits should be granted</li>
+                    <li>Safe Harbors: None automatic; case-by-case determination.</li>
+                    <li>Energy Sector Impact: Holding company structures in treaty jurisdictions scrutinized. Substance requirements increased:</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3.2 Limitation on Benefits (LOB)</h3>
+                <ul class="bullet-points">
+                    <li>US Treaty Approach: Detailed objective tests to qualify for benefits:</li>
+                    <li>Qualified Person Tests:</li>
+                    <li>Publicly traded: Company traded on recognized exchange in treaty state</li>
+                    <li>Ownership/base erosion: &gt;50% owned by qualified persons AND &lt;50% income paid to non-qualified persons</li>
+                    <li>Active trade or business: Substantial business activity in residence state with connection to source income</li>
+                    <li>Derivative benefits: Qualified intermediate owner (limited to European Union/North American Free Trade Agreement residents in some treaties)</li>
+                    <li>Discretionary Benefits: Competent authority may grant benefits if principal purposes not tax avoidance.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="topic-section" id="topic-4">
+            <div class="topic-header">
+                <h2 class="topic-title">4. Transfer Pricing</h2>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1. Core Framework and Legal Basis</h3>
+                <ul class="bullet-points">
+                    <li>Transfer pricing governs the pricing of transactions between related parties across tax jurisdictions. In the energy resources sector, transfer pricing affects commodity sales, service arrangements, financing, intellectual property licensing, and cost-sharing agreements. Improper transfer pricing results in profit shifting, double taxation, penalties, and reputational damage.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.1 Statutory Foundation</h3>
+                <ul class="bullet-points">
+                    <li>Domestic Legislation: Most jurisdictions incorporate the arm's length principle in domestic law:</li>
+                    <li>United States (US): Internal Revenue Code Section 482</li>
+                    <li>United Kingdom (UK): Taxation (International and Other Provisions) Act 2010, Part 4</li>
+                    <li>Organisation for Economic Co-operation and Development (OECD) Members: Implementation of OECD Transfer Pricing Guidelines</li>
+                    <li>Developing Countries: Often based on United Nations (UN) Practical Manual on Transfer Pricing</li>
+                    <li>Treaty Basis: Article 9 of OECD Model Tax Convention provides treaty foundation:</li>
+                    <li>&gt; "Where... conditions are made or imposed between the two enterprises in their commercial or financial relations which differ from those which would be made between independent enterprises, then any profits which would, but for those conditions, have accrued to one of the enterprises, but, by reason of those conditions, have not so accrued, may be included in the profits of that enterprise and taxed accordingly."</li>
+                    <li>OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations (2022 edition): Authoritative international standard interpreting and applying the arm's length principle. Adopted by OECD and G20 countries. Over 50 jurisdictions explicitly reference the Guidelines in domestic legislation or administrative practice.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.2 The Arm's Length Principle</h3>
+                <ul class="bullet-points">
+                    <li>Definition: Transactions between related parties should be priced as if conducted between independent enterprises dealing at arm's length under comparable circumstances.</li>
+                    <li>Rationale:</li>
+                    <li>Ensures proper allocation of taxable profits among jurisdictions</li>
+                    <li>Prevents artificial profit shifting to low-tax jurisdictions</li>
+                    <li>Promotes parity between multinational enterprises (MNEs) and independent enterprises</li>
+                    <li>Facilitates efficient tax administration</li>
+                    <li>Comparable Uncontrolled Transaction: The benchmark for arm's length pricing is pricing between independent parties in comparable transactions under comparable circumstances.</li>
+                    <li>Comparability Factors (OECD Guidelines Chapter I):</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">1.3 Functional Analysis</h3>
+                <ul class="bullet-points">
+                    <li>Critical Foundation: Transfer pricing analysis begins with detailed functional analysis identifying:</li>
+                    <li>Functions: Activities performed by each party:</li>
+                    <li>Exploration and development</li>
+                    <li>Production and extraction</li>
+                    <li>Processing and refining</li>
+                    <li>Marketing and distribution</li>
+                    <li>Research and development</li>
+                    <li>Management and administration</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.1 Traditional Transaction Methods</h3>
+                <ul class="bullet-points">
+                    <li>Comparable Uncontrolled Price (CUP) Method:</li>
+                    <li>Most direct and preferred method when reliable comparables exist</li>
+                    <li>Compares price charged in controlled transaction to price in comparable uncontrolled transaction</li>
+                    <li>Internal CUP: Same taxpayer's transactions with independent parties</li>
+                    <li>External CUP: Transactions between two independent parties</li>
+                    <li>Adjustments: Required for differences affecting price (volume, terms, quality)</li>
+                    <li>Resale Price Method (RPM):</li>
+                    <li>Begins with price at which product resold to independent party</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.2 Transactional Profit Methods</h3>
+                <ul class="bullet-points">
+                    <li>Transactional Net Margin Method (TNMM):</li>
+                    <li>Examines net profit margin relative to appropriate base (costs, sales, assets)</li>
+                    <li>Compares tested party's net margin to margins of comparable independent companies</li>
+                    <li>Profit Level Indicators (PLIs):</li>
+                    <li>- Return on sales (operating profit / sales)</li>
+                    <li>- Return on costs (operating profit / total costs)</li>
+                    <li>- Return on assets (operating profit / assets)</li>
+                    <li>- Berry ratio (gross profit / operating expenses)</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.3 Commodity Pricing Methods</h3>
+                <ul class="bullet-points">
+                    <li>Quoted Price Method (QPM):</li>
+                    <li>Uses publicly available commodity price quotations (e.g., Brent, WTI, Henry Hub)</li>
+                    <li>Adjusted for quality, transportation, timing, delivery terms</li>
+                    <li>Most appropriate for crude oil, natural gas, refined products</li>
+                    <li>Price adjustment factors:</li>
+                    <li>- Quality differentials (API gravity, sulfur content)</li>
+                    <li>- Location differentials (transportation to reference market)</li>
+                    <li>- Timing adjustments (forward curves, price lags)</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">2.4 Method Selection Hierarchy</h3>
+                <ul class="bullet-points">
+                    <li>OECD Approach: No strict hierarchy; select most appropriate method considering:</li>
+                    <li>Respective strengths/weaknesses of methods</li>
+                    <li>Nature of controlled transaction</li>
+                    <li>Availability of reliable information</li>
+                    <li>Degree of comparability</li>
+                    <li>Reliability of adjustments</li>
+                    <li>Practical Hierarchy (often applied):</li>
+                    <li>CUP (if reliable comparables exist)</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3.1 Transfer Pricing Documentation Requirements</h3>
+                <ul class="bullet-points">
+                    <li>OECD Three-Tier Approach (BEPS Action 13, finalized in 2015):</li>
+                    <li>Tier 1: Master File</li>
+                    <li>High-level overview of MNE group</li>
+                    <li>Global business operations</li>
+                    <li>Overall transfer pricing policies</li>
+                    <li>Global allocation of income and economic activity</li>
+                    <li>Audience: All tax administrations where group operates</li>
+                    <li>Tier 2: Local File</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3 class="section-title">3.2 Advance Pricing Agreements (APAs)</h3>
+                <ul class="bullet-points">
+                    <li>Purpose: Prospective agreement between taxpayer and tax authority (or multiple authorities) on transfer pricing methodology for specified transactions over fixed period (typically 3-5 years).</li>
+                    <li>Types:</li>
+                    <li>Unilateral Advance Pricing Agreement (APA): Agreement with single tax authority</li>
+                    <li>Bilateral APA: Agreement between taxpayer and two tax authorities (preferred for double tax certainty)</li>
+                    <li>Multilateral APA: Agreement involving three or more tax authorities</li>
+                    <li>Advantages:</li>
+                    <li>Certainty and predictability</li>
+                    <li>Avoids costly audits and disputes</li>
+                </ul>
+            </div>
+        </div>
+
+    <!-- Back to Top Button -->
+    <a href="#welcome" class="back-to-top" id="backToTop">↑</a>
+
+    <script>
+        // Back to top button visibility
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            if (window.scrollY > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+    </script>
+</body>
+</html>
