@@ -29,8 +29,8 @@ class TTSAudioGenerator:
 
         self.voice_config = {
             'languageCode': 'en-US',
-            'name': 'en-US-Neural2-D',  # Professional, warm voice
-            'ssmlGender': 'NEUTRAL'
+            'name': 'en-US-Neural2-D',  # Professional, warm male voice
+            'ssmlGender': 'MALE'
         }
 
         self.audio_config = {
@@ -75,6 +75,18 @@ class TTSAudioGenerator:
         print(f"  Generating audio: {output_file.name}...")
 
         try:
+            # Google TTS has a 5000 byte limit - truncate if needed
+            if len(text.encode('utf-8')) > 4900:
+                print(f"    ⚠ Text too long ({len(text.encode('utf-8'))} bytes), truncating to 4900 bytes...")
+                # Truncate to last complete sentence before 4900 bytes
+                while len(text.encode('utf-8')) > 4900:
+                    last_period = text[:4900].rfind('.')
+                    if last_period > 0:
+                        text = text[:last_period + 1]
+                    else:
+                        text = text[:4900]
+                        break
+
             # Prepare request
             data = {
                 'input': {'text': text},

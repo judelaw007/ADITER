@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIT Presentation - Embed Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            color: #003F87;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 ADIT Professional Qualification</h1>
+        <p class="subtitle">Fundamental Tax Issues - Interactive Presentation with Voice-Over</p>
+
+        <!--
+            ============================================
+            ADIT PRESENTATION EMBED CODE
+            ============================================
+            Copy everything between these comments
+            ============================================
+        -->
+
+        <!-- Load ADIT Embed Script -->
+        <script src="./adit-embed.js"></script>
+
+        <!-- Embed Presentation - Chapter 1: International Income Flows -->
+        <div class="adit-presentation"
+             data-subject="fundamental-tax-issues"
+             data-chapter="1"
+             data-section="0"
+             data-width="100%"
+             data-height="768px">
+        </div>
+
+        <!--
+            ============================================
+            END OF EMBED CODE
+            ============================================
+        -->
+
+        <!-- Usage Instructions -->
+        <div style="max-width: 800px; margin: 3rem auto; padding: 2rem; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h2 style="color: #003F87;">📖 How to Use This Embed Code</h2>
+
+            <p><strong>To embed this presentation on your website:</strong></p>
+            <ol style="line-height: 2;">
+                <li>Copy the embed code shown above (between the comment markers)</li>
+                <li>Paste it into any HTML page where you want the presentation to appear</li>
+                <li>Make sure the script src points to the correct location of <code>adit-embed.js</code></li>
+                <li>Customize the data attributes to show different chapters/sections</li>
+            </ol>
+
+            <h3 style="color: #0066CC; margin-top: 2rem;">Available Chapters:</h3>
+            <ul style="line-height: 2;">
+                <li><strong>Chapter 1:</strong> International Income Flows (6 sections)</li>
+                <li><strong>Chapter 2:</strong> International Investment (5 sections)</li>
+                <li><strong>Chapter 3:</strong> Tax Treaties (6 sections)</li>
+                <li><strong>Chapter 4:</strong> Transfer Pricing (6 sections)</li>
+            </ul>
+
+            <h3 style="color: #0066CC; margin-top: 2rem;">Customization Options:</h3>
+            <ul style="line-height: 2;">
+                <li><code>data-chapter="1"</code> - Choose chapter 1-4</li>
+                <li><code>data-section="0"</code> - Start at specific section (0 = topic page)</li>
+                <li><code>data-width="100%"</code> - Set player width</li>
+                <li><code>data-height="768px"</code> - Set player height</li>
+            </ul>
+
+            <div style="background: #fff3cd; padding: 1rem; border-left: 4px solid #FF6B35; border-radius: 4px; margin-top: 2rem;">
+                <strong>✨ Features:</strong>
+                <ul style="margin-top: 0.5rem;">
+                    <li>🎙️ Professional TTS audio narration</li>
+                    <li>⌨️ Keyboard navigation (arrow keys, 'F' for fullscreen)</li>
+                    <li>📊 Progress tracking</li>
+                    <li>⛶ Fullscreen mode</li>
+                    <li>📱 Mobile responsive</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
