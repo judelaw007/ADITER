@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International investment - ADIT Fundamental Tax Issues</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #003F87;
+            --secondary: #0066CC;
+            --accent: #FF6B35;
+            --light-bg: #F8F9FA;
+            --dark-text: #1A1F36;
+            --light-text: #FFFFFF;
+            --success: #27AE60;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+            overflow: hidden;
+        }
+
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.3);
+            color: var(--light-text);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .header-subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .slide-counter {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .slides-wrapper {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            padding: 40px;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 40px;
+        }
+
+        .slide.active {
+            opacity: 1;
+            transform: translateX(0);
+            z-index: 10;
+        }
+
+        .slide.previous {
+            transform: translateX(-100%);
+        }
+
+        .slide-content {
+            background: white;
+            border-radius: 16px;
+            padding: 50px;
+            max-width: 1000px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .slide-title {
+            color: var(--primary);
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 15px;
+        }
+
+        .bullet-points {
+            list-style: none;
+            padding: 0;
+        }
+
+        .bullet-points li {
+            padding: 12px 0;
+            padding-left: 40px;
+            position: relative;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .bullet-points li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .controls {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-button {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--light-text);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+            z-index: 1000;
+        }
+
+        @media (max-width: 768px) {
+            .slide-content {
+                padding: 30px;
+            }
+
+            .slide-title {
+                font-size: 24px;
+            }
+
+            .bullet-points li {
+                font-size: 14px;
+            }
+
+            header {
+                padding: 15px 20px;
+            }
+
+            .header-title {
+                font-size: 18px;
+            }
+
+            .controls {
+                padding: 15px 20px;
+            }
+
+            .nav-button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <div class="presentation-container">
+        <header>
+            <div>
+                <div class="header-title">ADIT - Fundamental Tax Issues</div>
+                <div class="header-subtitle">International investment</div>
+            </div>
+            <div class="slide-counter">
+                <span id="currentSlide">1</span> / <span id="totalSlides">11</span>
+            </div>
+        </header>
+
+        <div class="slides-wrapper" id="slidesWrapper">
+
+            <div class="slide" data-slide="0">
+                <div class="slide-content">
+                    <h2 class="slide-title">1. Core Framework and Statutory Basis</h2>
+                    <ul class="bullet-points">
+                        <li>International investment in the energy resources sector involves cross-border capital flows directed toward exploration, development, production, and distribution of petroleum, natural gas, and renewable energy assets. The tax treatment of such investments is governed by domestic legislation, bilateral tax treaties, and international standards from the OECD and UN.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="1">
+                <div class="slide-content">
+                    <h2 class="slide-title">1.1 Statutory Foundation</h2>
+                    <ul class="bullet-points">
+                        <li>The primary legislative framework comprises:</li>
+                        <li>Domestic corporate income tax laws: Each jurisdiction taxes profits from operations within its borders</li>
+                        <li>Capital gains tax provisions: Treatment of gains on disposal of energy assets or shares</li>
+                        <li>Withholding tax regimes: Taxation at source on dividends, interest, and royalties</li>
+                        <li>Anti-avoidance legislation: CFC rules, transfer pricing regulations, and GAAR</li>
+                        <li>Tax treaty networks: Over 3,000 bilateral treaties govern allocation of taxing rights</li>
+                        <li>The OECD Model Tax Convention (updated 2017, amended via MLI) provides the template for bilateral treaties, establishing principles for residence and source taxation, permanent establishment thresholds, and relief from double taxation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="2">
+                <div class="slide-content">
+                    <h2 class="slide-title">1.2 Fundamental Principles</h2>
+                    <ul class="bullet-points">
+                        <li>Source vs. Residence Taxation: Source jurisdiction (where resources are located) claims primary taxing rights over extraction income, while residence jurisdiction (where investor is tax resident) may tax worldwide income subject to foreign tax relief.</li>
+                        <li>Permanent Establishment (PE): Under treaties, business profits are taxable only in residence state unless investor has a PE in source state. Energy sector activities often create PE through production platforms, extended operations, or construction activities exceeding treaty thresholds (typically 6-12 months).</li>
+                        <li>Arm's Length Principle: Cross-border related-party transactions must be priced as if between independent parties (OECD Model Article 9, domestic transfer pricing legislation).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="3">
+                <div class="slide-content">
+                    <h2 class="slide-title">2.2 Withholding Tax Rates</h2>
+                    <ul class="bullet-points">
+                        <li>Energy investments generate income subject to withholding:</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="4">
+                <div class="slide-content">
+                    <h2 class="slide-title">2.3 Capital Gains Taxation</h2>
+                    <ul class="bullet-points">
+                        <li>Direct asset sales: Source taxation applies to gains on immovable property and exploration/production rights (Treaty Article 13(1)-(2)).</li>
+                        <li>Share sales: Generally taxable only in seller's residence state (Article 13(5)), except "immovable property company" provisions allow source taxation where &gt;50% of value derives from immovable property (including mining rights).</li>
+                        <li>Participation exemption: Many jurisdictions exempt capital gains on substantial holdings (&gt;5-10% held for &gt;12 months).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="5">
+                <div class="slide-content">
+                    <h2 class="slide-title">3. Treaty Shopping and Anti-Avoidance</h2>
+                    <ul class="bullet-points">
+                        <li>Treaty shopping involves structuring through intermediaries in treaty jurisdictions to access favorable rates not directly available.</li>
+                        <li>Modern restrictions include:</li>
+                        <li>Principal Purpose Test (PPT): Denies treaty benefits if obtaining benefits was "one of the principal purposes" and granting them would be contrary to treaty object (OECD BEPS MLI).</li>
+                        <li>Limitation on Benefits (LOB): Particularly in US treaties, imposes objective tests (publicly traded, ownership, active business).</li>
+                        <li>Beneficial ownership: Treaties deny reduced withholding unless recipient is beneficial owner – conduit companies without substance are disregarded.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="6">
+                <div class="slide-content">
+                    <h2 class="slide-title">3.1 Substance Requirements</h2>
+                    <ul class="bullet-points">
+                        <li>To satisfy anti-avoidance tests, holding companies need:</li>
+                        <li>Physical office space and equipment</li>
+                        <li>Local qualified staff and decision-makers</li>
+                        <li>Adequate expenditure relative to income</li>
+                        <li>Board meetings and documented decisions in jurisdiction</li>
+                        <li>Day-to-day management and control</li>
+                        <li>Local bank accounts and treasury functions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="7">
+                <div class="slide-content">
+                    <h2 class="slide-title">4. Recent Developments (2023-2025)</h2>
+                    <ul class="bullet-points">
+                        <li>OECD Pillar Two Global Minimum Tax: From 2024-2025, large multinationals (revenue &gt;EUR 750 million) face 15% global minimum tax through Income Inclusion Rules (IIR), Undertaxed Profits Rules (UTPR), and Qualified Domestic Minimum Top-up Tax (QDMTT). This eliminates benefits of preferential rates below 15%.</li>
+                        <li>Transfer Pricing Updates: OECD issued 2024 guidance on financial transactions including intra-group financing, guarantees, hedging, and cash pooling.</li>
+                        <li>Energy Transition Incentives: Enhanced tax credits for carbon capture and storage (CCS), hydrogen production, and renewable infrastructure (e.g., US Inflation Reduction Act 2022).</li>
+                        <li>EU CBAM: Carbon Border Adjustment Mechanism (2023-2026 phase-in) imposes carbon pricing on imports, affecting energy-intensive industries.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="8">
+                <div class="slide-content">
+                    <h2 class="slide-title">Fact Pattern</h2>
+                    <ul class="bullet-points">
+                        <li>GreenEnergy Holdings Inc. (GEH), a Canadian public company, invests USD 500 million in a Mozambique LNG project. Expected annual dividends: USD 40 million (from Year 4). Projected exit gain: USD 200 million (Year 10).</li>
+                        <li>Tax Rates:</li>
+                        <li>Mozambique: 32% corporate tax, 20% dividend WHT, 32% capital gains</li>
+                        <li>Canada: 26.5% corporate tax</li>
+                        <li>Canada-Mozambique treaty: 15% dividend WHT</li>
+                        <li>Netherlands-Mozambique treaty: 5% dividend WHT, capital gains exempt</li>
+                        <li>Question: Direct investment vs. Netherlands holding company?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="9">
+                <div class="slide-content">
+                    <h2 class="slide-title">Analysis</h2>
+                    <ul class="bullet-points">
+                        <li>Option 1: Direct Investment</li>
+                        <li>Annual dividend tax (from Year 4):</li>
+                        <li>Mozambique WHT: USD 6.0M (15% × USD 40M)</li>
+                        <li>Canadian tax: USD 10.6M (26.5% × USD 40M)</li>
+                        <li>Foreign tax credit: USD 6.0M</li>
+                        <li>Net Canadian tax: USD 4.6M</li>
+                        <li>Total annual tax: USD 10.6M</li>
+                        <li>Exit capital gain tax (Year 10):</li>
+                        <li>Mozambique CGT: USD 64.0M (32% × USD 200M)</li>
+                        <li>Canadian tax: USD 53.0M (26.5% × USD 200M)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="10">
+                <div class="slide-content">
+                    <h2 class="slide-title">Conclusion</h2>
+                    <ul class="bullet-points">
+                        <li>Tax savings: USD 11.0M (8% reduction), entirely from capital gains exemption under Netherlands-Mozambique treaty.</li>
+                        <li>Implementation requirements:</li>
+                        <li>Netherlands substance (office, staff, board meetings): ~EUR 100-150K annually</li>
+                        <li>Demonstrate business purpose beyond tax (e.g., regional hub for African investments)</li>
+                        <li>Address PPT risk through commercial substance</li>
+                        <li>Net savings after substance costs: ~USD 10M</li>
+                        <li>Recommendation: Netherlands structure viable if GEH establishes genuine regional presence and can demonstrate commercial substance satisfying beneficial ownership and PPT tests. Direct investment preferable if substance requirements cannot be met cost-effectively.</li>
+                        <li>Word Count: 1,000 words</li>
+                        <li>Examples: 1 comprehensive worked example</li>
+                        <li>Knowledge Level: Broad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="nav-button" id="prevBtn" onclick="previousSlide()">← Previous</button>
+            <button class="nav-button" id="nextBtn" onclick="nextSlide()">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 11;
+
+        // Initialize first slide
+        document.addEventListener('DOMContentLoaded', function() {
+            showSlide(0);
+            updateProgress();
+        });
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.slide');
+
+            // Remove active and previous classes
+            slides.forEach((slide, idx) => {
+                slide.classList.remove('active', 'previous');
+                if (idx < index) {
+                    slide.classList.add('previous');
+                }
+            });
+
+            // Set active slide
+            slides[index].classList.add('active');
+            currentSlide = index;
+
+            // Update UI
+            document.getElementById('currentSlide').textContent = index + 1;
+            document.getElementById('prevBtn').disabled = index === 0;
+            document.getElementById('nextBtn').disabled = index === totalSlides - 1;
+
+            updateProgress();
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                showSlide(currentSlide + 1);
+            }
+        }
+
+        function previousSlide() {
+            if (currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentSlide + 1) / totalSlides) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                previousSlide();
+            }
+        });
+
+        // Touch swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (touchEndX < touchStartX - 50) {
+                nextSlide();
+            }
+            if (touchEndX > touchStartX + 50) {
+                previousSlide();
+            }
+        }
+    </script>
+</body>
+</html>

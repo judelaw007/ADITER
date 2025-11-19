@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International income flows - ADIT Fundamental Tax Issues</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #003F87;
+            --secondary: #0066CC;
+            --accent: #FF6B35;
+            --light-bg: #F8F9FA;
+            --dark-text: #1A1F36;
+            --light-text: #FFFFFF;
+            --success: #27AE60;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+            overflow: hidden;
+        }
+
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.3);
+            color: var(--light-text);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .header-subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .slide-counter {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .slides-wrapper {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            padding: 40px;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 40px;
+        }
+
+        .slide.active {
+            opacity: 1;
+            transform: translateX(0);
+            z-index: 10;
+        }
+
+        .slide.previous {
+            transform: translateX(-100%);
+        }
+
+        .slide-content {
+            background: white;
+            border-radius: 16px;
+            padding: 50px;
+            max-width: 1000px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .slide-title {
+            color: var(--primary);
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 15px;
+        }
+
+        .bullet-points {
+            list-style: none;
+            padding: 0;
+        }
+
+        .bullet-points li {
+            padding: 12px 0;
+            padding-left: 40px;
+            position: relative;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .bullet-points li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .controls {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-button {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--light-text);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+            z-index: 1000;
+        }
+
+        @media (max-width: 768px) {
+            .slide-content {
+                padding: 30px;
+            }
+
+            .slide-title {
+                font-size: 24px;
+            }
+
+            .bullet-points li {
+                font-size: 14px;
+            }
+
+            header {
+                padding: 15px 20px;
+            }
+
+            .header-title {
+                font-size: 18px;
+            }
+
+            .controls {
+                padding: 15px 20px;
+            }
+
+            .nav-button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <div class="presentation-container">
+        <header>
+            <div>
+                <div class="header-title">ADIT - Fundamental Tax Issues</div>
+                <div class="header-subtitle">International income flows</div>
+            </div>
+            <div class="slide-counter">
+                <span id="currentSlide">1</span> / <span id="totalSlides">16</span>
+            </div>
+        </header>
+
+        <div class="slides-wrapper" id="slidesWrapper">
+
+            <div class="slide" data-slide="0">
+                <div class="slide-content">
+                    <h2 class="slide-title">1. Core Framework and Types of Income</h2>
+                    <ul class="bullet-points">
+                        <li>International income flows in the energy resources sector encompass various cross-border payments arising from exploration, production, and commercial exploitation of petroleum, natural gas, and renewable energy assets. Proper characterization of income streams is critical as each category receives distinct tax treatment under domestic law and tax treaties.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="1">
+                <div class="slide-content">
+                    <h2 class="slide-title">1.1 Principal Income Categories</h2>
+                    <ul class="bullet-points">
+                        <li>The primary income flows in energy sector investments include:</li>
+                        <li>Active Business Income: Profits from extraction, production, processing, and trading operations. Taxable in source jurisdiction if permanent establishment (PE) exists; otherwise taxable only in residence jurisdiction (Organisation for Economic Co-operation and Development (OECD) Model Article 7).</li>
+                        <li>Dividends: Distributions of after-tax profits from subsidiaries to parent companies. Subject to withholding tax in source jurisdiction (typically 5-30%) with relief under tax treaties (typically reduced to 0-15%) (Article 10).</li>
+                        <li>Interest: Payments on debt financing for energy projects. Withholding tax in source jurisdiction (typically 10-25%) with treaty relief (typically 0-10%) (Article 11).</li>
+                        <li>Royalties: Payments for use of intellectual property, technical knowledge, or natural resource extraction rights. Withholding tax (typically 15-30%) with treaty relief (typically 5-15%) (Article 12).</li>
+                        <li>Technical Service Fees: Fees for provision of managerial, technical, or consultative services. Treatment varies significantly across jurisdictions – some treaties provide withholding tax exemption, others allow source taxation at 5-20%.</li>
+                        <li>Capital Gains: Gains on disposal of energy assets or shares. Source taxation typically applies to direct asset sales and certain share sales (immovable property companies) (Article 13).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="2">
+                <div class="slide-content">
+                    <h2 class="slide-title">1.2 Statutory Framework</h2>
+                    <ul class="bullet-points">
+                        <li>Tax treatment is governed by:</li>
+                        <li>Domestic legislation: Defines income categories, prescribes withholding rates, and establishes filing obligations</li>
+                        <li>Tax treaties: Allocate taxing rights, reduce withholding rates, prevent double taxation</li>
+                        <li>OECD/UN Model Conventions: Provide interpretative guidance through official Commentaries</li>
+                        <li>Mutual Agreement Procedures (MAP): Resolve treaty interpretation disputes</li>
+                        <li>Advance Pricing Agreements (APAs): Provide certainty on transfer pricing treatment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="3">
+                <div class="slide-content">
+                    <h2 class="slide-title">2.1 Withholding Tax Rate Summary</h2>
+                    <ul class="bullet-points">
+                        <li>Note on Model Convention Rates: The OECD Model Tax Convention (2017) specifies maximum withholding rates in its standard provisions, but many bilateral treaties negotiate lower rates. The United Nations (UN) Model Convention does not prescribe fixed withholding rates, leaving these to be determined through bilateral negotiations between treaty partners, typically reflecting developing countries' preference for retaining source-based taxation rights.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="4">
+                <div class="slide-content">
+                    <h2 class="slide-title">2.2 Dividend Income</h2>
+                    <ul class="bullet-points">
+                        <li>Domestic Treatment: Source jurisdiction taxes distributed profits at corporate level, then applies withholding tax on dividend payment.</li>
+                        <li>Treaty Relief: Treaties reduce withholding based on shareholding percentage:</li>
+                        <li>Direct investment (typically &gt;10%): 0-5% WHT</li>
+                        <li>Portfolio investment: 10-15% WHT</li>
+                        <li>Parent-subsidiary directive (EU): 0% WHT if &gt;10% holding for &gt;1 year</li>
+                        <li>Beneficial Ownership: Treaties deny reduced rates unless recipient is beneficial owner with economic substance. Mere conduit companies are disregarded [OECD Commentary to Article 10].</li>
+                        <li>Participation Exemption: Many residence jurisdictions exempt foreign dividends from taxation if:</li>
+                        <li>Minimum holding: &gt;5-10%</li>
+                        <li>Minimum holding period: 12-24 months</li>
+                        <li>Subsidiary subject to comparable taxation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="5">
+                <div class="slide-content">
+                    <h2 class="slide-title">2.3 Interest Income</h2>
+                    <ul class="bullet-points">
+                        <li>Source vs. Residence Taxation: Under OECD Model Article 11, interest is primarily taxable in the beneficiary's residence state, with limited source taxation permitted (maximum 10% under the Model). UN Model similarly permits source taxation at rates determined through bilateral negotiation (typically 10%).</li>
+                        <li>Anti-Avoidance Rules:</li>
+                        <li>Thin Capitalization: Limits interest deductibility when debt-to-equity ratio exceeds prescribed threshold (typically 3:1 or 4:1). Excess interest may be recharacterized as dividend subject to higher withholding.</li>
+                        <li>Earnings Stripping: Modern rules limit interest deductions to percentage of Earnings Before Interest, Taxes, Depreciation and Amortization (EBITDA) (typically 10-30%) regardless of debt-to-equity ratio. Implements OECD Base Erosion and Profit Shifting (BEPS) Action 4 recommendations (2015-2016).</li>
+                        <li>Associated Enterprise: Article 11(6) permits recharacterization of excessive interest as dividends when rate or amount exceeds arm's length parameters.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="6">
+                <div class="slide-content">
+                    <h2 class="slide-title">2.4 Royalty Income</h2>
+                    <ul class="bullet-points">
+                        <li>Definition: Payments for use of intellectual property (patents, know-how, designs) or natural resource extraction rights.</li>
+                        <li>Extraction Royalties vs. IP Royalties: Many jurisdictions distinguish:</li>
+                        <li>Extraction royalties: Payments to government or landowner for right to extract resources (typically not reduced by treaty)</li>
+                        <li>IP royalties: Payments for use of technology or knowledge (treaty relief available)</li>
+                        <li>Technical Service Fees vs. Royalties: Critical distinction:</li>
+                        <li>Royalties: Payment for passive use of IP; payer not required to utilize services</li>
+                        <li>Technical fees: Payment for active services; characterized under Article 7 (business profits) or special service articles</li>
+                        <li>OECD vs. UN Model: OECD Model (2017) recommends exclusive residence taxation (0% source withholding) on royalties; UN Model permits source taxation at rates negotiated bilaterally, typically around 10%, reflecting developing countries' preference for source-based taxation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="7">
+                <div class="slide-content">
+                    <h2 class="slide-title">2.5 Technical Service Fees</h2>
+                    <ul class="bullet-points">
+                        <li>Treaty Treatment: Most OECD-based treaties do not permit source withholding on fees for independent services (Article 7 – taxable only if PE exists). Many UN-based and bilateral treaties include Technical Services Article permitting 5-20% source withholding.</li>
+                        <li>Dependent vs. Independent Services: Historical distinction (pre-2000 OECD Model):</li>
+                        <li>Independent services (Article 14): Professionals, consultants, technical advisers</li>
+                        <li>Dependent services: Employees (Article 15)</li>
+                        <li>Modern treaties eliminate Article 14, treating all services under Article 7 (business profits) unless PE exists.</li>
+                        <li>Make-Available Provision: Some treaties reduce/eliminate withholding if services "make available" technical knowledge enabling recipient to apply knowledge independently without ongoing involvement.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="8">
+                <div class="slide-content">
+                    <h2 class="slide-title">3.1 Income Classification Decision Tree</h2>
+                    <ul class="bullet-points">
+                        <li>Cross-Border Payment</li>
+                        <li>|</li>
+                        <li>v</li>
+                        <li>Is it for use of IP?</li>
+                        <li>|</li>
+                        <li>Yes → Royalty (Article 12)</li>
+                        <li>|</li>
+                        <li>No  → Is it for services?</li>
+                        <li>|</li>
+                        <li>Yes → Does treaty have service article?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="9">
+                <div class="slide-content">
+                    <h2 class="slide-title">3.2 Common Mischaracterization Risks</h2>
+                    <ul class="bullet-points">
+                        <li>Disguised Dividends: Excessive interest, royalties, or service fees to related parties may be recharacterized as dividends:</li>
+                        <li>Applies when amounts exceed arm's length price</li>
+                        <li>Results in disallowance of deduction and withholding tax adjustment</li>
+                        <li>Article 9 (transfer pricing) and specific article anti-abuse provisions</li>
+                        <li>Royalties vs. Business Profits: Payments for software, equipment use, or technical know-how require careful analysis:</li>
+                        <li>Copyright payments: Typically royalties</li>
+                        <li>Software licenses: Royalties (unless standard off-the-shelf)</li>
+                        <li>Equipment rental: May be business profits or royalties depending on treaty</li>
+                        <li>Services vs. Royalties: "Make available" test determines characterization:</li>
+                        <li>If services transfer knowledge recipient can use independently: May be exempt from withholding</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="10">
+                <div class="slide-content">
+                    <h2 class="slide-title">3.3 Double Taxation Relief Methods</h2>
+                    <ul class="bullet-points">
+                        <li>Credit Method: Residence jurisdiction allows credit for foreign taxes paid, limited to domestic tax on same income. Used by most capital-exporting countries.</li>
+                        <li>Exemption Method: Residence jurisdiction exempts foreign-source income from taxation. Common in European countries (territorial systems).</li>
+                        <li>Deduction Method: Foreign tax deductible as expense (least favorable). Rarely used.</li>
+                        <li>Tax Sparing: Treaty provision granting credit for tax "spared" through incentives in source jurisdiction. Increasingly rare due to BEPS concerns.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="11">
+                <div class="slide-content">
+                    <h2 class="slide-title">4.1 Withholding Tax Compliance</h2>
+                    <ul class="bullet-points">
+                        <li>Payer Obligations:</li>
+                        <li>Determine correct characterization of payment</li>
+                        <li>Identify applicable withholding rate (domestic vs. treaty)</li>
+                        <li>Obtain tax residence certificate and beneficial ownership declaration</li>
+                        <li>Withhold correct amount and remit to tax authority</li>
+                        <li>File withholding tax returns (typically monthly/quarterly)</li>
+                        <li>Issue withholding certificates to recipient</li>
+                        <li>Documentation Requirements:</li>
+                        <li>Tax residence certificate from recipient's jurisdiction</li>
+                        <li>Beneficial ownership declaration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="12">
+                <div class="slide-content">
+                    <h2 class="slide-title">4.2 Recent Developments (2023-2024)</h2>
+                    <ul class="bullet-points">
+                        <li>Pillar Two Minimum Tax: Under OECD Pillar Two framework (2021-2023), groups with revenue exceeding EUR 750 million face 15% minimum effective tax rate globally. Qualified Domestic Minimum Top-Up Tax (QDMTT) may apply to low-taxed income including certain cross-border income flows.</li>
+                        <li>Digital Services Taxes: Many jurisdictions introduced unilateral digital services taxes (typically 2-7%) on digital income pending Pillar One implementation, affecting energy sector digital services and platforms.</li>
+                        <li>Beneficial Ownership Registries: Increasing jurisdictions require public or restricted-access beneficial ownership registries, enhancing transparency and affecting conduit structure viability.</li>
+                        <li>Amount B (Transfer Pricing): OECD finalized Amount B framework (February 2024) providing simplified transfer pricing approach for baseline marketing and distribution services, reducing controversy for routine service fees.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="13">
+                <div class="slide-content">
+                    <h2 class="slide-title">Fact Pattern</h2>
+                    <ul class="bullet-points">
+                        <li>EnergyTech Global Inc. (ETG), a US corporation, licenses proprietary drilling technology to its Nigerian subsidiary EnergyTech Nigeria Ltd. (ETN) for annual fee of USD 10 million. ETG also provides ongoing technical support services for annual fee of USD 5 million. ETN pays annual dividends of USD 20 million to ETG.</li>
+                        <li>Tax Rates:</li>
+                        <li>Nigeria corporate tax: 30%</li>
+                        <li>Nigeria domestic withholding: Dividends 10%, interest 10%, royalties 10%</li>
+                        <li>US corporate tax: 21%</li>
+                        <li>Important: The United States and Nigeria do not have a tax treaty. Therefore, domestic withholding rates apply without treaty relief.</li>
+                        <li>ETN's Nigerian taxable income before US payments: USD 50 million</li>
+                        <li>Questions:</li>
+                        <li>What are the Nigerian withholding tax obligations?</li>
+                        <li>What is ETG's US tax liability?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="14">
+                <div class="slide-content">
+                    <h2 class="slide-title">Analysis</h2>
+                    <ul class="bullet-points">
+                        <li>Nigerian Withholding Tax (No Treaty Relief):</li>
+                        <li>Dividends: USD 20M × 10% = USD 2.00M</li>
+                        <li>Royalties: USD 10M × 10% = USD 1.00M</li>
+                        <li>Technical fees: USD 5M × 10% = USD 0.50M</li>
+                        <li>Total Nigerian WHT: USD 3.50M</li>
+                        <li>ETN Nigerian Corporate Tax:</li>
+                        <li>Taxable income: USD 50M - USD 10M (royalty) - USD 5M (fees) = USD 35M</li>
+                        <li>Nigerian corporate tax: USD 35M × 30% = USD 10.50M</li>
+                        <li>After-tax profit: USD 35M - USD 10.50M = USD 24.50M</li>
+                        <li>Dividend paid: USD 20M (from current and prior year profits)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="slide" data-slide="15">
+                <div class="slide-content">
+                    <h2 class="slide-title">6. Key Takeaways</h2>
+                    <ul class="bullet-points">
+                        <li>Treaty Significance: Tax treaties fundamentally impact cross-border income flows by reducing withholding taxes and clarifying taxing rights. The absence of treaty relief, as demonstrated in the US-Nigeria example, results in higher overall tax costs and greater complexity in managing double taxation.</li>
+                        <li>Characterization Discipline: Proper income characterization is essential for both treaty application and transfer pricing compliance. Payments must be supported by:</li>
+                        <li>Substantive legal agreements</li>
+                        <li>Actual provision of licensed IP or services</li>
+                        <li>Arm's length pricing documentation</li>
+                        <li>Consistency between legal form and economic substance</li>
+                        <li>Participation Exemption Systems: Modern participation exemption regimes (including US Section 245A) provide significant relief from dividend taxation, effectively implementing territorial tax principles for active foreign business income while maintaining certain anti-avoidance safeguards.</li>
+                        <li>Compliance Framework: Successful management of international income flows requires integrated attention to:</li>
+                        <li>Domestic tax law of both source and residence jurisdictions</li>
+                        <li>Applicable tax treaty provisions and limitations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="nav-button" id="prevBtn" onclick="previousSlide()">← Previous</button>
+            <button class="nav-button" id="nextBtn" onclick="nextSlide()">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 16;
+
+        // Initialize first slide
+        document.addEventListener('DOMContentLoaded', function() {
+            showSlide(0);
+            updateProgress();
+        });
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.slide');
+
+            // Remove active and previous classes
+            slides.forEach((slide, idx) => {
+                slide.classList.remove('active', 'previous');
+                if (idx < index) {
+                    slide.classList.add('previous');
+                }
+            });
+
+            // Set active slide
+            slides[index].classList.add('active');
+            currentSlide = index;
+
+            // Update UI
+            document.getElementById('currentSlide').textContent = index + 1;
+            document.getElementById('prevBtn').disabled = index === 0;
+            document.getElementById('nextBtn').disabled = index === totalSlides - 1;
+
+            updateProgress();
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                showSlide(currentSlide + 1);
+            }
+        }
+
+        function previousSlide() {
+            if (currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentSlide + 1) / totalSlides) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                previousSlide();
+            }
+        });
+
+        // Touch swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (touchEndX < touchStartX - 50) {
+                nextSlide();
+            }
+            if (touchEndX > touchStartX + 50) {
+                previousSlide();
+            }
+        }
+    </script>
+</body>
+</html>
