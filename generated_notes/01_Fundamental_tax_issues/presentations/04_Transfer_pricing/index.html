@@ -140,7 +140,8 @@
             background: rgba(0, 0, 0, 0.3);
             padding: 20px 40px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            gap: 20px;
             align-items: center;
         }
 
@@ -167,32 +168,6 @@
             cursor: not-allowed;
         }
 
-        .audio-control {
-            background: var(--accent);
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .audio-control:hover {
-            background: #FF8C5A;
-            transform: scale(1.05);
-        }
-
-        .audio-control.playing {
-            animation: pulse 1.5s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
-
         .progress-bar {
             position: fixed;
             top: 0;
@@ -215,6 +190,23 @@
             .bullet-points li {
                 font-size: 14px;
             }
+
+            header {
+                padding: 15px 20px;
+            }
+
+            .header-title {
+                font-size: 18px;
+            }
+
+            .controls {
+                padding: 15px 20px;
+            }
+
+            .nav-button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
         }
     </style>
 </head>
@@ -233,310 +225,301 @@
         </header>
 
         <div class="slides-wrapper" id="slidesWrapper">
-            
+
             <div class="slide" data-slide="0">
                 <div class="slide-content">
                     <h2 class="slide-title">1. Core Framework and Legal Basis</h2>
                     <ul class="bullet-points">
                         <li>Transfer pricing governs the pricing of transactions between related parties across tax jurisdictions. In the energy resources sector, transfer pricing affects commodity sales, service arrangements, financing, intellectual property licensing, and cost-sharing agreements. Improper transfer pricing results in profit shifting, double taxation, penalties, and reputational damage.</li>
-
                     </ul>
                 </div>
-                <audio id="audio-0" src="audio/slide_000.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="1">
                 <div class="slide-content">
                     <h2 class="slide-title">1.1 Statutory Foundation</h2>
                     <ul class="bullet-points">
                         <li>Domestic Legislation: Most jurisdictions incorporate the arm's length principle in domestic law:</li>
-<li>United States (US): Internal Revenue Code Section 482</li>
-<li>United Kingdom (UK): Taxation (International and Other Provisions) Act 2010, Part 4</li>
-<li>Organisation for Economic Co-operation and Development (OECD) Members: Implementation of OECD Transfer Pricing Guidelines</li>
-<li>Developing Countries: Often based on United Nations (UN) Practical Manual on Transfer Pricing</li>
-<li>Treaty Basis: Article 9 of OECD Model Tax Convention provides treaty foundation:</li>
-<li>> "Where... conditions are made or imposed between the two enterprises in their commercial or financial relations which differ from those which would be made between independent enterprises, then any profits which would, but for those conditions, have accrued to one of the enterprises, but, by reason of those conditions, have not so accrued, may be included in the profits of that enterprise and taxed accordingly."</li>
-<li>OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations (2022 edition): Authoritative international standard interpreting and applying the arm's length principle. Adopted by OECD and G20 countries. Over 50 jurisdictions explicitly reference the Guidelines in domestic legislation or administrative practice.</li>
-
+                        <li>United States (US): Internal Revenue Code Section 482</li>
+                        <li>United Kingdom (UK): Taxation (International and Other Provisions) Act 2010, Part 4</li>
+                        <li>Organisation for Economic Co-operation and Development (OECD) Members: Implementation of OECD Transfer Pricing Guidelines</li>
+                        <li>Developing Countries: Often based on United Nations (UN) Practical Manual on Transfer Pricing</li>
+                        <li>Treaty Basis: Article 9 of OECD Model Tax Convention provides treaty foundation:</li>
+                        <li>&gt; "Where... conditions are made or imposed between the two enterprises in their commercial or financial relations which differ from those which would be made between independent enterprises, then any profits which would, but for those conditions, have accrued to one of the enterprises, but, by reason of those conditions, have not so accrued, may be included in the profits of that enterprise and taxed accordingly."</li>
+                        <li>OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations (2022 edition): Authoritative international standard interpreting and applying the arm's length principle. Adopted by OECD and G20 countries. Over 50 jurisdictions explicitly reference the Guidelines in domestic legislation or administrative practice.</li>
                     </ul>
                 </div>
-                <audio id="audio-1" src="audio/slide_001.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="2">
                 <div class="slide-content">
                     <h2 class="slide-title">1.2 The Arm's Length Principle</h2>
                     <ul class="bullet-points">
                         <li>Definition: Transactions between related parties should be priced as if conducted between independent enterprises dealing at arm's length under comparable circumstances.</li>
-<li>Rationale:</li>
-<li>Ensures proper allocation of taxable profits among jurisdictions</li>
-<li>Prevents artificial profit shifting to low-tax jurisdictions</li>
-<li>Promotes parity between multinational enterprises (MNEs) and independent enterprises</li>
-<li>Facilitates efficient tax administration</li>
-<li>Comparable Uncontrolled Transaction: The benchmark for arm's length pricing is pricing between independent parties in comparable transactions under comparable circumstances.</li>
-<li>Comparability Factors (OECD Guidelines Chapter I):</li>
-
+                        <li>Rationale:</li>
+                        <li>Ensures proper allocation of taxable profits among jurisdictions</li>
+                        <li>Prevents artificial profit shifting to low-tax jurisdictions</li>
+                        <li>Promotes parity between multinational enterprises (MNEs) and independent enterprises</li>
+                        <li>Facilitates efficient tax administration</li>
+                        <li>Comparable Uncontrolled Transaction: The benchmark for arm's length pricing is pricing between independent parties in comparable transactions under comparable circumstances.</li>
+                        <li>Comparability Factors (OECD Guidelines Chapter I):</li>
+                        <li>Characteristics of property/services: Quality, volume, timing, terms</li>
+                        <li>Functional analysis: Functions performed, assets used, risks assumed</li>
                     </ul>
                 </div>
-                <audio id="audio-2" src="audio/slide_002.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="3">
                 <div class="slide-content">
                     <h2 class="slide-title">1.3 Functional Analysis</h2>
                     <ul class="bullet-points">
                         <li>Critical Foundation: Transfer pricing analysis begins with detailed functional analysis identifying:</li>
-<li>Functions: Activities performed by each party:</li>
-<li>Exploration and development</li>
-<li>Production and extraction</li>
-<li>Processing and refining</li>
-<li>Marketing and distribution</li>
-<li>Research and development</li>
-<li>Management and administration</li>
-
+                        <li>Functions: Activities performed by each party:</li>
+                        <li>Exploration and development</li>
+                        <li>Production and extraction</li>
+                        <li>Processing and refining</li>
+                        <li>Marketing and distribution</li>
+                        <li>Research and development</li>
+                        <li>Management and administration</li>
+                        <li>Assets: Tangible and intangible assets employed:</li>
+                        <li>Petroleum concessions and licenses</li>
                     </ul>
                 </div>
-                <audio id="audio-3" src="audio/slide_003.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="4">
                 <div class="slide-content">
                     <h2 class="slide-title">2.1 Traditional Transaction Methods</h2>
                     <ul class="bullet-points">
                         <li>Comparable Uncontrolled Price (CUP) Method:</li>
-<li>Most direct and preferred method when reliable comparables exist</li>
-<li>Compares price charged in controlled transaction to price in comparable uncontrolled transaction</li>
-<li>Internal CUP: Same taxpayer's transactions with independent parties</li>
-<li>External CUP: Transactions between two independent parties</li>
-<li>Adjustments: Required for differences affecting price (volume, terms, quality)</li>
-<li>Resale Price Method (RPM):</li>
-<li>Begins with price at which product resold to independent party</li>
-
+                        <li>Most direct and preferred method when reliable comparables exist</li>
+                        <li>Compares price charged in controlled transaction to price in comparable uncontrolled transaction</li>
+                        <li>Internal CUP: Same taxpayer's transactions with independent parties</li>
+                        <li>External CUP: Transactions between two independent parties</li>
+                        <li>Adjustments: Required for differences affecting price (volume, terms, quality)</li>
+                        <li>Resale Price Method (RPM):</li>
+                        <li>Begins with price at which product resold to independent party</li>
+                        <li>Reduces price by appropriate gross margin (resale price margin)</li>
+                        <li>Remaining amount is arm's length price paid to related supplier</li>
                     </ul>
                 </div>
-                <audio id="audio-4" src="audio/slide_004.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="5">
                 <div class="slide-content">
                     <h2 class="slide-title">2.2 Transactional Profit Methods</h2>
                     <ul class="bullet-points">
                         <li>Transactional Net Margin Method (TNMM):</li>
-<li>Examines net profit margin relative to appropriate base (costs, sales, assets)</li>
-<li>Compares tested party's net margin to margins of comparable independent companies</li>
-<li>Profit Level Indicators (PLIs):</li>
-<li>- Return on sales (operating profit / sales)</li>
-<li>- Return on costs (operating profit / total costs)</li>
-<li>- Return on assets (operating profit / assets)</li>
-<li>- Berry ratio (gross profit / operating expenses)</li>
-
+                        <li>Examines net profit margin relative to appropriate base (costs, sales, assets)</li>
+                        <li>Compares tested party's net margin to margins of comparable independent companies</li>
+                        <li>Profit Level Indicators (PLIs):</li>
+                        <li>- Return on sales (operating profit / sales)</li>
+                        <li>- Return on costs (operating profit / total costs)</li>
+                        <li>- Return on assets (operating profit / assets)</li>
+                        <li>- Berry ratio (gross profit / operating expenses)</li>
+                        <li>Most commonly used method globally due to data availability</li>
+                        <li>Less sensitive to product differences than CUP</li>
                     </ul>
                 </div>
-                <audio id="audio-5" src="audio/slide_005.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="6">
                 <div class="slide-content">
                     <h2 class="slide-title">2.3 Commodity Pricing Methods</h2>
                     <ul class="bullet-points">
                         <li>Quoted Price Method (QPM):</li>
-<li>Uses publicly available commodity price quotations (e.g., Brent, WTI, Henry Hub)</li>
-<li>Adjusted for quality, transportation, timing, delivery terms</li>
-<li>Most appropriate for crude oil, natural gas, refined products</li>
-<li>Price adjustment factors:</li>
-<li>- Quality differentials (API gravity, sulfur content)</li>
-<li>- Location differentials (transportation to reference market)</li>
-<li>- Timing adjustments (forward curves, price lags)</li>
-
+                        <li>Uses publicly available commodity price quotations (e.g., Brent, WTI, Henry Hub)</li>
+                        <li>Adjusted for quality, transportation, timing, delivery terms</li>
+                        <li>Most appropriate for crude oil, natural gas, refined products</li>
+                        <li>Price adjustment factors:</li>
+                        <li>- Quality differentials (API gravity, sulfur content)</li>
+                        <li>- Location differentials (transportation to reference market)</li>
+                        <li>- Timing adjustments (forward curves, price lags)</li>
+                        <li>- Volume discounts/premiums</li>
+                        <li>Comparable Uncontrolled Price (CUP) - Commodity Specific:</li>
                     </ul>
                 </div>
-                <audio id="audio-6" src="audio/slide_006.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="7">
                 <div class="slide-content">
                     <h2 class="slide-title">2.4 Method Selection Hierarchy</h2>
                     <ul class="bullet-points">
                         <li>OECD Approach: No strict hierarchy; select most appropriate method considering:</li>
-<li>Respective strengths/weaknesses of methods</li>
-<li>Nature of controlled transaction</li>
-<li>Availability of reliable information</li>
-<li>Degree of comparability</li>
-<li>Reliability of adjustments</li>
-<li>Practical Hierarchy (often applied):</li>
-<li>CUP (if reliable comparables exist)</li>
-
+                        <li>Respective strengths/weaknesses of methods</li>
+                        <li>Nature of controlled transaction</li>
+                        <li>Availability of reliable information</li>
+                        <li>Degree of comparability</li>
+                        <li>Reliability of adjustments</li>
+                        <li>Practical Hierarchy (often applied):</li>
+                        <li>CUP (if reliable comparables exist)</li>
+                        <li>RPM or Cost Plus (for distributors/service providers with limited functions)</li>
+                        <li>TNMM (when traditional methods not reliable)</li>
                     </ul>
                 </div>
-                <audio id="audio-7" src="audio/slide_007.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="8">
                 <div class="slide-content">
                     <h2 class="slide-title">3.1 Transfer Pricing Documentation Requirements</h2>
                     <ul class="bullet-points">
                         <li>OECD Three-Tier Approach (BEPS Action 13, finalized in 2015):</li>
-<li>Tier 1: Master File</li>
-<li>High-level overview of MNE group</li>
-<li>Global business operations</li>
-<li>Overall transfer pricing policies</li>
-<li>Global allocation of income and economic activity</li>
-<li>Audience: All tax administrations where group operates</li>
-<li>Tier 2: Local File</li>
-
+                        <li>Tier 1: Master File</li>
+                        <li>High-level overview of MNE group</li>
+                        <li>Global business operations</li>
+                        <li>Overall transfer pricing policies</li>
+                        <li>Global allocation of income and economic activity</li>
+                        <li>Audience: All tax administrations where group operates</li>
+                        <li>Tier 2: Local File</li>
+                        <li>Detailed transfer pricing analysis for local entity</li>
+                        <li>Controlled transactions</li>
                     </ul>
                 </div>
-                <audio id="audio-8" src="audio/slide_008.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="9">
                 <div class="slide-content">
                     <h2 class="slide-title">3.2 Advance Pricing Agreements (APAs)</h2>
                     <ul class="bullet-points">
                         <li>Purpose: Prospective agreement between taxpayer and tax authority (or multiple authorities) on transfer pricing methodology for specified transactions over fixed period (typically 3-5 years).</li>
-<li>Types:</li>
-<li>Unilateral Advance Pricing Agreement (APA): Agreement with single tax authority</li>
-<li>Bilateral APA: Agreement between taxpayer and two tax authorities (preferred for double tax certainty)</li>
-<li>Multilateral APA: Agreement involving three or more tax authorities</li>
-<li>Advantages:</li>
-<li>Certainty and predictability</li>
-<li>Avoids costly audits and disputes</li>
-
+                        <li>Types:</li>
+                        <li>Unilateral Advance Pricing Agreement (APA): Agreement with single tax authority</li>
+                        <li>Bilateral APA: Agreement between taxpayer and two tax authorities (preferred for double tax certainty)</li>
+                        <li>Multilateral APA: Agreement involving three or more tax authorities</li>
+                        <li>Advantages:</li>
+                        <li>Certainty and predictability</li>
+                        <li>Avoids costly audits and disputes</li>
+                        <li>Reduces double taxation risk</li>
+                        <li>Facilitates tax planning and forecasting</li>
                     </ul>
                 </div>
-                <audio id="audio-9" src="audio/slide_009.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="10">
                 <div class="slide-content">
                     <h2 class="slide-title">3.3 Penalties and Enforcement</h2>
                     <ul class="bullet-points">
                         <li>Transfer Pricing Adjustments: Tax authorities may adjust reported taxable income if transfer prices do not reflect arm's length principle.</li>
-<li>Penalties: Typical penalty regimes vary by jurisdiction but commonly include:</li>
-<li>Documentation penalties: Failure to maintain/provide contemporaneous documentation (ranging from EUR 1,250 to EUR 100,000 or more per reporting period, depending on jurisdiction and severity)</li>
-<li>Accuracy penalties: Understatement of tax due to transfer pricing (typically 20-40% of tax adjustment in many jurisdictions; for example, US applies 20% for substantial misstatements and 40% for gross misstatements)</li>
-<li>Enhanced penalties: Gross negligence or intentional disregard (50-200% in some jurisdictions)</li>
-<li>Penalty Protection: Many jurisdictions provide penalty relief if taxpayer:</li>
-<li>Maintained contemporaneous documentation</li>
-<li>Conducted reasonable comparability analysis</li>
-
+                        <li>Penalties: Typical penalty regimes vary by jurisdiction but commonly include:</li>
+                        <li>Documentation penalties: Failure to maintain/provide contemporaneous documentation (ranging from EUR 1,250 to EUR 100,000 or more per reporting period, depending on jurisdiction and severity)</li>
+                        <li>Accuracy penalties: Understatement of tax due to transfer pricing (typically 20-40% of tax adjustment in many jurisdictions; for example, US applies 20% for substantial misstatements and 40% for gross misstatements)</li>
+                        <li>Enhanced penalties: Gross negligence or intentional disregard (50-200% in some jurisdictions)</li>
+                        <li>Penalty Protection: Many jurisdictions provide penalty relief if taxpayer:</li>
+                        <li>Maintained contemporaneous documentation</li>
+                        <li>Conducted reasonable comparability analysis</li>
+                        <li>Applied reasonable transfer pricing method</li>
+                        <li>Made reasonable efforts to comply</li>
                     </ul>
                 </div>
-                <audio id="audio-10" src="audio/slide_010.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="11">
                 <div class="slide-content">
                     <h2 class="slide-title">4.1 Production Sharing Contracts (PSCs)</h2>
                     <ul class="bullet-points">
                         <li>Transfer Pricing Challenges:</li>
-<li>Cost recovery: Allocation of allowable costs among contractors</li>
-<li>Profit oil/gas split: Whether Production Sharing Contract (PSC) terms constitute arm's length profit split</li>
-<li>Contractor services: Pricing of services provided by contractor parties to PSC</li>
-<li>Technical services: Secondment of contractor personnel to joint venture</li>
-<li>OECD Guidance: PSC fiscal terms do not automatically satisfy arm's length principle. Taxpayer must demonstrate PSC terms reflect what independent parties would agree.</li>
-<li>Common Approach: Analyze whether PSC award process was competitive and at arm's length. If yes, fiscal terms may be accepted; still requires analysis of cost recovery and associated party transactions.</li>
-
+                        <li>Cost recovery: Allocation of allowable costs among contractors</li>
+                        <li>Profit oil/gas split: Whether Production Sharing Contract (PSC) terms constitute arm's length profit split</li>
+                        <li>Contractor services: Pricing of services provided by contractor parties to PSC</li>
+                        <li>Technical services: Secondment of contractor personnel to joint venture</li>
+                        <li>OECD Guidance: PSC fiscal terms do not automatically satisfy arm's length principle. Taxpayer must demonstrate PSC terms reflect what independent parties would agree.</li>
+                        <li>Common Approach: Analyze whether PSC award process was competitive and at arm's length. If yes, fiscal terms may be accepted; still requires analysis of cost recovery and associated party transactions.</li>
                     </ul>
                 </div>
-                <audio id="audio-11" src="audio/slide_011.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="12">
                 <div class="slide-content">
                     <h2 class="slide-title">4.2 Joint Operating Agreements (JOAs)</h2>
                     <ul class="bullet-points">
                         <li>Structure: Equity participants jointly develop and produce petroleum resources. One party serves as operator.</li>
-<li>Transfer Pricing Issues:</li>
-<li>Operator fees: Compensation for performing operations</li>
-<li>Operator costs: Allocation of direct and indirect costs</li>
-<li>Non-operator services: Services provided by non-operator participants</li>
-<li>Arm's Length Analysis: Operator typically receives:</li>
-<li>Reimbursement of direct costs (at cost)</li>
-<li>Markup on services provided (cost plus 5-15% depending on functions/risks)</li>
-
+                        <li>Transfer Pricing Issues:</li>
+                        <li>Operator fees: Compensation for performing operations</li>
+                        <li>Operator costs: Allocation of direct and indirect costs</li>
+                        <li>Non-operator services: Services provided by non-operator participants</li>
+                        <li>Arm's Length Analysis: Operator typically receives:</li>
+                        <li>Reimbursement of direct costs (at cost)</li>
+                        <li>Markup on services provided (cost plus 5-15% depending on functions/risks)</li>
+                        <li>May receive flat fee or percentage of production/revenue</li>
+                        <li>Comparable Data: Operator agreements in competitive licensing rounds, third-party operator fees, industry benchmarks.</li>
                     </ul>
                 </div>
-                <audio id="audio-12" src="audio/slide_012.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="13">
                 <div class="slide-content">
                     <h2 class="slide-title">Fact Pattern</h2>
                     <ul class="bullet-points">
                         <li>GlobalOil Inc. (US parent) owns NigeriaOil Ltd. (Nigerian subsidiary). NigeriaOil produces crude oil in Nigeria (500,000 barrels per month) and sells to GlobalOil's trading subsidiary OilTrade SA (Singapore). OilTrade resells crude to independent refineries globally.</li>
-<li>Transaction Pricing:</li>
-<li>NigeriaOil → OilTrade: USD 75/barrel</li>
-<li>OilTrade → Independent refineries: USD 80/barrel (average)</li>
-<li>Market Data:</li>
-<li>Dated Brent: USD 78/barrel (benchmark for Nigerian crude)</li>
-<li>Quality differential: Nigerian crude trades at Dated Brent minus USD 2/barrel (lower quality)</li>
-<li>Location differential: Nigerian FOB vs. Brent delivered Northwest Europe: minus USD 1/barrel</li>
-
+                        <li>Transaction Pricing:</li>
+                        <li>NigeriaOil → OilTrade: USD 75/barrel</li>
+                        <li>OilTrade → Independent refineries: USD 80/barrel (average)</li>
+                        <li>Market Data:</li>
+                        <li>Dated Brent: USD 78/barrel (benchmark for Nigerian crude)</li>
+                        <li>Quality differential: Nigerian crude trades at Dated Brent minus USD 2/barrel (lower quality)</li>
+                        <li>Location differential: Nigerian FOB vs. Brent delivered Northwest Europe: minus USD 1/barrel</li>
+                        <li>Arm's length price: USD 78 - USD 2 - USD 1 = USD 75/barrel</li>
+                        <li>Question: Is the USD 75/barrel transfer price between NigeriaOil and OilTrade arm's length?</li>
                     </ul>
                 </div>
-                <audio id="audio-13" src="audio/slide_013.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="14">
                 <div class="slide-content">
                     <h2 class="slide-title">Analysis</h2>
                     <ul class="bullet-points">
                         <li>Method Selection: Quoted Price Method (QPM) most appropriate for crude oil sales. Publicly available commodity pricing provides reliable benchmark.</li>
-<li>Benchmark Determination:</li>
-<li>Reference price: Dated Brent (appropriate benchmark for West African crude)</li>
-<li>Quality adjustment: Nigerian crude typically trades at discount to Brent due to higher sulfur, lower API gravity. Market data indicates USD 2/barrel discount.</li>
-<li>Location adjustment: Nigerian FOB vs. Brent delivered Northwest Europe. Transportation differential: USD 1/barrel.</li>
-<li>Timing adjustment: If pricing lags (e.g., month average), adjust for price movements.</li>
-<li>Adjusted Benchmark: USD 78 (Brent) - USD 2 (quality) - USD 1 (location) = USD 75/barrel</li>
-<li>Transfer Price Comparison:</li>
-
+                        <li>Benchmark Determination:</li>
+                        <li>Reference price: Dated Brent (appropriate benchmark for West African crude)</li>
+                        <li>Quality adjustment: Nigerian crude typically trades at discount to Brent due to higher sulfur, lower API gravity. Market data indicates USD 2/barrel discount.</li>
+                        <li>Location adjustment: Nigerian FOB vs. Brent delivered Northwest Europe. Transportation differential: USD 1/barrel.</li>
+                        <li>Timing adjustment: If pricing lags (e.g., month average), adjust for price movements.</li>
+                        <li>Adjusted Benchmark: USD 78 (Brent) - USD 2 (quality) - USD 1 (location) = USD 75/barrel</li>
+                        <li>Transfer Price Comparison:</li>
+                        <li>Related party price: USD 75/barrel</li>
+                        <li>Arm's length price: USD 75/barrel</li>
                     </ul>
                 </div>
-                <audio id="audio-14" src="audio/slide_014.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="15">
                 <div class="slide-content">
                     <h2 class="slide-title">Fact Pattern</h2>
                     <ul class="bullet-points">
                         <li>TechServices BV (Netherlands), a wholly-owned subsidiary of EnergyMajor plc (UK), provides specialized drilling engineering services to KazakhOil (Kazakhstani production company, also owned by EnergyMajor). TechServices seconded 10 engineers to Kazakhstan for 12 months.</li>
-<li>Cost Structure (annual):</li>
-<li>Engineer salaries and benefits: USD 2,000,000</li>
-<li>Travel and accommodation: USD 300,000</li>
-<li>Overhead allocation from Netherlands HQ: USD 500,000</li>
-<li>Total costs: USD 2,800,000</li>
-<li>Proposed Charge: TechServices invoices KazakhOil USD 4,200,000 (cost plus 50%).</li>
-<li>Kazakhstan Tax Authority Position: 50% markup excessive; should be cost plus 5-10%.</li>
-
+                        <li>Cost Structure (annual):</li>
+                        <li>Engineer salaries and benefits: USD 2,000,000</li>
+                        <li>Travel and accommodation: USD 300,000</li>
+                        <li>Overhead allocation from Netherlands HQ: USD 500,000</li>
+                        <li>Total costs: USD 2,800,000</li>
+                        <li>Proposed Charge: TechServices invoices KazakhOil USD 4,200,000 (cost plus 50%).</li>
+                        <li>Kazakhstan Tax Authority Position: 50% markup excessive; should be cost plus 5-10%.</li>
+                        <li>Question: What is the arm's length markup for technical services?</li>
                     </ul>
                 </div>
-                <audio id="audio-15" src="audio/slide_015.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="16">
                 <div class="slide-content">
                     <h2 class="slide-title">Analysis</h2>
                     <ul class="bullet-points">
                         <li>Method Selection: Cost Plus Method (CPM) appropriate for services. Service provider receives reimbursement of costs plus markup for functions performed and risks assumed.</li>
-<li>Functional Analysis:</li>
-<li>TechServices:</li>
-<li>Functions: Recruitment, training, performance management of engineers; provides specialized technical expertise</li>
-<li>Assets: Human capital (specialized engineers), technical know-how</li>
-<li>Risks: Limited - costs reimbursed; no performance risk</li>
-<li>KazakhOil:</li>
-<li>Functions: Project management, operational decisions, application of technical advice</li>
-
+                        <li>Functional Analysis:</li>
+                        <li>TechServices:</li>
+                        <li>Functions: Recruitment, training, performance management of engineers; provides specialized technical expertise</li>
+                        <li>Assets: Human capital (specialized engineers), technical know-how</li>
+                        <li>Risks: Limited - costs reimbursed; no performance risk</li>
+                        <li>KazakhOil:</li>
+                        <li>Functions: Project management, operational decisions, application of technical advice</li>
+                        <li>Assets: Production assets, licenses</li>
+                        <li>Risks: Operational risk, reservoir risk, political risk, price risk</li>
                     </ul>
                 </div>
-                <audio id="audio-16" src="audio/slide_016.mp3"></audio>
             </div>
-            
         </div>
 
         <div class="controls">
             <button class="nav-button" id="prevBtn" onclick="previousSlide()">← Previous</button>
-            <button class="audio-control" id="audioBtn" onclick="toggleAudio()">🔊 Audio On</button>
             <button class="nav-button" id="nextBtn" onclick="nextSlide()">Next →</button>
         </div>
     </div>
@@ -544,8 +527,6 @@
     <script>
         let currentSlide = 0;
         const totalSlides = 17;
-        let audioEnabled = true;
-        let currentAudio = null;
 
         // Initialize first slide
         document.addEventListener('DOMContentLoaded', function() {
@@ -573,31 +554,7 @@
             document.getElementById('prevBtn').disabled = index === 0;
             document.getElementById('nextBtn').disabled = index === totalSlides - 1;
 
-            // Play audio
-            playSlideAudio(index);
             updateProgress();
-        }
-
-        function playSlideAudio(index) {
-            // Stop current audio
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
-            }
-
-            if (!audioEnabled) return;
-
-            // Find and play audio for this slide
-            const audio = document.getElementById(`audio-${index}`);
-            if (audio) {
-                currentAudio = audio;
-                audio.play().catch(e => console.log('Audio play failed:', e));
-                document.getElementById('audioBtn').classList.add('playing');
-
-                audio.onended = () => {
-                    document.getElementById('audioBtn').classList.remove('playing');
-                };
-            }
         }
 
         function nextSlide() {
@@ -609,23 +566,6 @@
         function previousSlide() {
             if (currentSlide > 0) {
                 showSlide(currentSlide - 1);
-            }
-        }
-
-        function toggleAudio() {
-            audioEnabled = !audioEnabled;
-            const btn = document.getElementById('audioBtn');
-
-            if (audioEnabled) {
-                btn.textContent = '🔊 Audio On';
-                playSlideAudio(currentSlide);
-            } else {
-                btn.textContent = '🔇 Audio Off';
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                }
-                btn.classList.remove('playing');
             }
         }
 
@@ -642,8 +582,6 @@
             } else if (e.key === 'ArrowLeft') {
                 e.preventDefault();
                 previousSlide();
-            } else if (e.key === 'm' || e.key === 'M') {
-                toggleAudio();
             }
         });
 

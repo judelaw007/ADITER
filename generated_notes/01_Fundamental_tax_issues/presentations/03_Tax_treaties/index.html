@@ -140,7 +140,8 @@
             background: rgba(0, 0, 0, 0.3);
             padding: 20px 40px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            gap: 20px;
             align-items: center;
         }
 
@@ -167,32 +168,6 @@
             cursor: not-allowed;
         }
 
-        .audio-control {
-            background: var(--accent);
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .audio-control:hover {
-            background: #FF8C5A;
-            transform: scale(1.05);
-        }
-
-        .audio-control.playing {
-            animation: pulse 1.5s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
-
         .progress-bar {
             position: fixed;
             top: 0;
@@ -215,6 +190,23 @@
             .bullet-points li {
                 font-size: 14px;
             }
+
+            header {
+                padding: 15px 20px;
+            }
+
+            .header-title {
+                font-size: 18px;
+            }
+
+            .controls {
+                padding: 15px 20px;
+            }
+
+            .nav-button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
         }
     </style>
 </head>
@@ -233,299 +225,282 @@
         </header>
 
         <div class="slides-wrapper" id="slidesWrapper">
-            
+
             <div class="slide" data-slide="0">
                 <div class="slide-content">
                     <h2 class="slide-title">1. Core Framework and Statutory Basis</h2>
                     <ul class="bullet-points">
                         <li>Tax treaties, formally termed double tax agreements (DTAs) or double tax conventions (DTCs), are bilateral or multilateral agreements governing allocation of taxing rights between jurisdictions. For the energy resources sector, treaties are critical instruments affecting investment returns, permanent establishment exposure, and cross-border payment taxation.</li>
-
                     </ul>
                 </div>
-                <audio id="audio-0" src="audio/slide_000.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="1">
                 <div class="slide-content">
                     <h2 class="slide-title">1.1 Treaty Models and Hierarchy</h2>
                     <ul class="bullet-points">
                         <li>The principal treaty models are:</li>
-<li>OECD Model Tax Convention on Income and Capital (2017 edition, regularly updated with Commentaries): Reflects developed country consensus favoring residence-based taxation. Adopted primarily by capital-exporting countries. The 2017 edition incorporated tax treaty-related measures from the OECD/G20 Base Erosion and Profit Shifting (BEPS) Project. Commentary updates continue to be issued (most recently in 2024 for Article 26 on Exchange of Information). Over 3,000 bilateral treaties worldwide are based on OECD or UN Models.</li>
-<li>UN Model Double Taxation Convention between Developed and Developing Countries (2021 edition): Provides greater source-country taxing rights. Favored by resource-rich developing countries. Includes lower permanent establishment (PE) thresholds, higher withholding rates, and broader service articles. The 2021 edition is the fifth edition, addressing concerns about taxation of automated digital services and offshore indirect transfers.</li>
-<li>US Model Income Tax Convention (2016): Similar to OECD Model but includes Limitation on Benefits (LOB) provisions, "savings clause" preserving US taxation of citizens/residents, and specific anti-treaty shopping rules. Released by the US Department of Treasury on February 17, 2016, updating the previous 2006 version.</li>
-<li>Multilateral Instrument (MLI) (OECD BEPS, 2017): The Multilateral Convention to Implement Tax Treaty Related Measures to Prevent Base Erosion and Profit Shifting (MLI) allows simultaneous modification of multiple bilateral treaties. Signed on June 7, 2017, with over 104 jurisdictions participating as of January 2025. Implements BEPS minimum standards including Principal Purpose Test (PPT), treaty abuse prevention, and dispute resolution improvements.</li>
-
+                        <li>OECD Model Tax Convention on Income and Capital (2017 edition, regularly updated with Commentaries): Reflects developed country consensus favoring residence-based taxation. Adopted primarily by capital-exporting countries. The 2017 edition incorporated tax treaty-related measures from the OECD/G20 Base Erosion and Profit Shifting (BEPS) Project. Commentary updates continue to be issued (most recently in 2024 for Article 26 on Exchange of Information). Over 3,000 bilateral treaties worldwide are based on OECD or UN Models.</li>
+                        <li>UN Model Double Taxation Convention between Developed and Developing Countries (2021 edition): Provides greater source-country taxing rights. Favored by resource-rich developing countries. Includes lower permanent establishment (PE) thresholds, higher withholding rates, and broader service articles. The 2021 edition is the fifth edition, addressing concerns about taxation of automated digital services and offshore indirect transfers.</li>
+                        <li>US Model Income Tax Convention (2016): Similar to OECD Model but includes Limitation on Benefits (LOB) provisions, "savings clause" preserving US taxation of citizens/residents, and specific anti-treaty shopping rules. Released by the US Department of Treasury on February 17, 2016, updating the previous 2006 version.</li>
+                        <li>Multilateral Instrument (MLI) (OECD BEPS, 2017): The Multilateral Convention to Implement Tax Treaty Related Measures to Prevent Base Erosion and Profit Shifting (MLI) allows simultaneous modification of multiple bilateral treaties. Signed on June 7, 2017, with over 104 jurisdictions participating as of January 2025. Implements BEPS minimum standards including Principal Purpose Test (PPT), treaty abuse prevention, and dispute resolution improvements.</li>
                     </ul>
                 </div>
-                <audio id="audio-1" src="audio/slide_001.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="2">
                 <div class="slide-content">
                     <h2 class="slide-title">1.2 Legal Hierarchy and Application</h2>
                     <ul class="bullet-points">
                         <li>Constitutional Status: Treaties typically override domestic law in most jurisdictions (monist systems). Some jurisdictions require domestic legislation to implement treaties (dualist systems, e.g., United Kingdom).</li>
-<li>Interpretation: Vienna Convention on the Law of Treaties (concluded May 23, 1969, entered into force January 27, 1980) provides interpretation framework:</li>
-<li>Ordinary meaning in context</li>
-<li>Object and purpose consideration</li>
-<li>OECD/UN Commentaries as interpretative guidance (not binding but persuasive)</li>
-<li>Domestic courts may differ on interpretation weight given to Commentaries</li>
-<li>Conflict Resolution: When treaty and domestic law conflict, more favorable provision typically applies to taxpayer (though specifics depend on domestic constitutional law).</li>
-
+                        <li>Interpretation: Vienna Convention on the Law of Treaties (concluded May 23, 1969, entered into force January 27, 1980) provides interpretation framework:</li>
+                        <li>Ordinary meaning in context</li>
+                        <li>Object and purpose consideration</li>
+                        <li>OECD/UN Commentaries as interpretative guidance (not binding but persuasive)</li>
+                        <li>Domestic courts may differ on interpretation weight given to Commentaries</li>
+                        <li>Conflict Resolution: When treaty and domestic law conflict, more favorable provision typically applies to taxpayer (though specifics depend on domestic constitutional law).</li>
                     </ul>
                 </div>
-                <audio id="audio-2" src="audio/slide_002.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="3">
                 <div class="slide-content">
                     <h2 class="slide-title">2.1 Residence and Treaty Eligibility (Article 4)</h2>
                     <ul class="bullet-points">
                         <li>Resident Status: To access treaty benefits, taxpayer must be "resident" of contracting state, meaning:</li>
-<li>Individual: Resident under domestic law by domicile, residence, place of management, or similar criterion</li>
-<li>Company: Resident by place of incorporation, place of management, or place of effective management</li>
-<li>Dual Residence: Tie-breaker rules apply when entity resident in both states:</li>
-<li>Individual: Permanent home → center of vital interests → habitual abode → nationality → Mutual Agreement Procedure (MAP)</li>
-<li>Company: Place of effective management (POEM) - where key management/commercial decisions made</li>
-<li>POEM Determination (critical for energy companies):</li>
-<li>Location of board meetings</li>
-
+                        <li>Individual: Resident under domestic law by domicile, residence, place of management, or similar criterion</li>
+                        <li>Company: Resident by place of incorporation, place of management, or place of effective management</li>
+                        <li>Dual Residence: Tie-breaker rules apply when entity resident in both states:</li>
+                        <li>Individual: Permanent home → center of vital interests → habitual abode → nationality → Mutual Agreement Procedure (MAP)</li>
+                        <li>Company: Place of effective management (POEM) - where key management/commercial decisions made</li>
+                        <li>POEM Determination (critical for energy companies):</li>
+                        <li>Location of board meetings</li>
+                        <li>Location where key commercial decisions made</li>
+                        <li>Location of day-to-day management</li>
                     </ul>
                 </div>
-                <audio id="audio-3" src="audio/slide_003.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="4">
                 <div class="slide-content">
                     <h2 class="slide-title">2.2 Permanent Establishment (Article 5)</h2>
                     <ul class="bullet-points">
                         <li>Fundamental Principle: Business profits taxable in source state only if enterprise has permanent establishment in that state (Article 7(1)).</li>
-<li>Article 5(1) General Definition: Fixed place of business through which business wholly or partly carried on.</li>
-<li>Article 5(2) Specific Inclusions (deemed PE):</li>
-<li>Place of management</li>
-<li>Branch</li>
-<li>Office</li>
-<li>Factory</li>
-<li>Workshop</li>
-
+                        <li>Article 5(1) General Definition: Fixed place of business through which business wholly or partly carried on.</li>
+                        <li>Article 5(2) Specific Inclusions (deemed PE):</li>
+                        <li>Place of management</li>
+                        <li>Branch</li>
+                        <li>Office</li>
+                        <li>Factory</li>
+                        <li>Workshop</li>
+                        <li>Mine, oil or gas well, quarry, or any other place of extraction of natural resources [Critically important for energy sector]</li>
+                        <li>Article 5(3) Construction PE: Building site, construction, assembly, or installation project constitutes PE if duration exceeds specified threshold:</li>
                     </ul>
                 </div>
-                <audio id="audio-4" src="audio/slide_004.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="5">
                 <div class="slide-content">
                     <h2 class="slide-title">2.3 Business Profits Attribution (Article 7)</h2>
                     <ul class="bullet-points">
                         <li>Authorized OECD Approach (AOA): PE treated as functionally separate enterprise. Profits attributed based on:</li>
-<li>Functions performed</li>
-<li>Assets used</li>
-<li>Risks assumed</li>
-<li>The Authorized OECD Approach requires functional analysis treating the PE as if it were a separate entity dealing at arm's length with the head office.</li>
-<li>Transfer Pricing Principles: Arm's length principle applies to dealings between PE and head office. Requires functional analysis and comparability analysis.</li>
-<li>Common Energy Sector Issues:</li>
-<li>Allocation of exploration/development costs</li>
-
+                        <li>Functions performed</li>
+                        <li>Assets used</li>
+                        <li>Risks assumed</li>
+                        <li>The Authorized OECD Approach requires functional analysis treating the PE as if it were a separate entity dealing at arm's length with the head office.</li>
+                        <li>Transfer Pricing Principles: Arm's length principle applies to dealings between PE and head office. Requires functional analysis and comparability analysis.</li>
+                        <li>Common Energy Sector Issues:</li>
+                        <li>Allocation of exploration/development costs</li>
+                        <li>Attribution of production income</li>
+                        <li>Overhead allocation from head office</li>
                     </ul>
                 </div>
-                <audio id="audio-5" src="audio/slide_005.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="6">
                 <div class="slide-content">
                     <h2 class="slide-title">2.4 Withholding Tax Treaty Reductions</h2>
                     <ul class="bullet-points">
                         <li>Dividends (Article 10):</li>
-<li>Interest (Article 11):</li>
-<li>Royalties (Article 12):</li>
-
+                        <li>Interest (Article 11):</li>
+                        <li>Royalties (Article 12):</li>
                     </ul>
                 </div>
-                <audio id="audio-6" src="audio/slide_006.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="7">
                 <div class="slide-content">
                     <h2 class="slide-title">2.5 Capital Gains (Article 13)</h2>
                     <ul class="bullet-points">
                         <li>Source Taxation Permitted For:</li>
-<li>Article 13(1): Gains on immovable property (including petroleum/gas rights) - taxable in situs state</li>
-<li>Article 13(2): Gains on movable property of PE - taxable in PE state</li>
-<li>Article 13(4): Gains on shares deriving >50% value from immovable property - taxable in situs state (many treaties)</li>
-<li>Article 13(5): Other gains - taxable only in residence state</li>
-<li>Energy Sector Application:</li>
-<li>Sale of production assets: Article 13(1) - source taxation</li>
-<li>Sale of shares in operating company: Article 13(4) if immovable property company test met</li>
-
+                        <li>Article 13(1): Gains on immovable property (including petroleum/gas rights) - taxable in situs state</li>
+                        <li>Article 13(2): Gains on movable property of PE - taxable in PE state</li>
+                        <li>Article 13(4): Gains on shares deriving &gt;50% value from immovable property - taxable in situs state (many treaties)</li>
+                        <li>Article 13(5): Other gains - taxable only in residence state</li>
+                        <li>Energy Sector Application:</li>
+                        <li>Sale of production assets: Article 13(1) - source taxation</li>
+                        <li>Sale of shares in operating company: Article 13(4) if immovable property company test met</li>
+                        <li>Indirect transfers: Many energy-producing countries have specific anti-avoidance rules taxing indirect transfers regardless of treaty</li>
                     </ul>
                 </div>
-                <audio id="audio-7" src="audio/slide_007.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="8">
                 <div class="slide-content">
                     <h2 class="slide-title">3.1 Principal Purpose Test (PPT)</h2>
                     <ul class="bullet-points">
                         <li>MLI Article 7 introduces PPT as minimum standard: Treaty benefits denied if "one of the principal purposes" of arrangement was obtaining treaty benefits and granting benefits would be contrary to object/purpose of treaty provisions.</li>
-<li>The Principal Purpose Test (PPT) is a general anti-abuse rule requiring analysis of whether obtaining a tax benefit was one of the principal purposes of an arrangement or transaction.</li>
-<li>Application:</li>
-<li>Objective test: Circumstances surrounding arrangement</li>
-<li>Subjective intent considered</li>
-<li>Tax authority may grant benefits despite PPT if reasonable to conclude benefits should be granted</li>
-<li>Safe Harbors: None automatic; case-by-case determination.</li>
-<li>Energy Sector Impact: Holding company structures in treaty jurisdictions scrutinized. Substance requirements increased:</li>
-
+                        <li>The Principal Purpose Test (PPT) is a general anti-abuse rule requiring analysis of whether obtaining a tax benefit was one of the principal purposes of an arrangement or transaction.</li>
+                        <li>Application:</li>
+                        <li>Objective test: Circumstances surrounding arrangement</li>
+                        <li>Subjective intent considered</li>
+                        <li>Tax authority may grant benefits despite PPT if reasonable to conclude benefits should be granted</li>
+                        <li>Safe Harbors: None automatic; case-by-case determination.</li>
+                        <li>Energy Sector Impact: Holding company structures in treaty jurisdictions scrutinized. Substance requirements increased:</li>
+                        <li>Commercial justification beyond tax</li>
+                        <li>Economic substance (employees, decision-making, risk management)</li>
                     </ul>
                 </div>
-                <audio id="audio-8" src="audio/slide_008.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="9">
                 <div class="slide-content">
                     <h2 class="slide-title">3.2 Limitation on Benefits (LOB)</h2>
                     <ul class="bullet-points">
                         <li>US Treaty Approach: Detailed objective tests to qualify for benefits:</li>
-<li>Qualified Person Tests:</li>
-<li>Publicly traded: Company traded on recognized exchange in treaty state</li>
-<li>Ownership/base erosion: >50% owned by qualified persons AND <50% income paid to non-qualified persons</li>
-<li>Active trade or business: Substantial business activity in residence state with connection to source income</li>
-<li>Derivative benefits: Qualified intermediate owner (limited to European Union/North American Free Trade Agreement residents in some treaties)</li>
-<li>Discretionary Benefits: Competent authority may grant benefits if principal purposes not tax avoidance.</li>
-
+                        <li>Qualified Person Tests:</li>
+                        <li>Publicly traded: Company traded on recognized exchange in treaty state</li>
+                        <li>Ownership/base erosion: &gt;50% owned by qualified persons AND &lt;50% income paid to non-qualified persons</li>
+                        <li>Active trade or business: Substantial business activity in residence state with connection to source income</li>
+                        <li>Derivative benefits: Qualified intermediate owner (limited to European Union/North American Free Trade Agreement residents in some treaties)</li>
+                        <li>Discretionary Benefits: Competent authority may grant benefits if principal purposes not tax avoidance.</li>
                     </ul>
                 </div>
-                <audio id="audio-9" src="audio/slide_009.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="10">
                 <div class="slide-content">
                     <h2 class="slide-title">3.3 Beneficial Ownership</h2>
                     <ul class="bullet-points">
                         <li>OECD Commentary: "Beneficial owner" not used in narrow technical sense but to exclude agents or conduits. Requires:</li>
-<li>Legal right to receive income</li>
-<li>Right to use and enjoy income</li>
-<li>Genuine economic exposure</li>
-<li>Substance and decision-making authority</li>
-<li>Recent Developments: Several jurisdictions (e.g., India, Nigeria) enacted domestic beneficial ownership tests stricter than treaty language, requiring demonstration of economic substance and genuine commercial operations beyond mere legal ownership.</li>
-
+                        <li>Legal right to receive income</li>
+                        <li>Right to use and enjoy income</li>
+                        <li>Genuine economic exposure</li>
+                        <li>Substance and decision-making authority</li>
+                        <li>Recent Developments: Several jurisdictions (e.g., India, Nigeria) enacted domestic beneficial ownership tests stricter than treaty language, requiring demonstration of economic substance and genuine commercial operations beyond mere legal ownership.</li>
                     </ul>
                 </div>
-                <audio id="audio-10" src="audio/slide_010.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="11">
                 <div class="slide-content">
                     <h2 class="slide-title">4.1 Mutual Agreement Procedure (MAP) (Article 25)</h2>
                     <ul class="bullet-points">
                         <li>Purpose: Resolve cases of taxation not in accordance with treaty.</li>
-<li>Process:</li>
-<li>Taxpayer presents case to competent authority of residence state (or either state) within 3 years of first notification</li>
-<li>Competent authorities endeavor to resolve by mutual agreement</li>
-<li>No obligation to reach agreement under traditional Article 25</li>
-<li>MLI introduces mandatory binding arbitration if no Mutual Agreement Procedure (MAP) agreement within specified time (typically 2 years)</li>
-<li>Energy Sector MAP Cases: Common issues include:</li>
-<li>PE existence and profit attribution</li>
-
+                        <li>Process:</li>
+                        <li>Taxpayer presents case to competent authority of residence state (or either state) within 3 years of first notification</li>
+                        <li>Competent authorities endeavor to resolve by mutual agreement</li>
+                        <li>No obligation to reach agreement under traditional Article 25</li>
+                        <li>MLI introduces mandatory binding arbitration if no Mutual Agreement Procedure (MAP) agreement within specified time (typically 2 years)</li>
+                        <li>Energy Sector MAP Cases: Common issues include:</li>
+                        <li>PE existence and profit attribution</li>
+                        <li>Transfer pricing adjustments</li>
+                        <li>Characterization of payments (royalty vs. service fee)</li>
                     </ul>
                 </div>
-                <audio id="audio-11" src="audio/slide_011.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="12">
                 <div class="slide-content">
                     <h2 class="slide-title">4.2 Exchange of Information (Article 26)</h2>
                     <ul class="bullet-points">
                         <li>Scope: Exchange "foreseeably relevant" information for tax administration.</li>
-<li>Automatic Exchange: Common Reporting Standard (CRS) implemented through Article 26 framework. The CRS, developed in response to the G20 request and approved by the OECD Council on July 15, 2014, calls on jurisdictions to obtain information from their financial institutions and automatically exchange that information with other jurisdictions on an annual basis. Over 100 jurisdictions automatically exchange:</li>
-<li>Financial account information</li>
-<li>Ultimate beneficial ownership data</li>
-<li>Country-by-country reports (for multinational enterprises with revenue exceeding EUR 750 million)</li>
-<li>The CRS scope has been expanded to include crypto-assets, electronic money products, and central bank digital currencies.</li>
-<li>Spontaneous Exchange: Information discovered during audits shared when relevant to treaty partner.</li>
-<li>On Request: Specific information requested for ongoing examinations.</li>
-
+                        <li>Automatic Exchange: Common Reporting Standard (CRS) implemented through Article 26 framework. The CRS, developed in response to the G20 request and approved by the OECD Council on July 15, 2014, calls on jurisdictions to obtain information from their financial institutions and automatically exchange that information with other jurisdictions on an annual basis. Over 100 jurisdictions automatically exchange:</li>
+                        <li>Financial account information</li>
+                        <li>Ultimate beneficial ownership data</li>
+                        <li>Country-by-country reports (for multinational enterprises with revenue exceeding EUR 750 million)</li>
+                        <li>The CRS scope has been expanded to include crypto-assets, electronic money products, and central bank digital currencies.</li>
+                        <li>Spontaneous Exchange: Information discovered during audits shared when relevant to treaty partner.</li>
+                        <li>On Request: Specific information requested for ongoing examinations.</li>
                     </ul>
                 </div>
-                <audio id="audio-12" src="audio/slide_012.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="13">
                 <div class="slide-content">
                     <h2 class="slide-title">Fact Pattern</h2>
                     <ul class="bullet-points">
                         <li>SeismicCo Ltd., a Norwegian geophysical services company, conducts 3D seismic surveys off the coast of Indonesia under contract with IndonesiaPetro (Indonesian state oil company). SeismicCo operates a specialized seismic vessel for the project.</li>
-<li>Timeline:</li>
-<li>June 1, 2024: Vessel arrives in Indonesian territorial waters</li>
-<li>June 1 - September 30, 2024: Seismic data acquisition (122 days)</li>
-<li>October 1-31, 2024: Data processing on vessel in Indonesian waters (31 days)</li>
-<li>November 1, 2024: Vessel departs Indonesian waters</li>
-<li>Total time in Indonesian waters: 153 days</li>
-<li>Contract fee: USD 15 million</li>
-
+                        <li>Timeline:</li>
+                        <li>June 1, 2024: Vessel arrives in Indonesian territorial waters</li>
+                        <li>June 1 - September 30, 2024: Seismic data acquisition (122 days)</li>
+                        <li>October 1-31, 2024: Data processing on vessel in Indonesian waters (31 days)</li>
+                        <li>November 1, 2024: Vessel departs Indonesian waters</li>
+                        <li>Total time in Indonesian waters: 153 days</li>
+                        <li>Contract fee: USD 15 million</li>
+                        <li>Indonesia-Norway Tax Treaty:</li>
+                        <li>Construction PE threshold: 120 days</li>
                     </ul>
                 </div>
-                <audio id="audio-13" src="audio/slide_013.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="14">
                 <div class="slide-content">
                     <h2 class="slide-title">Analysis</h2>
                     <ul class="bullet-points">
                         <li>Article 5 General PE Test:</li>
-<li>Fixed place of business: Seismic vessel in Indonesian territorial waters</li>
-<li>Duration: 153 days continuously</li>
-<li>Through which business carried on: Survey operations</li>
-<li>Article 5(2) Specific Inclusions: Seismic vessel may constitute a "workshop" or "place of extraction" for natural resources (debatable - vessel not extracting but facilitating exploration).</li>
-<li>Article 5(3) Construction PE: Treaty threshold is 120 days. SeismicCo exceeded this threshold (153 days).</li>
-<li>Article 5(4) Negative List: Seismic survey not "preparatory or auxiliary" - it is core business activity of SeismicCo and essential service for IndonesiaPetro's exploration. The activity constitutes the essential and significant part of SeismicCo's business operations, not merely supportive functions. Negative list does not apply.</li>
-<li>Service PE (UN-style): Many bilateral treaties include service PE provisions. Technical services for >60 days creates PE. SeismicCo provided services for 153 days, exceeding threshold.</li>
-
+                        <li>Fixed place of business: Seismic vessel in Indonesian territorial waters</li>
+                        <li>Duration: 153 days continuously</li>
+                        <li>Through which business carried on: Survey operations</li>
+                        <li>Article 5(2) Specific Inclusions: Seismic vessel may constitute a "workshop" or "place of extraction" for natural resources (debatable - vessel not extracting but facilitating exploration).</li>
+                        <li>Article 5(3) Construction PE: Treaty threshold is 120 days. SeismicCo exceeded this threshold (153 days).</li>
+                        <li>Article 5(4) Negative List: Seismic survey not "preparatory or auxiliary" - it is core business activity of SeismicCo and essential service for IndonesiaPetro's exploration. The activity constitutes the essential and significant part of SeismicCo's business operations, not merely supportive functions. Negative list does not apply.</li>
+                        <li>Service PE (UN-style): Many bilateral treaties include service PE provisions. Technical services for &gt;60 days creates PE. SeismicCo provided services for 153 days, exceeding threshold.</li>
+                        <li>Conclusion: PE exists under construction PE rule (Article 5(3)) and likely under service PE if treaty includes such provision.</li>
+                        <li>Profit Attribution:</li>
                     </ul>
                 </div>
-                <audio id="audio-14" src="audio/slide_014.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="15">
                 <div class="slide-content">
                     <h2 class="slide-title">Fact Pattern</h2>
                     <ul class="bullet-points">
                         <li>OilInvest Cayman Ltd. (OIC), a Cayman Islands company owned by a private equity fund (US investors), holds 100% shares in BrazilOil Ltda. (Brazilian oil and gas production company). BrazilOil pays annual dividends of USD 50 million.</li>
-<li>Tax Rates:</li>
-<li>Brazil domestic withholding on dividends: 25%</li>
-<li>Cayman Islands: 0% corporate tax, no dividend withholding</li>
-<li>United States: 21% corporate tax; 30% dividend withholding</li>
-<li>Treaty Analysis:</li>
-<li>Brazil-Cayman: No tax treaty</li>
-<li>Brazil-Netherlands: Dividend withholding 10% (for >10% holdings)</li>
-
+                        <li>Tax Rates:</li>
+                        <li>Brazil domestic withholding on dividends: 25%</li>
+                        <li>Cayman Islands: 0% corporate tax, no dividend withholding</li>
+                        <li>United States: 21% corporate tax; 30% dividend withholding</li>
+                        <li>Treaty Analysis:</li>
+                        <li>Brazil-Cayman: No tax treaty</li>
+                        <li>Brazil-Netherlands: Dividend withholding 10% (for &gt;10% holdings)</li>
+                        <li>Brazil-Luxembourg: Dividend withholding 15% (for &gt;10% holdings)</li>
+                        <li>Restructuring: OIC establishes Netherlands HoldCo BV (Dutch company) as intermediate holding company. Netherlands HoldCo owns BrazilOil shares; OIC owns Netherlands HoldCo shares.</li>
                     </ul>
                 </div>
-                <audio id="audio-15" src="audio/slide_015.mp3"></audio>
             </div>
-            
+
             <div class="slide" data-slide="16">
                 <div class="slide-content">
                     <h2 class="slide-title">Analysis</h2>
                     <ul class="bullet-points">
                         <li>Without Netherlands HoldCo (Current):</li>
-<li>Dividend: USD 50M</li>
-<li>Brazil withholding tax (no treaty): USD 50M × 25% = USD 12.5M</li>
-<li>Net to Cayman: USD 37.5M</li>
-<li>With Netherlands HoldCo (Proposed):</li>
-<li>Dividend: USD 50M</li>
-<li>Brazil withholding tax (treaty rate): USD 50M × 10% = USD 5.0M</li>
-<li>Netherlands tax: USD 0 (participation exemption, assuming qualified)</li>
-
+                        <li>Dividend: USD 50M</li>
+                        <li>Brazil withholding tax (no treaty): USD 50M × 25% = USD 12.5M</li>
+                        <li>Net to Cayman: USD 37.5M</li>
+                        <li>With Netherlands HoldCo (Proposed):</li>
+                        <li>Dividend: USD 50M</li>
+                        <li>Brazil withholding tax (treaty rate): USD 50M × 10% = USD 5.0M</li>
+                        <li>Netherlands tax: USD 0 (participation exemption, assuming qualified)</li>
+                        <li>Netherlands withholding tax on dividend to Cayman: Typically 15% domestic rate (no treaty)</li>
+                        <li>Tax savings if retained in Netherlands: USD 7.5M annually</li>
                     </ul>
                 </div>
-                <audio id="audio-16" src="audio/slide_016.mp3"></audio>
             </div>
-            
         </div>
 
         <div class="controls">
             <button class="nav-button" id="prevBtn" onclick="previousSlide()">← Previous</button>
-            <button class="audio-control" id="audioBtn" onclick="toggleAudio()">🔊 Audio On</button>
             <button class="nav-button" id="nextBtn" onclick="nextSlide()">Next →</button>
         </div>
     </div>
@@ -533,8 +508,6 @@
     <script>
         let currentSlide = 0;
         const totalSlides = 17;
-        let audioEnabled = true;
-        let currentAudio = null;
 
         // Initialize first slide
         document.addEventListener('DOMContentLoaded', function() {
@@ -562,31 +535,7 @@
             document.getElementById('prevBtn').disabled = index === 0;
             document.getElementById('nextBtn').disabled = index === totalSlides - 1;
 
-            // Play audio
-            playSlideAudio(index);
             updateProgress();
-        }
-
-        function playSlideAudio(index) {
-            // Stop current audio
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
-            }
-
-            if (!audioEnabled) return;
-
-            // Find and play audio for this slide
-            const audio = document.getElementById(`audio-${index}`);
-            if (audio) {
-                currentAudio = audio;
-                audio.play().catch(e => console.log('Audio play failed:', e));
-                document.getElementById('audioBtn').classList.add('playing');
-
-                audio.onended = () => {
-                    document.getElementById('audioBtn').classList.remove('playing');
-                };
-            }
         }
 
         function nextSlide() {
@@ -598,23 +547,6 @@
         function previousSlide() {
             if (currentSlide > 0) {
                 showSlide(currentSlide - 1);
-            }
-        }
-
-        function toggleAudio() {
-            audioEnabled = !audioEnabled;
-            const btn = document.getElementById('audioBtn');
-
-            if (audioEnabled) {
-                btn.textContent = '🔊 Audio On';
-                playSlideAudio(currentSlide);
-            } else {
-                btn.textContent = '🔇 Audio Off';
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                }
-                btn.classList.remove('playing');
             }
         }
 
@@ -631,8 +563,6 @@
             } else if (e.key === 'ArrowLeft') {
                 e.preventDefault();
                 previousSlide();
-            } else if (e.key === 'm' || e.key === 'M') {
-                toggleAudio();
             }
         });
 
