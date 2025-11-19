@@ -8,3 +8,7 @@ __pycache__/
 # Environment variables and secrets
 .env
 *.env
+
+# SCORM packages (too large for git)
+*.zip
+scorm_package/
