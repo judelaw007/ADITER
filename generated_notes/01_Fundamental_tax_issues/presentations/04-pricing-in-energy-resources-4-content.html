@@ -537,6 +537,53 @@
     <div class="progress-bar" style="width: 55%;"></div>
 
     <header>
+        
+        <!-- Voice-Over Audio Player -->
+        <div class="audio-player" style="margin: 2rem 0; padding: 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="flex: 1;">
+                    <div style="font-size: 0.9rem; color: rgba(255,255,255,0.9); margin-bottom: 0.5rem;">
+                        <strong>🎧 Professional Voice-Over Narration</strong>
+                    </div>
+                    <audio id="narration-audio" controls autoplay style="width: 100%; border-radius: 8px;">
+                        <source src="audio/ch04_sec04_Energy_Sector_Specific_Issues.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <button onclick="toggleAudio()" style="padding: 0.75rem 1.5rem; background: rgba(255,255,255,0.2); border: 2px solid rgba(255,255,255,0.4); border-radius: 8px; color: white; cursor: pointer; font-weight: bold; transition: all 0.3s;">
+                    <span id="audio-toggle">⏸️ Pause</span>
+                </button>
+            </div>
+        </div>
+
+        <script>
+            const audio = document.getElementById('narration-audio');
+            const toggleBtn = document.getElementById('audio-toggle');
+
+            function toggleAudio() {
+                if (audio.paused) {
+                    audio.play();
+                    toggleBtn.textContent = '⏸️ Pause';
+                } else {
+                    audio.pause();
+                    toggleBtn.textContent = '▶️ Play';
+                }
+            }
+
+            // Update button state when audio ends
+            audio.addEventListener('ended', () => {
+                toggleBtn.textContent = '🔄 Replay';
+            });
+
+            // Auto-play on page load (with user interaction fallback)
+            document.addEventListener('DOMContentLoaded', () => {
+                audio.play().catch(err => {
+                    console.log('Auto-play prevented - user interaction required');
+                    toggleBtn.textContent = '▶️ Play';
+                });
+            });
+        </script>
+
         <h1>Energy Sector Specific Issues</h1>
         <div class="breadcrumb">Fundamental Tax Issues → Chapter 4 → Section 4</div>
     </header>
