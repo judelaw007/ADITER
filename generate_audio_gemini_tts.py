@@ -17,18 +17,31 @@ from google.genai import types
 class GeminiTTSGenerator:
     """Generate audio files using Gemini 2.5 TTS API"""
 
-    def __init__(self, api_key: str, use_pro: bool = False):
+    def __init__(self, api_key: str, use_pro: bool = False, project_id: str = None):
         """
         Initialize Gemini TTS Generator
 
         Args:
             api_key: Google API key
             use_pro: Use gemini-2.5-pro-preview-tts instead of flash (higher quality, slower)
+            project_id: Google Cloud Project ID (required for billing)
         """
         self.api_key = api_key
+        self.project_id = project_id
 
-        # Initialize Gemini client
-        self.client = genai.Client(api_key=api_key)
+        # Initialize Gemini client with billing configuration
+        client_options = {'api_key': api_key}
+
+        # Add project ID for billing if provided
+        if project_id:
+            # Configure for paid tier with billing project
+            os.environ['GOOGLE_CLOUD_PROJECT'] = project_id
+            self.client = genai.Client(
+                api_key=api_key,
+                http_options={'api_version': 'v1beta'}
+            )
+        else:
+            self.client = genai.Client(api_key=api_key)
 
         # Model selection
         self.model = "gemini-2.5-pro-preview-tts" if use_pro else "gemini-2.5-flash-preview-tts"
@@ -235,6 +248,14 @@ in an approachable way.
 def main():
     """Main execution"""
 
+    # Load .env file if it exists
+    env_file = Path('.env')
+    if env_file.exists():
+        for line in env_file.read_text().splitlines():
+            if '=' in line and not line.startswith('#'):
+                key, value = line.split('=', 1)
+                os.environ[key.strip()] = value.strip().strip('"\'')
+
     # Check for API key
     api_key = os.environ.get('GOOGLE_API_KEY')
 
@@ -245,6 +266,27 @@ def main():
         print("  export GOOGLE_API_KEY='your-api-key-here'")
         print()
         print("Or load from .env file")
+        sys.exit(1)
+
+    # Get Google Cloud Project ID (required for billing/TTS)
+    project_id = os.environ.get('GOOGLE_CLOUD_PROJECT')
+
+    if not project_id:
+        print("⚠️  No Google Cloud Project ID found!")
+        print()
+        print("Gemini TTS requires a billing-enabled Google Cloud project.")
+        print()
+        print("To enable:")
+        print("  1. Go to https://console.cloud.google.com")
+        print("  2. Create or select a project")
+        print("  3. Enable billing for the project")
+        print("  4. Enable 'Generative Language API'")
+        print("  5. Copy your Project ID and set it:")
+        print("     export GOOGLE_CLOUD_PROJECT='your-project-id'")
+        print()
+        print("Or add to .env file:")
+        print("  GOOGLE_CLOUD_PROJECT='your-project-id'")
+        print()
         sys.exit(1)
 
     # Determine which model to use
@@ -260,9 +302,11 @@ def main():
 
     print("\n🎬 ADIT Fundamental Tax Issues - Gemini TTS Audio Generation")
     print("=" * 70)
+    print(f"Project ID: {project_id}")
+    print()
 
     # Generate audio
-    generator = GeminiTTSGenerator(api_key, use_pro=use_pro)
+    generator = GeminiTTSGenerator(api_key, use_pro=use_pro, project_id=project_id)
     generator.process_all_scripts(scripts_dir, audio_dir)
 
     print("✅ Audio generation complete!")
