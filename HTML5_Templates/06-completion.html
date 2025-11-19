@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completion - MojiTax Learning</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #003F87;
+            --secondary: #0066CC;
+            --accent: #FF6B35;
+            --light-bg: #F8F9FA;
+            --dark-text: #1A1F36;
+            --light-text: #FFFFFF;
+            --success: #27AE60;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--dark-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .body-light {
+            background: var(--light-bg);
+        }
+
+        .completion-container {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        .celebration-badge {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .badge-icon {
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 30px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 70px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+            animation: bounce 1s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .completion-card {
+            background: white;
+            border-radius: 16px;
+            padding: 45px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .completion-title {
+            color: var(--primary);
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .completion-subtitle {
+            color: var(--secondary);
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .congratulations-message {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.8;
+            margin-bottom: 35px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 35px;
+            padding: 25px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            color: var(--accent);
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .certificate-notice {
+            background: linear-gradient(135deg, rgba(39, 174, 96, 0.08) 0%, rgba(0, 102, 204, 0.08) 100%);
+            border: 2px solid var(--success);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .certificate-notice strong {
+            color: var(--success);
+            display: block;
+            margin-bottom: 6px;
+            font-size: 15px;
+        }
+
+        .certificate-notice p {
+            color: #555;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 16px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--light-text);
+            box-shadow: 0 6px 20px rgba(0, 63, 135, 0.25);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0, 63, 135, 0.35);
+        }
+
+        .btn-secondary {
+            background: var(--light-bg);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: #f0f0f0;
+        }
+
+        .next-steps {
+            background: white;
+            border-radius: 16px;
+            padding: 35px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .next-steps h3 {
+            color: var(--primary);
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .steps-list {
+            list-style: none;
+        }
+
+        .steps-list li {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 16px;
+            padding: 12px;
+            background: var(--light-bg);
+            border-radius: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .steps-list li::before {
+            content: counter(step-counter);
+            counter-increment: step-counter;
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, var(--accent), var(--secondary));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .steps-list {
+            counter-reset: step-counter;
+        }
+
+        @media (max-width: 768px) {
+            .completion-card {
+                padding: 30px 25px;
+            }
+
+            .completion-title {
+                font-size: 28px;
+            }
+
+            .completion-subtitle {
+                font-size: 16px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .button-group {
+                grid-template-columns: 1fr;
+            }
+
+            .badge-icon {
+                width: 100px;
+                height: 100px;
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+
+            .next-steps {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="completion-container">
+        <div class="celebration-badge">
+            <div class="badge-icon">🎉</div>
+        </div>
+
+        <div class="completion-card">
+            <h1 class="completion-title">Module Complete!</h1>
+            <p class="completion-subtitle">Congratulations on your achievement</p>
+
+            <p class="congratulations-message">
+                Excellent work! You've successfully completed the Fundamentals module and demonstrated mastery of core tax principles. Your dedication to professional development is commendable.
+            </p>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Completion</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">92%</div>
+                    <div class="stat-label">Score</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">2h 15m</div>
+                    <div class="stat-label">Time Spent</div>
+                </div>
+            </div>
+
+            <div class="certificate-notice">
+                <strong>✓ Certificate Earned</strong>
+                <p>You've earned a certificate of completion for Module 1: Fundamentals. Access your certificate in your profile dashboard.</p>
+            </div>
+
+            <div class="button-group">
+                <a href="02-curriculum.html" class="btn btn-primary">Continue Learning</a>
+                <button class="btn btn-secondary">Download Certificate</button>
+            </div>
+        </div>
+
+        <div class="next-steps">
+            <h3>📚 What's Next?</h3>
+            <ul class="steps-list">
+                <li>Review your assessment results and revisit challenging topics</li>
+                <li>Begin Module 2: Individual Taxation to expand your expertise</li>
+                <li>Connect with other learners in the MojiTax community forum</li>
+                <li>Schedule a consultation with a course mentor for advanced guidance</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

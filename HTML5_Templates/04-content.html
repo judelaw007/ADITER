@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Content - MojiTax Learning</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #003F87;
+            --secondary: #0066CC;
+            --accent: #FF6B35;
+            --light-bg: #F8F9FA;
+            --dark-text: #1A1F36;
+            --light-text: #FFFFFF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--light-bg);
+            color: var(--dark-text);
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 45%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent), var(--secondary));
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--light-text);
+            padding: 35px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header .breadcrumb {
+            font-size: 13px;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 50px 40px;
+        }
+
+        .content-section {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            color: var(--primary);
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--light-bg);
+            position: relative;
+        }
+
+        .section-title::before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent), var(--secondary));
+        }
+
+        .content-text {
+            color: #555;
+            line-height: 1.8;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .bullet-points {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+        .bullet-points li {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 16px;
+            padding-left: 0;
+            line-height: 1.6;
+            color: #555;
+            font-size: 15px;
+        }
+
+        .bullet-points li::before {
+            content: '▸';
+            color: var(--accent);
+            font-weight: bold;
+            flex-shrink: 0;
+            font-size: 18px;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(0, 102, 204, 0.08) 0%, rgba(255, 107, 53, 0.08) 100%);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .highlight-box strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-box p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .example-box {
+            background: #F3F7FC;
+            border: 1px solid #D4E4F7;
+            border-left: 4px solid var(--secondary);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .example-box .label {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .example-box p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin-bottom: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        table th {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--light-text);
+            padding: 14px;
+            text-align: left;
+            font-weight: 600;
+            border: none;
+        }
+
+        table td {
+            padding: 12px 14px;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+
+        table tr:hover {
+            background: var(--light-bg);
+        }
+
+        .navigation {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .nav-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .nav-button.prev {
+            background: white;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .nav-button.prev:hover {
+            background: var(--light-bg);
+        }
+
+        .nav-button.next {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--light-text);
+            box-shadow: 0 4px 12px rgba(0, 63, 135, 0.2);
+        }
+
+        .nav-button.next:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 63, 135, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .progress-bar {
+                width: 30%;
+            }
+
+            header {
+                padding: 25px 20px;
+            }
+
+            header h1 {
+                font-size: 26px;
+            }
+
+            .container {
+                padding: 30px 20px;
+            }
+
+            .content-section {
+                padding: 25px;
+            }
+
+            .navigation {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar"></div>
+
+    <header>
+        <h1>Core Principles and Definitions</h1>
+        <div class="breadcrumb">Module 1: Fundamentals → Lesson 1 → Section 1</div>
+    </header>
+
+    <div class="container">
+        <div class="content-section">
+            <h2 class="section-title">Understanding Tax Fundamentals</h2>
+            
+            <p class="content-text">
+                Tax forms the foundation of government funding and economic policy. To be an effective tax professional, you must understand not just the rules, but the principles underlying them.
+            </p>
+
+            <div class="highlight-box">
+                <strong>Key Principle:</strong>
+                <p>
+                    Income is generally defined as all gains, increases in net worth, and economic benefits received by a taxpayer during the tax year, unless specifically excluded by law.
+                </p>
+            </div>
+
+            <h2 class="section-title">Income Classification</h2>
+
+            <ul class="bullet-points">
+                <li><strong>Gross Income:</strong> All income received in the form of money, property, or services that is not specifically excluded from taxation</li>
+                <li><strong>Ordinary Income:</strong> Income from regular business or employment activities taxed at regular rates</li>
+                <li><strong>Capital Gains:</strong> Income from the sale of capital assets, potentially taxed at preferential rates</li>
+                <li><strong>Passive Income:</strong> Income from investments, rental properties, and other non-active sources</li>
+                <li><strong>Business Income:</strong> Profit from operating a trade or business</li>
+            </ul>
+
+            <div class="example-box">
+                <div class="label">Example</div>
+                <p>
+                    Sarah, a consultant, earned $120,000 in consulting fees, received $8,000 in interest income, and sold stock with a long-term capital gain of $15,000. Her gross income is $143,000. She may have deductions to reduce this to taxable income.
+                </p>
+            </div>
+
+            <h2 class="section-title">Deductions and Credits</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Purpose</th>
+                            <th>Examples</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Above-the-Line</strong></td>
+                            <td>Reduce gross income</td>
+                            <td>IRA contributions, student loan interest, business losses</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Below-the-Line</strong></td>
+                            <td>Reduce taxable income</td>
+                            <td>Itemized/standard deductions, dependent exemptions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tax Credits</strong></td>
+                            <td>Dollar-for-dollar tax reduction</td>
+                            <td>Earned Income Credit, Child Tax Credit, Education Credits</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="example-box">
+                <div class="label">Key Distinction</div>
+                <p>
+                    A $5,000 deduction might save $1,250 in taxes (at 25% rate), but a $5,000 credit saves exactly $5,000 in taxes. This is why credits are more valuable than deductions.
+                </p>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-button prev">← Previous Section</button>
+            <a href="05-assessment.html" class="nav-button next">Next: Assessment →</a>
+        </div>
+    </div>
+</body>
+</html>
