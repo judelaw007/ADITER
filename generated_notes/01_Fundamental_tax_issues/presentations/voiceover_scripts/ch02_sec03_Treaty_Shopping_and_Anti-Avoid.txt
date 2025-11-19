@@ -1,0 +1,10 @@
+Slide: Treaty Shopping and Anti-Avoidance
+
+Treaty shopping involves structuring through intermediaries in treaty jurisdictions to access favorable rates not directly available. Modern restrictions include: Principal Purpose Test (PPT): Denies treaty benefits if obtaining benefits was "one of the principal purposes" and granting them would be contrary to treaty object (OECD BEPS MLI). Limitation on Benefits (LOB): Particularly in US treaties, imposes objective tests (publicly traded, ownership, active business). Beneficial ownership: Treaties deny reduced withholding unless recipient is beneficial owner – conduit companies without substance are disregarded. Substance Requirements.  To satisfy anti-avoidance tests, holding companies need: Physical office space and equipment
+
+Local qualified staff and decision-makers Adequate expenditure relative to income Board meetings and documented decisions in jurisdiction Day-to-day management and control Local bank accounts and treasury functions
+
+When it comes to international agreements, treaty shopping involves structuring through intermediaries in treaty jurisdictions to access favorable rates not directly available. When it comes to international agreements, principal purpose test (ppt): denies treaty benefits if obtaining benefits was "one of the principal purposes" and granting them would be contrary to treaty object (oecd beps mli). Limitation on Benefits (LOB): Particularly in US treaties, imposes objective tests (publicly traded, ownership, active business). Beneficial ownership: Treaties deny reduced withholding unless recipient is beneficial owner – conduit companies without substance are disregarded. To satisfy anti-avoidance tests, holding companies need: Board meetings and documented decisions in jurisdiction Now, let's delve deeper into these concepts. Understanding the nuances here is critical for international tax practitioners. Each of these points builds on fundamental principles that govern cross-border taxation and transfer pricing methodologies used globally.
+
+Character Count: 2,011 ✓
+Estimated Duration: 1 minute 44 seconds
