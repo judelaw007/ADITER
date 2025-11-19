@@ -7,14 +7,16 @@ import os
 import sys
 from pathlib import Path
 
-# Load API key from .env
+# Load API key and Project ID from .env
 env_file = Path('.env')
 if env_file.exists():
     for line in env_file.read_text().splitlines():
-        if line.startswith('GOOGLE_API_KEY='):
-            api_key = line.split('=', 1)[1].strip().strip('"\'')
-            os.environ['GOOGLE_API_KEY'] = api_key
-            break
+        if '=' in line and not line.startswith('#'):
+            key, value = line.split('=', 1)
+            os.environ[key.strip()] = value.strip().strip('"\'')
+
+project_id = os.environ.get('GOOGLE_CLOUD_PROJECT')
+print(f"Project ID: {project_id}\n")
 
 # Import after setting env
 from generate_audio_gemini_tts import GeminiTTSGenerator
@@ -35,8 +37,12 @@ test_script = script_files[0]
 
 print(f"🧪 Testing Gemini TTS with: {test_script.name}\n")
 
-# Initialize generator
-generator = GeminiTTSGenerator(os.environ['GOOGLE_API_KEY'], use_pro=False)
+# Initialize generator with project ID
+generator = GeminiTTSGenerator(
+    os.environ['GOOGLE_API_KEY'],
+    use_pro=False,
+    project_id=project_id
+)
 
 # Extract and generate
 script_data = generator.extract_script_text(test_script)
